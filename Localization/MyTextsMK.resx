@@ -317,4 +317,52 @@
         <value>Large Flat Atmospheric Thruster D Shape T5</value>
     </data>
 <!-- *********************Region Thruster HYDRO******************************-->
+    <data name="DisplayName_Block_SmallHydrogenThrust_T2" xml:space="preserve">
+        <value>Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrust_T3" xml:space="preserve">
+        <value>Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrust_T4" xml:space="preserve">
+        <value>Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrust_T5" xml:space="preserve">
+        <value>Hydrogen Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrust_T2" xml:space="preserve">
+        <value>Large Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrust_T3" xml:space="preserve">
+        <value>Large Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrust_T4" xml:space="preserve">
+        <value>Large Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrust_T5" xml:space="preserve">
+        <value>Large Hydrogen Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustIndustrial_T2" xml:space="preserve">
+        <value>Industrial Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustIndustrial_T3" xml:space="preserve">
+        <value>Industrial Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustIndustrial_T4" xml:space="preserve">
+        <value>Industrial Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustIndustrial_T5" xml:space="preserve">
+        <value>Industrial Hydrogen Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T2" xml:space="preserve">
+        <value>Industrial Large Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T3" xml:space="preserve">
+        <value>Industrial Large Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T4" xml:space="preserve">
+        <value>Industrial Large Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T5" xml:space="preserve">
+        <value>Industrial Large Hydrogen Thruster T5</value>
+    </data>
 </root>
