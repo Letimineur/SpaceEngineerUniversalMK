@@ -232,16 +232,16 @@
     <data name="DisplayName_Block_SmallAtmoThrust_T5" xml:space="preserve">
         <value>Atmospheric Thrusters T5</value>
     </data>
-    <data name="DisplayName_Block_LargeThrust_T2" xml:space="preserve">
+    <data name="DisplayName_Block_LargeAtmoThrust_T2" xml:space="preserve">
         <value>Large Atmospheric Thruster T2</value>
     </data>
-    <data name="DisplayName_Block_LargeThrust_T3" xml:space="preserve">
+    <data name="DisplayName_Block_LargeAtmoThrust_T3" xml:space="preserve">
         <value>Large Atmospheric Thruster T3</value>
     </data>
-    <data name="DisplayName_Block_LargeThrust_T4" xml:space="preserve">
+    <data name="DisplayName_Block_LargeAtmoThrust_T4" xml:space="preserve">
         <value>Large Atmospheric Thruster T4</value>
     </data>
-    <data name="DisplayName_Block_LargeThrust_T5" xml:space="preserve">
+    <data name="DisplayName_Block_LargeAtmoThrust_T5" xml:space="preserve">
         <value>Large Atmospheric Thruster T5</value>
     </data>
     <data name="DisplayName_Block_SmallAtmoThrustSciFi_T2" xml:space="preserve">
@@ -267,6 +267,54 @@
     </data>
     <data name="DisplayName_Block_LargeThrustSciFi_T5" xml:space="preserve">
         <value>Sci-Fi Large Atmospheric Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlat_T2" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlat_T3" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlat_T4" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlat_T5" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlat_T2" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlat_T3" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlat_T4" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlat_T5" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlatDShape_T2" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters D Shape T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlatDShape_T3" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters D Shape T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlatDShape_T4" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters D Shape T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlatDShape_T5" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters D Shape T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlatDShape_T2" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster D Shape T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlatDShape_T3" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster D Shape T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlatDShape_T4" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster D Shape T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlatDShape_T5" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster D Shape T5</value>
     </data>
 <!-- *********************Region Thruster HYDRO******************************-->
 </root>
