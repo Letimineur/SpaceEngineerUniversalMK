@@ -365,4 +365,17 @@
     <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T5" xml:space="preserve">
         <value>Industrial Large Hydrogen Thruster T5</value>
     </data>
+    <!-- *********************Region Power******************************-->
+    <data name="DisplayName_Block_Hydrogen_Engine_T2" xml:space="preserve">
+        <value>Hydrogen Engine T2</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_Engine_T3" xml:space="preserve">
+        <value>Hydrogen Engine T3</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_Engine_T4" xml:space="preserve">
+        <value>Hydrogen Engine T4</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_Engine_T5" xml:space="preserve">
+        <value>Hydrogen Engine T5</value>
+    </data>
 </root>

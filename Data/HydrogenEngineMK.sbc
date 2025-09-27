@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMLargeHydrogenEngineT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Hydrogen_Engine_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineLargeT2.dds</Icon>
+            <Description>Description_PowerGenerator</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="SteelPlateMK" Count="1" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="ConstructionMK" Count="1" />
+                <Component Subtype="LargeTube" Count="24" />
+                <Component Subtype="SmallTube" Count="40" />
+                <Component Subtype="Motor" Count="24" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="PowerCell" Count="2" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SteelPlate" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" Default="true" />
+                <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenEngine_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>LTMLargeHydrogenEngineT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>LTMLargeHydrogenEngineT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>LTMLargeHydrogenEngineT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
+            <BlockPairName>HydrogenEngine</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+            <ResourceSinkGroup>Generators</ResourceSinkGroup>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>10</MaxPowerOutput>
+            <FuelCapacity>200000</FuelCapacity>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <IsAirTight>false</IsAirTight>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Hydrogen</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+            <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+            <AnimationSpeed>5</AnimationSpeed>
+            <PistonAnimationMin>-0.15</PistonAnimationMin>
+            <PistonAnimationMax>0.01</PistonAnimationMax>
+            <PistonAnimationOffsets>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.0</float>
+                <float>0.0</float>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.5</float>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.5</float>
+            </PistonAnimationOffsets>
+            <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
+            <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
+            <PCU>25</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMLargeHydrogenEngineT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_Hydrogen_Engine_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenEngineLargeT3.dds</Icon>
+            <Description>Description_PowerGenerator</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlateMK" Count="3" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="ConstructionMK" Count="2" />
+                <Component Subtype="LargeTube" Count="48" />
+                <Component Subtype="SmallTube" Count="80" />
+                <Component Subtype="Motor" Count="48" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="PowerCell" Count="4" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="80" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" Default="true" />
+                <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenEngine_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HydrogenEngine</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+            <ResourceSinkGroup>Generators</ResourceSinkGroup>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>20</MaxPowerOutput>
+            <FuelCapacity>400000</FuelCapacity>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <IsAirTight>false</IsAirTight>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Hydrogen</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+            <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+            <AnimationSpeed>5</AnimationSpeed>
+            <PistonAnimationMin>-0.15</PistonAnimationMin>
+            <PistonAnimationMax>0.01</PistonAnimationMax>
+            <PistonAnimationOffsets>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.0</float>
+                <float>0.0</float>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.5</float>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.5</float>
+            </PistonAnimationOffsets>
+            <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
+            <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
+            <PCU>25</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMLargeHydrogenEngineT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_Hydrogen_Engine_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenEngineLargeT4.dds</Icon>
+            <Description>Description_PowerGenerator</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="SteelPlateMK" Count="7" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="ConstructionMK" Count="4" />
+                <Component Subtype="LargeTube" Count="96" />
+                <Component Subtype="SmallTube" Count="60" />
+                <Component Subtype="SmallTubeMK" Count="1" />
+                <Component Subtype="Motor" Count="96" />
+                <Component Subtype="Computer" Count="32" />
+                <Component Subtype="PowerCell" Count="8" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="SteelPlate" Count="60" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" Default="true" />
+                <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenEngine_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HydrogenEngine</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+            <ResourceSinkGroup>Generators</ResourceSinkGroup>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>20</MaxPowerOutput>
+            <FuelCapacity>400000</FuelCapacity>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <IsAirTight>false</IsAirTight>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Hydrogen</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+            <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+            <AnimationSpeed>5</AnimationSpeed>
+            <PistonAnimationMin>-0.15</PistonAnimationMin>
+            <PistonAnimationMax>0.01</PistonAnimationMax>
+            <PistonAnimationOffsets>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.0</float>
+                <float>0.0</float>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.5</float>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.5</float>
+            </PistonAnimationOffsets>
+            <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
+            <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
+            <PCU>25</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMLargeHydrogenEngineT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_Hydrogen_Engine_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenEngineLargeT5.dds</Icon>
+            <Description>Description_PowerGenerator</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="SteelPlateMK" Count="15" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="ConstructionMK" Count="10" />
+                <Component Subtype="LargeTube" Count="92" />
+                <Component Subtype="LargeTubeMK" Count="1" />
+                <Component Subtype="SmallTube" Count="20" />
+                <Component Subtype="SmallTubeMK" Count="3" />
+                <Component Subtype="Motor" Count="92" />
+                <Component Subtype="MotorMK" Count="1" />
+                <Component Subtype="Computer" Count="64" />
+                <Component Subtype="PowerCell" Count="16" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" Default="true" />
+                <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenEngine_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HydrogenEngine</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+            <ResourceSinkGroup>Generators</ResourceSinkGroup>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>40</MaxPowerOutput>
+            <FuelCapacity>800000</FuelCapacity>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <IsAirTight>false</IsAirTight>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Hydrogen</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+            <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+            <AnimationSpeed>5</AnimationSpeed>
+            <PistonAnimationMin>-0.15</PistonAnimationMin>
+            <PistonAnimationMax>0.01</PistonAnimationMax>
+            <PistonAnimationOffsets>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.0</float>
+                <float>0.0</float>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.5</float>
+                <float>0.5</float>
+                <float>0.0</float>
+                <float>0.5</float>
+            </PistonAnimationOffsets>
+            <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
+            <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
+            <PCU>25</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMSmallHydrogenEngineT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Hydrogen_Engine_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineSmallT2.dds</Icon>
+            <Description>Description_PowerGenerator</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="36" />
+                <Component Subtype="LargeTube" Count="8" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="8" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="PowerCell" Count="2" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="2" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="1" />
+                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="1" />
+                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>LTMSmallHydrogenEngineT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>LTMSmallHydrogenEngineT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>LTMSmallHydrogenEngineT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
+            <BlockPairName>HydrogenEngine</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <ResourceSinkGroup>Generators</ResourceSinkGroup>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>1</MaxPowerOutput>
+            <FuelCapacity>10000</FuelCapacity>
+            <IsAirTight>false</IsAirTight>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Hydrogen</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+            <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+            <AnimationSpeed>20</AnimationSpeed>
+            <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
+            <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
+            <PCU>25</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMSmallHydrogenEngineT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_Hydrogen_Engine_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenEngineSmallT3.dds</Icon>
+            <Description>Description_PowerGenerator</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="Construction" Count="72" />
+                <Component Subtype="LargeTube" Count="16" />
+                <Component Subtype="SmallTube" Count="24" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="PowerCell" Count="4" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="SteelPlate" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="2" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="1" />
+                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="1" />
+                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HydrogenEngine</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <ResourceSinkGroup>Generators</ResourceSinkGroup>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>2</MaxPowerOutput>
+            <FuelCapacity>20000</FuelCapacity>
+            <IsAirTight>false</IsAirTight>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Hydrogen</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+            <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+            <AnimationSpeed>20</AnimationSpeed>
+            <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
+            <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
+            <PCU>25</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMSmallHydrogenEngineT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_Hydrogen_Engine_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenEngineSmallT4.dds</Icon>
+            <Description>Description_PowerGenerator</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="SteelPlateMK" Count="1" />
+                <Component Subtype="Construction" Count="44" />
+                <Component Subtype="ConstructionMK" Count="1" />
+                <Component Subtype="LargeTube" Count="32" />
+                <Component Subtype="SmallTube" Count="48" />
+                <Component Subtype="Motor" Count="32" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="PowerCell" Count="8" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="SteelPlate" Count="80" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="2" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="1" />
+                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="1" />
+                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HydrogenEngine</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <ResourceSinkGroup>Generators</ResourceSinkGroup>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>4</MaxPowerOutput>
+            <FuelCapacity>40000</FuelCapacity>
+            <IsAirTight>false</IsAirTight>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Hydrogen</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+            <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+            <AnimationSpeed>20</AnimationSpeed>
+            <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
+            <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
+            <PCU>25</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMSmallHydrogenEngineT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_Hydrogen_Engine_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenEngineSmallT5.dds</Icon>
+            <Description>Description_PowerGenerator</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlateMK" Count="4" />
+                <Component Subtype="Construction" Count="88" />
+                <Component Subtype="ConstructionMK" Count="2" />
+                <Component Subtype="LargeTube" Count="64" />
+                <Component Subtype="SmallTube" Count="96" />
+                <Component Subtype="Motor" Count="64" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="PowerCell" Count="16" />
+                <Component Subtype="Construction" Count="32" />
+                <Component Subtype="SteelPlate" Count="60" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="2" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="1" />
+                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="1" />
+                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HydrogenEngine</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <ResourceSinkGroup>Generators</ResourceSinkGroup>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>8</MaxPowerOutput>
+            <FuelCapacity>80000</FuelCapacity>
+            <IsAirTight>false</IsAirTight>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Hydrogen</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+            <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+            <AnimationSpeed>20</AnimationSpeed>
+            <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
+            <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
+            <PCU>25</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+    </CubeBlocks>
+</Definitions>
