@@ -1,0 +1,4046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockSolarPanelT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SolarPanel_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelT2.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Girder" Count="24" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SolarCell" Count="64" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockSolarPanelT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockSolarPanelT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockSolarPanelT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.32</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>0</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockSolarPanelT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_SolarPanel_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelT3.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="16" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="Girder" Count="48" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="SolarCellMK" Count="1" />
+                <Component Subtype="SolarCell" Count="28" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="BulletproofGlass" Count="16" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.64</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>0</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockSolarPanelT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_SolarPanel_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelT4.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="32" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="Girder" Count="96" />
+                <Component Subtype="Computer" Count="32" />
+                <Component Subtype="SolarCellMK" Count="2" />
+                <Component Subtype="SolarCell" Count="56" />
+                <Component Subtype="Construction" Count="32" />
+                <Component Subtype="BulletproofGlass" Count="32" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>1.28</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>0</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockSolarPanelT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_SolarPanel_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelT5.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanel.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="64" />
+                <Component Subtype="ConstructionMK" Count="1" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="GirderMK" Count="1" />
+                <Component Subtype="Girder" Count="92" />
+                <Component Subtype="Computer" Count="64" />
+                <Component Subtype="SolarCellMK" Count="5" />
+                <Component Subtype="SolarCell" Count="12" />
+                <Component Subtype="Construction" Count="64" />
+                <Component Subtype="BulletproofGlass" Count="64" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>2.56</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>0</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.33</X>
+                  <Y>-0.5</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+
+       <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockSolarPanelT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SolarPanel_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelT2.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="10" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanel.mwm</Model>
+            <Center x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Girder" Count="8" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="SolarCell" Count="16" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="5" Default="true" />
+                <MountPoint Side="Top" StartX="9.8" StartY="0.9" EndX="10" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="9.8" StartY="0" EndX="10" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="5" />
+                <MountPoint Side="Front" StartX="9.8" StartY="0" EndX="10" EndY="5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockSolarPanelT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockSolarPanelT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockSolarPanelT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.15</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>0</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+            </Pivots>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockSolarPanelT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_SolarPanel_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelT3.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="10" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanel.mwm</Model>
+            <Center x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="16" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SolarCell" Count="32" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="BulletproofGlass" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="5" Default="true" />
+                <MountPoint Side="Top" StartX="9.8" StartY="0.9" EndX="10" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="9.8" StartY="0" EndX="10" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="5" />
+                <MountPoint Side="Front" StartX="9.8" StartY="0" EndX="10" EndY="5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.30</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>0</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+            </Pivots>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockSolarPanelT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_SolarPanel_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelT4.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="10" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanel.mwm</Model>
+            <Center x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="16" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="Girder" Count="32" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SolarCell" Count="64" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="5" Default="true" />
+                <MountPoint Side="Top" StartX="9.8" StartY="0.9" EndX="10" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="9.8" StartY="0" EndX="10" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="5" />
+                <MountPoint Side="Front" StartX="9.8" StartY="0" EndX="10" EndY="5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.6</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>0</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+            </Pivots>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockSolarPanelT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_SolarPanel_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelT5.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="10" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanel.mwm</Model>
+            <Center x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="32" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="Girder" Count="64" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="SolarCellMK" Count="1" />
+                <Component Subtype="SolarCell" Count="28" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="BulletproofGlass" Count="16" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="5" Default="true" />
+                <MountPoint Side="Top" StartX="9.8" StartY="0.9" EndX="10" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="9.8" StartY="0" EndX="10" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="5" />
+                <MountPoint Side="Front" StartX="9.8" StartY="0" EndX="10" EndY="5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>1.2</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>0</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-3.325</X>
+                  <Y>-1.25</Y>
+                  <Z>0.45</Z>
+                </Vector3>
+            </Pivots>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinT2.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Girder" Count="24" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SolarCell" Count="64" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockColorableSolarPanelT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockColorableSolarPanelT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockColorableSolarPanelT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.32</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinT3.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="16" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="Girder" Count="48" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="SolarCellMK" Count="1" />
+                <Component Subtype="SolarCell" Count="28" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="BulletproofGlass" Count="16" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.64</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinT4.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="32" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="Girder" Count="96" />
+                <Component Subtype="Computer" Count="32" />
+                <Component Subtype="SolarCellMK" Count="2" />
+                <Component Subtype="SolarCell" Count="56" />
+                <Component Subtype="Construction" Count="32" />
+                <Component Subtype="BulletproofGlass" Count="32" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>1.28</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinT5.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="64" />
+                <Component Subtype="ConstructionMK" Count="1" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="GirderMK" Count="1" />
+                <Component Subtype="Girder" Count="92" />
+                <Component Subtype="Computer" Count="64" />
+                <Component Subtype="SolarCellMK" Count="5" />
+                <Component Subtype="SolarCell" Count="12" />
+                <Component Subtype="Construction" Count="64" />
+                <Component Subtype="BulletproofGlass" Count="64" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>2.56</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerT2.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SolarCell" Count="32" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="BulletproofGlass" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants> 
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.16</MaxPowerOutput>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerT3.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Girder" Count="24" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="SolarCell" Count="64" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.32</MaxPowerOutput>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerT4.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="16" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="Girder" Count="48" />
+                <Component Subtype="Computer" Count="32" />
+                <Component Subtype="SolarCellMK" Count="1" />
+                <Component Subtype="SolarCell" Count="28" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="BulletproofGlass" Count="16" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.64</MaxPowerOutput>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerT5.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="32" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="Girder" Count="96" />
+                <Component Subtype="Computer" Count="64" />
+                <Component Subtype="SolarCellMK" Count="2" />
+                <Component Subtype="SolarCell" Count="56" />
+                <Component Subtype="Construction" Count="32" />
+                <Component Subtype="BulletproofGlass" Count="32" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>1.28</MaxPowerOutput>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerInvertedT2.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SolarCell" Count="32" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="BulletproofGlass" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants> 
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.16</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerInvertedT3.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Girder" Count="24" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="SolarCell" Count="64" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.32</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerInvertedT4.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="16" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="Girder" Count="48" />
+                <Component Subtype="Computer" Count="32" />
+                <Component Subtype="SolarCellMK" Count="1" />
+                <Component Subtype="SolarCell" Count="28" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="BulletproofGlass" Count="16" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.64</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerInvertedT5.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="32" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="Girder" Count="96" />
+                <Component Subtype="Computer" Count="64" />
+                <Component Subtype="SolarCellMK" Count="2" />
+                <Component Subtype="SolarCell" Count="56" />
+                <Component Subtype="Construction" Count="32" />
+                <Component Subtype="BulletproofGlass" Count="32" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>1.28</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.5</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>0.75</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-0.50</X>
+                  <Y>-1.33</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinT2.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Girder" Count="8" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="SolarCell" Count="16" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockColorableSolarPanelT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockColorableSolarPanelT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockColorableSolarPanelT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>  
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.15</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinT3.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="16" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SolarCell" Count="32" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="BulletproofGlass" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.30</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinT4.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="16" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="Girder" Count="32" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SolarCell" Count="64" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.6</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinT5.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="32" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="Girder" Count="64" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="SolarCellMK" Count="1" />
+                <Component Subtype="SolarCell" Count="28" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="BulletproofGlass" Count="16" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>1.2</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <!-- When it is Two sided odd - should be on one side, even - on other side -->
+            <Pivots>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerT2.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="SolarCell" Count="8" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>  
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.08</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerT3.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="8" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SolarCell" Count="16" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="BulletproofGlass" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.16</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerT4.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="Girder" Count="16" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SolarCell" Count="32" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.32</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerT5.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="16" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="Girder" Count="32" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="SolarCell" Count="64" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="BulletproofGlass" Count="16" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.64</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <Pivots>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+
+
+
+
+
+
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerInvertedT2.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="SolarCell" Count="8" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants> 
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.08</MaxPowerOutput>
+            <Pivots>
+               <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerInvertedT3.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="8" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SolarCell" Count="16" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="BulletproofGlass" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.16</MaxPowerOutput>
+            <Pivots>
+               <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerInvertedT4.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="Girder" Count="16" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SolarCell" Count="32" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.32</MaxPowerOutput>
+            <Pivots>
+               <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerInvertedT5.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="16" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="Girder" Count="32" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="SolarCell" Count="64" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="BulletproofGlass" Count="16" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.64</MaxPowerOutput>
+            <Pivots>
+               <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.25</X>
+                  <Y>0</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>1.875</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+                
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>0</Z>
+                </Vector3>
+                <Vector3>
+                  <X>-1.25</X>
+                  <Y>-3.325</Y>
+                  <Z>-0.5</Z>
+                </Vector3>
+            </Pivots>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+    </CubeBlocks>
+</Definitions>

@@ -426,4 +426,112 @@
     <data name="DisplayName_Block_LargeReactorWarfare2_T5" xml:space="preserve">
         <value>Large Warfare Reactor T5</value>
     </data>
+    <data name="DisplayName_Block_Battery_T2" xml:space="preserve">
+        <value>Battery T2</value>
+    </data>
+    <data name="DisplayName_Block_Battery_T3" xml:space="preserve">
+        <value>Battery T3</value>
+    </data>
+    <data name="DisplayName_Block_Battery_T4" xml:space="preserve">
+        <value>Battery T4</value>
+    </data>
+    <data name="DisplayName_Block_Battery_T5" xml:space="preserve">
+        <value>Battery T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallBattery_T2" xml:space="preserve">
+        <value>Small Battery T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallBattery_T3" xml:space="preserve">
+        <value>Small Battery T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallBattery_T4" xml:space="preserve">
+        <value>Small Battery T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallBattery_T5" xml:space="preserve">
+        <value>Small Battery T5</value>
+    </data>
+    <data name="DisplayName_Block_BatteryWarfare2_T2" xml:space="preserve">
+        <value>Warfare Battery T2</value>
+    </data>
+    <data name="DisplayName_Block_BatteryWarfare2_T3" xml:space="preserve">
+        <value>Warfare Battery T3</value>
+    </data>
+    <data name="DisplayName_Block_BatteryWarfare2_T4" xml:space="preserve">
+        <value>Warfare Battery T4</value>
+    </data>
+    <data name="DisplayName_Block_BatteryWarfare2_T5" xml:space="preserve">
+        <value>Warfare Battery T5</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbine_T2" xml:space="preserve">
+        <value>Wind Turbine T2</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbine_T3" xml:space="preserve">
+        <value>Wind Turbine T3</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbine_T4" xml:space="preserve">
+        <value>Wind Turbine T4</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbine_T5" xml:space="preserve">
+        <value>Wind Turbine T5</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbineReskin_T2" xml:space="preserve">
+        <value>Twin-blade Wind Turbine T2</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbineReskin_T3" xml:space="preserve">
+        <value>Twin-blade Wind Turbine T3</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbineReskin_T4" xml:space="preserve">
+        <value>Twin-blade Wind Turbine T4</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbineReskin_T5" xml:space="preserve">
+        <value>Twin-blade Wind Turbine T5</value>
+    </data>
+    <data name="DisplayName_Block_SolarPanel_T2" xml:space="preserve">
+        <value>Solar Panel T2</value>
+    </data>
+    <data name="DisplayName_Block_SolarPanel_T3" xml:space="preserve">
+        <value>Solar Panel T3</value>
+    </data>
+    <data name="DisplayName_Block_SolarPanel_T4" xml:space="preserve">
+        <value>Solar Panel T4</value>
+    </data>
+    <data name="DisplayName_Block_SolarPanel_T5" xml:space="preserve">
+        <value>Solar Panel T5</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanel_T2" xml:space="preserve">
+        <value>Colorable Solar Panel T2</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanel_T3" xml:space="preserve">
+        <value>Colorable Solar Panel T3</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanel_T4" xml:space="preserve">
+        <value>Colorable Solar Panel T4</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanel_T5" xml:space="preserve">
+        <value>Colorable Solar Panel T5</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCorner_T2" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Left T2</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCorner_T3" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Left T3</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCorner_T4" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Left T4</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCorner_T5" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Left T5</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCornerInverted_T2" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Right T2</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCornerInverted_T3" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Right T3</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCornerInverted_T4" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Right T4</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCornerInverted_T5" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Right T5</value>
+    </data>
 </root>
