@@ -13,7 +13,7 @@
         <SubtypeId>ConstructionMK</SubtypeId>
       </Id>
       <DisplayName>Construction Component MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\construction_components_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\construction_components_component_MK.dds</Icon>
       <Size>
         <X>0.2</X>
         <Y>0.1</Y>
@@ -36,7 +36,7 @@
         <SubtypeId>MetalGridMK</SubtypeId>
       </Id>
       <DisplayName>Metal Grid MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\metal_grid_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\metal_grid_component_MK.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -59,7 +59,7 @@
         <SubtypeId>InteriorPlateMK</SubtypeId>
       </Id>
       <DisplayName>Interior Plate MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\interior_plate_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\interior_plate_component_MK.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -82,7 +82,7 @@
         <SubtypeId>SteelPlateMK</SubtypeId>
       </Id>
       <DisplayName>Steel Plate MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\steel_plate_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\steel_plate_component_MK.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -105,7 +105,7 @@
         <SubtypeId>GirderMK</SubtypeId>
       </Id>
       <DisplayName>Girder MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\girder_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\girder_component_MK.dds</Icon>
       <Size>
         <X>0.05</X>
         <Y>0.05</Y>
@@ -127,7 +127,7 @@
         <SubtypeId>SmallTubeMK</SubtypeId>
       </Id>
       <DisplayName>Small Steel Tube MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\small_tube_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\small_tube_component_MK.dds</Icon>
       <Size>
         <X>1</X>
         <Y>0.04</Y>
@@ -150,7 +150,7 @@
         <SubtypeId>LargeTubeMK</SubtypeId>
       </Id>
       <DisplayName>Large Steel Tube MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\large_tube_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\large_tube_component_MK.dds</Icon>
       <Size>
         <X>1</X>
         <Y>0.2</Y>
@@ -173,7 +173,7 @@
         <SubtypeId>MotorMK</SubtypeId>
       </Id>
       <DisplayName>Motor MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\motor_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\motor_component_MK.dds</Icon>
       <Size>
         <X>0.2</X>
         <Y>0.2</Y>
@@ -196,7 +196,7 @@
         <SubtypeId>DisplayMK</SubtypeId>
       </Id>
       <DisplayName>Display MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\display_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\display_component_MK.dds</Icon>
       <Size>
         <X>0.3</X>
         <Y>0.4</Y>
@@ -219,7 +219,7 @@
         <SubtypeId>BulletproofGlassMK</SubtypeId>
       </Id>
       <DisplayName>Bullet proof Glass MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\bulletproof_glass_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\bulletproof_glass_component_MK.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -242,7 +242,7 @@
         <SubtypeId>ComputerMK</SubtypeId>
       </Id>
       <DisplayName>Computer MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\computer_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\computer_component_MK.dds</Icon>
       <Size>
         <X>0.1</X>
         <Y>0.1</Y>
@@ -265,7 +265,7 @@
         <SubtypeId>ReactorMK</SubtypeId>
       </Id>
       <DisplayName>Reactor Components MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\reactor_components_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\reactor_components_component_MK.dds</Icon>
       <Size>
         <X>0.2</X>
         <Y>0.2</Y>
@@ -288,7 +288,7 @@
         <SubtypeId>ThrustMK</SubtypeId>
       </Id>
       <DisplayName>Thrust Components MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\thrust_components_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\thrust_components_component_MK.dds</Icon>
       <Size>
         <X>0.2</X>
         <Y>0.2</Y>
@@ -311,7 +311,7 @@
         <SubtypeId>GravityGeneratorMK</SubtypeId>
       </Id>
       <DisplayName>Gravity Generator Components MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\gravity_generator_components_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\gravity_generator_components_component_MK.dds</Icon>
       <Size>
         <X>1</X>
         <Y>0.7</Y>
@@ -334,7 +334,7 @@
         <SubtypeId>MedicalMK</SubtypeId>
       </Id>
       <DisplayName>Medical Components MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\medical_components_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\medical_components_component_MK.dds</Icon>
       <Size>
         <X>1</X>
         <Y>0.4</Y>
@@ -357,7 +357,7 @@
         <SubtypeId>RadioCommunicationMK</SubtypeId>
       </Id>
       <DisplayName>Radio Communication Components MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\radio_communication_components_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\radio_communication_components_component_MK.dds</Icon>
       <Size>
         <X>1</X>
         <Y>0.5</Y>
@@ -380,7 +380,7 @@
         <SubtypeId>DetectorMK</SubtypeId>
       </Id>
       <DisplayName>Detector Components MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\detector_components_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\detector_components_component_MK.dds</Icon>
       <Size>
         <X>0.15</X>
         <Y>0.15</Y>
@@ -403,7 +403,7 @@
         <SubtypeId>SolarCellMK</SubtypeId>
       </Id>
       <DisplayName>Solar Cell MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\SolarCellComponent_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\SolarCellComponent_MK.dds</Icon>
       <Size>
         <X>1</X>
         <Y>0.5</Y>
@@ -426,7 +426,7 @@
         <SubtypeId>PowerCellMK</SubtypeId>
       </Id>
       <DisplayName>Power Cell MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\BatteryComponent_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\BatteryComponent_MK.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.3</Y>
@@ -449,7 +449,7 @@
         <SubtypeId>SuperconductorMK</SubtypeId>
       </Id>
       <DisplayName>Super conductor MK</DisplayName>
-      <Icon>Textures\GUI\Icons\Component\superconductor_conducts_component_MK.dds</Icon>
+      <Icon>Textures\GUI\Icons\Components\superconductor_conducts_component_MK.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>

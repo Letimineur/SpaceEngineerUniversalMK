@@ -57,6 +57,55 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+<!-- *********************Region Container******************************-->
+    <data name="DisplayName_Block_SmallCargoContainer_T2" xml:space="preserve">
+        <value>Small Container T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallCargoContainer_T3" xml:space="preserve">
+        <value>Small Container T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallCargoContainer_T4" xml:space="preserve">
+        <value>Small Container T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallCargoContainer_T5" xml:space="preserve">
+        <value>Small Container T5</value>
+    </data>
+    <data name="DisplayName_Block_MediumCargoContainer_T2" xml:space="preserve">
+        <value>Medium Container T2</value>
+    </data>
+    <data name="DisplayName_Block_MediumCargoContainer_T3" xml:space="preserve">
+        <value>Medium Container T3</value>
+    </data>
+    <data name="DisplayName_Block_MediumCargoContainer_T4" xml:space="preserve">
+        <value>Medium Container T4</value>
+    </data>
+    <data name="DisplayName_Block_MediumCargoContainer_T5" xml:space="preserve">
+        <value>Medium Container T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeCargoContainer_T2" xml:space="preserve">
+        <value>Large Container T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeCargoContainer_T3" xml:space="preserve">
+        <value>Large Container T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeCargoContainer_T4" xml:space="preserve">
+        <value>Large Container T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeCargoContainer_T5" xml:space="preserve">
+        <value>Large Container T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeIndustrialCargoContainer_T2" xml:space="preserve">
+        <value>Large Industrial Container T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeIndustrialCargoContainer_T3" xml:space="preserve">
+        <value>Large Industrial Container T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeIndustrialCargoContainer_T4" xml:space="preserve">
+        <value>Large Industrial Container T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeIndustrialCargoContainer_T5" xml:space="preserve">
+        <value>Large Industrial Container T5</value>
+    </data>
     <data name="DisplayName_Block_ModularCargoContainer_T2" xml:space="preserve">
         <value>Modular Container T2</value>
     </data>
@@ -68,5 +117,555 @@
     </data>
     <data name="DisplayName_Block_ModularCargoContainer_T5" xml:space="preserve">
         <value>Modular Container T5</value>
+    </data>
+<!-- *********************Region Modules******************************-->
+    <data name="DisplayName_Block_ProductivityModule_T2" xml:space="preserve">
+        <value>Speed Module T2</value>
+    </data>
+    <data name="DisplayName_Block_ProductivityModule_T3" xml:space="preserve">
+        <value>Speed Module T3</value>
+    </data>
+    <data name="DisplayName_Block_ProductivityModule_T4" xml:space="preserve">
+        <value>Speed Module T4</value>
+    </data>
+    <data name="DisplayName_Block_ProductivityModule_T5" xml:space="preserve">
+        <value>Speed Module T5</value>
+    </data>
+    <data name="DisplayName_Block_EffectivenessModule_T2" xml:space="preserve">
+        <value>Yield Module T2</value>
+    </data>
+    <data name="DisplayName_Block_EffectivenessModule_T3" xml:space="preserve">
+        <value>Yield Module T3</value>
+    </data>
+    <data name="DisplayName_Block_EffectivenessModule_T4" xml:space="preserve">
+        <value>Yield Module T4</value>
+    </data>
+    <data name="DisplayName_Block_EffectivenessModule_T5" xml:space="preserve">
+        <value>Yield Module T5</value>
+    </data>
+    <data name="DisplayName_Block_PowerEfficiencyModule_T2" xml:space="preserve">
+        <value>Power Module T2</value>
+    </data>
+<!-- *********************Region Thruster ION********************************-->
+    <data name="DisplayName_Block_SmallThrust_T2" xml:space="preserve">
+        <value>Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrust_T3" xml:space="preserve">
+        <value>Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrust_T4" xml:space="preserve">
+        <value>Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrust_T5" xml:space="preserve">
+        <value>Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T2" xml:space="preserve">
+        <value>Large Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T3" xml:space="preserve">
+        <value>Large Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T4" xml:space="preserve">
+        <value>Large Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T5" xml:space="preserve">
+        <value>Large Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrustSciFi_T2" xml:space="preserve">
+        <value>Sci-Fi Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrustSciFi_T3" xml:space="preserve">
+        <value>Sci-Fi Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrustSciFi_T4" xml:space="preserve">
+        <value>Sci-Fi Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrustSciFi_T5" xml:space="preserve">
+        <value>Sci-Fi Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T2" xml:space="preserve">
+        <value>Sci-Fi Large Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T3" xml:space="preserve">
+        <value>Sci-Fi Large Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T4" xml:space="preserve">
+        <value>Sci-Fi Large Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T5" xml:space="preserve">
+        <value>Sci-Fi Large Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallModularThruster_T2" xml:space="preserve">
+        <value>Warfare Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallModularThruster_T3" xml:space="preserve">
+        <value>Warfare Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallModularThruster_T4" xml:space="preserve">
+        <value>Warfare Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallModularThruster_T5" xml:space="preserve">
+        <value>Warfare Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThruster_T2" xml:space="preserve">
+        <value>Warfare Large Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThruster_T3" xml:space="preserve">
+        <value>Warfare Large Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThruster_T4" xml:space="preserve">
+        <value>Warfare Large Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThruster_T5" xml:space="preserve">
+        <value>Warfare Large Ion Thruster T5</value>
+    </data>
+<!-- *********************Region Thruster ATMOS******************************-->
+    <data name="DisplayName_Block_SmallAtmoThrust_T2" xml:space="preserve">
+        <value>Atmospheric Thrusters T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrust_T3" xml:space="preserve">
+        <value>Atmospheric Thrusters T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrust_T4" xml:space="preserve">
+        <value>Atmospheric Thrusters T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrust_T5" xml:space="preserve">
+        <value>Atmospheric Thrusters T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrust_T2" xml:space="preserve">
+        <value>Large Atmospheric Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrust_T3" xml:space="preserve">
+        <value>Large Atmospheric Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrust_T4" xml:space="preserve">
+        <value>Large Atmospheric Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrust_T5" xml:space="preserve">
+        <value>Large Atmospheric Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustSciFi_T2" xml:space="preserve">
+        <value>Sci-Fi Atmospheric Thrusters T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustSciFi_T3" xml:space="preserve">
+        <value>Sci-Fi Atmospheric Thrusters T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustSciFi_T4" xml:space="preserve">
+        <value>Sci-Fi Atmospheric Thrusters T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustSciFi_T5" xml:space="preserve">
+        <value>Sci-Fi Atmospheric Thrusters T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T2" xml:space="preserve">
+        <value>Sci-Fi Large Atmospheric Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T3" xml:space="preserve">
+        <value>Sci-Fi Large Atmospheric Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T4" xml:space="preserve">
+        <value>Sci-Fi Large Atmospheric Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T5" xml:space="preserve">
+        <value>Sci-Fi Large Atmospheric Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlat_T2" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlat_T3" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlat_T4" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlat_T5" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlat_T2" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlat_T3" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlat_T4" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlat_T5" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlatDShape_T2" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters D Shape T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlatDShape_T3" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters D Shape T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlatDShape_T4" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters D Shape T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustFlatDShape_T5" xml:space="preserve">
+        <value>Flat Atmospheric Thrusters D Shape T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlatDShape_T2" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster D Shape T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlatDShape_T3" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster D Shape T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlatDShape_T4" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster D Shape T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeAtmoThrustFlatDShape_T5" xml:space="preserve">
+        <value>Large Flat Atmospheric Thruster D Shape T5</value>
+    </data>
+<!-- *********************Region Thruster HYDRO******************************-->
+    <data name="DisplayName_Block_SmallHydrogenThrust_T2" xml:space="preserve">
+        <value>Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrust_T3" xml:space="preserve">
+        <value>Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrust_T4" xml:space="preserve">
+        <value>Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrust_T5" xml:space="preserve">
+        <value>Hydrogen Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrust_T2" xml:space="preserve">
+        <value>Large Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrust_T3" xml:space="preserve">
+        <value>Large Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrust_T4" xml:space="preserve">
+        <value>Large Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrust_T5" xml:space="preserve">
+        <value>Large Hydrogen Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustIndustrial_T2" xml:space="preserve">
+        <value>Industrial Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustIndustrial_T3" xml:space="preserve">
+        <value>Industrial Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustIndustrial_T4" xml:space="preserve">
+        <value>Industrial Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustIndustrial_T5" xml:space="preserve">
+        <value>Industrial Hydrogen Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T2" xml:space="preserve">
+        <value>Industrial Large Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T3" xml:space="preserve">
+        <value>Industrial Large Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T4" xml:space="preserve">
+        <value>Industrial Large Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T5" xml:space="preserve">
+        <value>Industrial Large Hydrogen Thruster T5</value>
+    </data>
+    <!-- *********************Region Power******************************-->
+    <data name="DisplayName_Block_Hydrogen_Engine_T2" xml:space="preserve">
+        <value>Hydrogen Engine T2</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_Engine_T3" xml:space="preserve">
+        <value>Hydrogen Engine T3</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_Engine_T4" xml:space="preserve">
+        <value>Hydrogen Engine T4</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_Engine_T5" xml:space="preserve">
+        <value>Hydrogen Engine T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallReactor_T2" xml:space="preserve">
+        <value>Small Reactor T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallReactor_T3" xml:space="preserve">
+        <value>Small Reactor T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallReactor_T4" xml:space="preserve">
+        <value>Small Reactor T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallReactor_T5" xml:space="preserve">
+        <value>Small Reactor T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeReactor_T2" xml:space="preserve">
+        <value>Large Reactor T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeReactor_T3" xml:space="preserve">
+        <value>Large Reactor T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeReactor_T4" xml:space="preserve">
+        <value>Large Reactor T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeReactor_T5" xml:space="preserve">
+        <value>Large Reactor T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallReactorWarfare2_T2" xml:space="preserve">
+        <value>Small Warfare Reactor T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallReactorWarfare2_T3" xml:space="preserve">
+        <value>Small Warfare Reactor T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallReactorWarfare2_T4" xml:space="preserve">
+        <value>Small Warfare Reactor T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallReactorWarfare2_T5" xml:space="preserve">
+        <value>Small Warfare Reactor T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeReactorWarfare2_T2" xml:space="preserve">
+        <value>Large Warfare Reactor T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeReactorWarfare2_T3" xml:space="preserve">
+        <value>Large Warfare Reactor T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeReactorWarfare2_T4" xml:space="preserve">
+        <value>Large Warfare Reactor T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeReactorWarfare2_T5" xml:space="preserve">
+        <value>Large Warfare Reactor T5</value>
+    </data>
+    <data name="DisplayName_Block_Battery_T2" xml:space="preserve">
+        <value>Battery T2</value>
+    </data>
+    <data name="DisplayName_Block_Battery_T3" xml:space="preserve">
+        <value>Battery T3</value>
+    </data>
+    <data name="DisplayName_Block_Battery_T4" xml:space="preserve">
+        <value>Battery T4</value>
+    </data>
+    <data name="DisplayName_Block_Battery_T5" xml:space="preserve">
+        <value>Battery T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallBattery_T2" xml:space="preserve">
+        <value>Small Battery T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallBattery_T3" xml:space="preserve">
+        <value>Small Battery T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallBattery_T4" xml:space="preserve">
+        <value>Small Battery T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallBattery_T5" xml:space="preserve">
+        <value>Small Battery T5</value>
+    </data>
+    <data name="DisplayName_Block_BatteryWarfare2_T2" xml:space="preserve">
+        <value>Warfare Battery T2</value>
+    </data>
+    <data name="DisplayName_Block_BatteryWarfare2_T3" xml:space="preserve">
+        <value>Warfare Battery T3</value>
+    </data>
+    <data name="DisplayName_Block_BatteryWarfare2_T4" xml:space="preserve">
+        <value>Warfare Battery T4</value>
+    </data>
+    <data name="DisplayName_Block_BatteryWarfare2_T5" xml:space="preserve">
+        <value>Warfare Battery T5</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbine_T2" xml:space="preserve">
+        <value>Wind Turbine T2</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbine_T3" xml:space="preserve">
+        <value>Wind Turbine T3</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbine_T4" xml:space="preserve">
+        <value>Wind Turbine T4</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbine_T5" xml:space="preserve">
+        <value>Wind Turbine T5</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbineReskin_T2" xml:space="preserve">
+        <value>Twin-blade Wind Turbine T2</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbineReskin_T3" xml:space="preserve">
+        <value>Twin-blade Wind Turbine T3</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbineReskin_T4" xml:space="preserve">
+        <value>Twin-blade Wind Turbine T4</value>
+    </data>
+    <data name="DisplayName_Block_WindTurbineReskin_T5" xml:space="preserve">
+        <value>Twin-blade Wind Turbine T5</value>
+    </data>
+    <data name="DisplayName_Block_SolarPanel_T2" xml:space="preserve">
+        <value>Solar Panel T2</value>
+    </data>
+    <data name="DisplayName_Block_SolarPanel_T3" xml:space="preserve">
+        <value>Solar Panel T3</value>
+    </data>
+    <data name="DisplayName_Block_SolarPanel_T4" xml:space="preserve">
+        <value>Solar Panel T4</value>
+    </data>
+    <data name="DisplayName_Block_SolarPanel_T5" xml:space="preserve">
+        <value>Solar Panel T5</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanel_T2" xml:space="preserve">
+        <value>Colorable Solar Panel T2</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanel_T3" xml:space="preserve">
+        <value>Colorable Solar Panel T3</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanel_T4" xml:space="preserve">
+        <value>Colorable Solar Panel T4</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanel_T5" xml:space="preserve">
+        <value>Colorable Solar Panel T5</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCorner_T2" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Left T2</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCorner_T3" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Left T3</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCorner_T4" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Left T4</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCorner_T5" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Left T5</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCornerInverted_T2" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Right T2</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCornerInverted_T3" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Right T3</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCornerInverted_T4" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Right T4</value>
+    </data>
+    <data name="DisplayName_Block_ColorableSolarPanelCornerInverted_T5" xml:space="preserve">
+        <value>Colorable Solar Panel Slope Right T5</value>
+    </data>
+    <!-- *********************Region O2H2******************************-->
+    <data name="DisplayName_Block_OxygenGenerator_T2" xml:space="preserve">
+        <value>O2/H2 Generator T2</value>
+    </data>
+    <data name="DisplayName_Block_OxygenGenerator_T3" xml:space="preserve">
+        <value>O2/H2 Generator T3</value>
+    </data>
+    <data name="DisplayName_Block_OxygenGenerator_T4" xml:space="preserve">
+        <value>O2/H2 Generator T4</value>
+    </data>
+    <data name="DisplayName_Block_OxygenGenerator_T5" xml:space="preserve">
+        <value>O2/H2 Generator T5</value>
+    </data>
+    <data name="DisplayName_Block_OxygenGeneratorLab_T2" xml:space="preserve">
+        <value>Lab O2/H2 Generator T2</value>
+    </data>
+    <data name="DisplayName_Block_OxygenGeneratorLab_T3" xml:space="preserve">
+        <value>Lab O2/H2 Generator T3</value>
+    </data>
+    <data name="DisplayName_Block_OxygenGeneratorLab_T4" xml:space="preserve">
+        <value>Lab O2/H2 Generator T4</value>
+    </data>
+    <data name="DisplayName_Block_OxygenGeneratorLab_T5" xml:space="preserve">
+        <value>Lab O2/H2 Generator T5</value>
+    </data>
+    <data name="DisplayName_Block_OxygenTank_T2" xml:space="preserve">
+        <value>Oxygen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_OxygenTank_T3" xml:space="preserve">
+        <value>Oxygen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_OxygenTank_T4" xml:space="preserve">
+        <value>Oxygen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_OxygenTank_T5" xml:space="preserve">
+        <value>Oxygen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTank_T2" xml:space="preserve">
+        <value>Small Oxygen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTank_T3" xml:space="preserve">
+        <value>Small Oxygen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTank_T4" xml:space="preserve">
+        <value>Small Oxygen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTank_T5" xml:space="preserve">
+        <value>Small Oxygen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTankLab_T2" xml:space="preserve">
+        <value>Lab Small Oxygen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTankLab_T3" xml:space="preserve">
+        <value>Lab Small Oxygen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTankLab_T4" xml:space="preserve">
+        <value>Lab Small Oxygen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTankLab_T5" xml:space="preserve">
+        <value>Lab Small Oxygen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTank_T2" xml:space="preserve">
+        <value>Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTank_T3" xml:space="preserve">
+        <value>Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTank_T4" xml:space="preserve">
+        <value>Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTank_T5" xml:space="preserve">
+        <value>Hydrogen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmall_T2" xml:space="preserve">
+        <value>Small Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmall_T3" xml:space="preserve">
+        <value>Small Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmall_T4" xml:space="preserve">
+        <value>Small Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmall_T5" xml:space="preserve">
+        <value>Small Hydrogen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankIndustrial_T2" xml:space="preserve">
+        <value>Industrial Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankIndustrial_T3" xml:space="preserve">
+        <value>Industrial Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankIndustrial_T4" xml:space="preserve">
+        <value>Industrial Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankIndustrial_T5" xml:space="preserve">
+        <value>Industrial Hydrogen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankLab_T2" xml:space="preserve">
+        <value>Lab Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankLab_T3" xml:space="preserve">
+        <value>Lab Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankLab_T4" xml:space="preserve">
+        <value>Lab Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankLab_T5" xml:space="preserve">
+        <value>Lab Hydrogen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmallLab_T2" xml:space="preserve">
+        <value>Lab Small Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmallLab_T3" xml:space="preserve">
+        <value>Lab Small Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmallLab_T4" xml:space="preserve">
+        <value>Lab Small Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmallLab_T5" xml:space="preserve">
+        <value>Lab Small Hydrogen Tank T5</value>
+    </data>
+    <!-- *********************Region Divers******************************-->
+    <data name="DisplayName_Block_Gyroscope_T2" xml:space="preserve">
+        <value>Gyroscope T2</value>
+    </data>
+    <data name="DisplayName_Block_Gyroscope_T3" xml:space="preserve">
+        <value>Gyroscope T3</value>
+    </data>
+    <data name="DisplayName_Block_Gyroscope_T4" xml:space="preserve">
+        <value>Gyroscope T4</value>
+    </data>
+    <data name="DisplayName_Block_Gyroscope_T5" xml:space="preserve">
+        <value>Gyroscope T5</value>
     </data>
 </root>

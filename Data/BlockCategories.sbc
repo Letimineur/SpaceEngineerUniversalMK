@@ -7,8 +7,8 @@
 				<TypeId>GuiBlockCategoryDefinition</TypeId>
 				<SubtypeId/>
 			</Id>
-			<DisplayName>T2-5 X2-X16</DisplayName>
-			<Name>MK-T2-5 X2-X16</Name>
+			<DisplayName>T2-5 x2-x16</DisplayName>
+			<Name>MK-T2-5_X2-X16</Name>
 			<ItemIds>
 				<string>LTMLargeBlockLargeContainerT2</string>
 				<string>LTMLargeBlockLargeIndustrialContainerT2</string>
