@@ -595,4 +595,64 @@
     <data name="DisplayName_Block_SmallOxygenTankLab_T5" xml:space="preserve">
         <value>Lab Small Oxygen Tank T5</value>
     </data>
+    <data name="DisplayName_Block_HydrogenTank_T2" xml:space="preserve">
+        <value>Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTank_T3" xml:space="preserve">
+        <value>Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTank_T4" xml:space="preserve">
+        <value>Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTank_T5" xml:space="preserve">
+        <value>Hydrogen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmall_T2" xml:space="preserve">
+        <value>Small Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmall_T3" xml:space="preserve">
+        <value>Small Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmall_T4" xml:space="preserve">
+        <value>Small Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmall_T5" xml:space="preserve">
+        <value>Small Hydrogen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankIndustrial_T2" xml:space="preserve">
+        <value>Industrial Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankIndustrial_T3" xml:space="preserve">
+        <value>Industrial Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankIndustrial_T4" xml:space="preserve">
+        <value>Industrial Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankIndustrial_T5" xml:space="preserve">
+        <value>Industrial Hydrogen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankLab_T2" xml:space="preserve">
+        <value>Lab Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankLab_T3" xml:space="preserve">
+        <value>Lab Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankLab_T4" xml:space="preserve">
+        <value>Lab Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankLab_T5" xml:space="preserve">
+        <value>Lab Hydrogen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmallLab_T2" xml:space="preserve">
+        <value>Lab Small Hydrogen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmallLab_T3" xml:space="preserve">
+        <value>Lab Small Hydrogen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmallLab_T4" xml:space="preserve">
+        <value>Lab Small Hydrogen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_HydrogenTankSmallLab_T5" xml:space="preserve">
+        <value>Lab Small Hydrogen Tank T5</value>
+    </data>
 </root>
