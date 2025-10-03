@@ -10,21 +10,36 @@
 			<DisplayName>T2-5 X2-X16</DisplayName>
 			<Name>MK-T2-5 X2-X16</Name>
 			<ItemIds>
-				<string>LTMLargeProductivityModule</string>
-				<string>LTMLargeEffectivenessModule</string>
-				<string>LTMLargeEnergyModule</string>
-				<string>LTMLargeBlockSmallThrust</string>
-				<string>LargeHydrogeneEngineMK2</string>
-				<string>LargeHydrogeneTankMK2</string>
-				<string>LargeHydrogeneThrusterMK2</string>
-				<string>LargeJumpDriveMK2</string>
-				<string>LargeIonThrusterMK2</string>
-				<string>LargeNuclearReactorMK2</string>
-				<string>LargeOxygenGeneratorMK2</string>
-				<string>LargeOxygenTankMK2</string>
-				<string>LargeSolarPanelMK2</string>
-				<string>LargeUpgradeMK2</string>
-				<string>WindTurbineMK2</string>
+				<string>LTMLargeBlockLargeContainerT2</string>
+				<string>LTMLargeBlockLargeIndustrialContainerT2</string>
+				<string>LTMLargeProductivityModuleT2</string>
+				<string>LTMLargeEffectivenessModuleT2</string>
+				<string>LTMLargeEnergyModuleT2</string>
+				<string>LTMLargeBlockLargeThrustT2</string>
+				<string>LTMLargeBlockLargeAtmosphericThrustT2</string>
+				<string>LTMLargeBlockLargeHydrogenThrustT2</string>
+				<string>LTMLargeBlockLargeThrustSciFiT2</string>
+				<string>LTMLargeBlockLargeAtmosphericThrustSciFiT2</string>
+				<string>LTMLargeBlockLargeHydrogenThrustIndustrialT2</string>
+				<string>LTMLargeBlockLargeModularThrusterT2</string>
+				<string>LTMLargeBlockLargeFlatAtmosphericThrustT2</string>
+				<string>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT2</string>
+				<string>LTMLargeBlockGyroT2</string>
+				<string>LTMLargeOxygenTankSmallT2</string>
+				<string>LTMLargeBlockOxygenTankLabT2</string>
+				<string>LTMLargeHydrogenTankT2</string>
+				<string>LTMLargeHydrogenTankSmallLabT2</string>
+				<string>LTMLargeHydrogenTankIndustrialT2</string>
+				<string>LTMLargeBlockOxygenGeneratorT2</string>
+				<string>LTMLargeBlockOxygenGeneratorLabT2</string>
+				<string>LTMLargeHydrogenEngineT2</string>
+				<string>LTMLargeBlockLargeGeneratorT2</string>
+				<string>LTMLargeBlockLargeGeneratorWarfare2T2</string>
+				<string>LTMLargeBlockBatteryBlockT2</string>
+				<string>LTMLargeBlockBatteryBlockWarfare2T2</string>
+				<string>LTMLargeBlockSolarPanelT2</string>
+				<string>LTMLargeBlockColorableSolarPanelT2</string>
+				<string>LTMLargeBlockWindTurbineT2</string>
 			</ItemIds>
 		</Category>
 	</CategoryClasses>
