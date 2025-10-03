@@ -559,4 +559,40 @@
     <data name="DisplayName_Block_OxygenGeneratorLab_T5" xml:space="preserve">
         <value>Lab O2/H2 Generator T5</value>
     </data>
+    <data name="DisplayName_Block_OxygenTank_T2" xml:space="preserve">
+        <value>Oxygen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_OxygenTank_T3" xml:space="preserve">
+        <value>Oxygen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_OxygenTank_T4" xml:space="preserve">
+        <value>Oxygen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_OxygenTank_T5" xml:space="preserve">
+        <value>Oxygen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTank_T2" xml:space="preserve">
+        <value>Small Oxygen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTank_T3" xml:space="preserve">
+        <value>Small Oxygen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTank_T4" xml:space="preserve">
+        <value>Small Oxygen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTank_T5" xml:space="preserve">
+        <value>Small Oxygen Tank T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTankLab_T2" xml:space="preserve">
+        <value>Lab Small Oxygen Tank T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTankLab_T3" xml:space="preserve">
+        <value>Lab Small Oxygen Tank T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTankLab_T4" xml:space="preserve">
+        <value>Lab Small Oxygen Tank T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallOxygenTankLab_T5" xml:space="preserve">
+        <value>Lab Small Oxygen Tank T5</value>
+    </data>
 </root>
