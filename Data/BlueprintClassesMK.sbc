@@ -28,8 +28,5 @@
     <Entry Class="Components" BlueprintSubtypeId="SolarCellMK" />
     <Entry Class="Components" BlueprintSubtypeId="PowerCellMK" />
     <Entry Class="Components" BlueprintSubtypeId="SuperconductorMK" />
-    <Entry Class="Components" BlueprintSubtypeId="ComponentBaseMK2" />
-    <Entry Class="Components" BlueprintSubtypeId="ComponentBaseUpgradeMK2" />
-
   </BlueprintClassEntries>
 </Definitions>

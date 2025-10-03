@@ -7,13 +7,13 @@
 				<TypeId>GuiBlockCategoryDefinition</TypeId>
 				<SubtypeId/>
 			</Id>
-			<DisplayName>MK2-5 X2-X16</DisplayName>
-			<Name>MK-MK2-5 X2-X16</Name>
+			<DisplayName>T2-5 X2-X16</DisplayName>
+			<Name>MK-T2-5 X2-X16</Name>
 			<ItemIds>
-				<string>LargeAtmosphericThrusterMK2</string>
-				<string>LargeBatteryMK2</string>
-				<string>LargeContainerMK2</string>
-				<string>LargeGyroMK2</string>
+				<string>LTMLargeProductivityModule</string>
+				<string>LTMLargeEffectivenessModule</string>
+				<string>LTMLargeEnergyModule</string>
+				<string>LTMLargeBlockSmallThrust</string>
 				<string>LargeHydrogeneEngineMK2</string>
 				<string>LargeHydrogeneTankMK2</string>
 				<string>LargeHydrogeneThrusterMK2</string>
