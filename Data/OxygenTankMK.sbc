@@ -314,7 +314,7 @@
                 <Component Subtype="SmallTube" Count="60" />
                 <Component Subtype="SmallTubeMK" Count="9" />
                 <Component Subtype="Computer" Count="28" />
-                <Component Subtype="Computer:K" Count="1" />
+                <Component Subtype="ComputerMK" Count="1" />
                 <Component Subtype="Construction" Count="40" />
                 <Component Subtype="ConstructionMK" Count="6" />
                 <Component Subtype="SteelPlate" Count="20" />

@@ -2958,7 +2958,7 @@
                 <Component Subtype="MetalGrid" Count="52" />
                 <Component Subtype="MetalGridMK" Count="3" />
                 <Component Subtype="LargeTube" Count="60" />
-                <Component Subtype="LargeTube:K" Count="1" />
+                <Component Subtype="LargeTubeMK" Count="1" />
                 <Component Subtype="Construction" Count="60" />
                 <Component Subtype="SteelPlate" Count="60" />
             </Components>
