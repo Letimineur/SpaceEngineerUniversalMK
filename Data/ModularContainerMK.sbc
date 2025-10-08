@@ -6,11 +6,12 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockModularContainerT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_ModularCargoContainer_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\CargoContainerReskin_SmallT2.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
-            <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="7" y="3" z="5" />
             <ModelOffset x="0" y="0" z="0" />
@@ -40,21 +41,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMSmallBlockModularContainerT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMSmallBlockModularContainerT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMSmallBlockModularContainerT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>   
-            <BlockPairName>ModularCargoContainer</BlockPairName>
+            <BlockPairName>ModularCargoContainerT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -77,7 +64,6 @@
             <Icon>Textures\GUI\Icons\Cubes\T3\CargoContainerReskin_SmallT3.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
-            <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="7" y="3" z="5" />
             <ModelOffset x="0" y="0" z="0" />
@@ -108,7 +94,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ModularCargoContainer</BlockPairName>
+            <BlockPairName>ModularCargoContainerT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -131,7 +117,6 @@
             <Icon>Textures\GUI\Icons\Cubes\T4\CargoContainerReskin_SmallT4.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
-            <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="7" y="3" z="5" />
             <ModelOffset x="0" y="0" z="0" />
@@ -163,7 +148,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ModularCargoContainer</BlockPairName>
+            <BlockPairName>ModularCargoContainerT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -186,7 +171,6 @@
             <Icon>Textures\GUI\Icons\Cubes\T5\CargoContainerReskin_SmallT5.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
-            <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="7" y="3" z="5" />
             <ModelOffset x="0" y="0" z="0" />
@@ -218,7 +202,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ModularCargoContainer</BlockPairName>
+            <BlockPairName>ModularCargoContainerT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

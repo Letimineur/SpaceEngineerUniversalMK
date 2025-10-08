@@ -6,6 +6,8 @@
                 <TypeId>Gyro</TypeId>
                 <SubtypeId>LTMLargeBlockGyroT2</SubtypeId>
             </Id>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_Gyroscope_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\gyroT2.dds</Icon>
             <Description>Description_Gyroscope</Description>
@@ -32,21 +34,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Gyro</TypeId>
-                    <SubtypeId>LTMLargeBlockGyroT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Gyro</TypeId>
-                    <SubtypeId>LTMLargeBlockGyroT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Gyro</TypeId>
-                    <SubtypeId>LTMLargeBlockGyroT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>Gyroscope</BlockPairName>
+            <BlockPairName>GyroscopeT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -102,7 +90,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Gyroscope</BlockPairName>
+            <BlockPairName>GyroscopeT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -158,7 +146,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Gyroscope</BlockPairName>
+            <BlockPairName>GyroscopeT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -214,7 +202,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Gyroscope</BlockPairName>
+            <BlockPairName>GyroscopeT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -243,6 +231,8 @@
                 <TypeId>Gyro</TypeId>
                 <SubtypeId>LTMSmallBlockGyroT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_Gyroscope_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\gyroT2.dds</Icon>
             <Description>Description_Gyroscope</Description>
@@ -268,21 +258,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Gyro</TypeId>
-                    <SubtypeId>LTMSmallBlockGyroT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Gyro</TypeId>
-                    <SubtypeId>LTMSmallBlockGyroT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Gyro</TypeId>
-                    <SubtypeId>LTMSmallBlockGyroT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>Gyroscope</BlockPairName>
+            <BlockPairName>GyroscopeT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>14</BuildTimeSeconds>
@@ -336,7 +312,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Gyroscope</BlockPairName>
+            <BlockPairName>GyroscopeT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>14</BuildTimeSeconds>
@@ -391,7 +367,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Gyroscope</BlockPairName>
+            <BlockPairName>GyroscopeT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>14</BuildTimeSeconds>
@@ -446,7 +422,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Gyroscope</BlockPairName>
+            <BlockPairName>GyroscopeT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>14</BuildTimeSeconds>

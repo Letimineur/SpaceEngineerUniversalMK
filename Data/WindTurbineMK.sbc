@@ -6,6 +6,8 @@
                 <TypeId>WindTurbine</TypeId>
                 <SubtypeId>LTMLargeBlockWindTurbineT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_WindTurbine_T2</DisplayName>
             <Description>Description_WindTurbine</Description>
             <Icon>Textures\GUI\Icons\Cubes\T2\WindTurbineT2.dds</Icon>
@@ -34,22 +36,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindTurbine_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>WindTurbine</TypeId>
-                    <SubtypeId>LTMLargeBlockWindTurbineT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>WindTurbine</TypeId>
-                    <SubtypeId>LTMLargeBlockWindTurbineT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>WindTurbine</TypeId>
-                    <SubtypeId>LTMLargeBlockWindTurbineT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>   
-
-            <BlockPairName>WindTurbine</BlockPairName>
+            <BlockPairName>WindTurbineT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -122,7 +109,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm" />
             </BuildProgressModels>
 
-            <BlockPairName>WindTurbine</BlockPairName>
+            <BlockPairName>WindTurbineT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -197,7 +184,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm" />
             </BuildProgressModels>
 
-            <BlockPairName>WindTurbine</BlockPairName>
+            <BlockPairName>WindTurbineT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -274,7 +261,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm" />
             </BuildProgressModels>
 
-            <BlockPairName>WindTurbine</BlockPairName>
+            <BlockPairName>WindTurbineT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -316,6 +303,8 @@
                 <TypeId>WindTurbine</TypeId>
                 <SubtypeId>LTMLargeBlockWindTurbineReskinT2</SubtypeId>
             </Id>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_WindTurbineReskin_T2</DisplayName>
             <Description>Description_WindTurbine</Description>
             <Icon>Textures\GUI\Icons\Cubes\T2\WindTurbineReskin_LargeT2.dds</Icon>
@@ -346,21 +335,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindTurbineReskin_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbineReskin_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>WindTurbine</TypeId>
-                    <SubtypeId>LTMLargeBlockWindTurbineReskinT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>WindTurbine</TypeId>
-                    <SubtypeId>LTMLargeBlockWindTurbineReskinT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>WindTurbine</TypeId>
-                    <SubtypeId>LTMLargeBlockWindTurbineReskinT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>WindTurbineReskin</BlockPairName>
+            <BlockPairName>WindTurbineReskinT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -431,7 +406,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindTurbineReskin_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbineReskin_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>WindTurbineReskin</BlockPairName>
+            <BlockPairName>WindTurbineReskinT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -503,7 +478,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindTurbineReskin_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbineReskin_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>WindTurbineReskin</BlockPairName>
+            <BlockPairName>WindTurbineReskinT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -578,7 +553,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindTurbineReskin_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbineReskin_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>WindTurbineReskin</BlockPairName>
+            <BlockPairName>WindTurbineReskinT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>

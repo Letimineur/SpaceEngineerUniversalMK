@@ -8,6 +8,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\thrustT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -53,21 +55,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>        
-            <BlockPairName>SmallThrust</BlockPairName>
+            <BlockPairName>SmallThrustT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -172,7 +160,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrust</BlockPairName>
+            <BlockPairName>SmallThrustT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -278,7 +266,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrust</BlockPairName>
+            <BlockPairName>SmallThrustT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -385,7 +373,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrust</BlockPairName>
+            <BlockPairName>SmallThrustT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -442,6 +430,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\thrust_largeT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -489,21 +479,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>        
-            <BlockPairName>LargeThrust</BlockPairName>
+            <BlockPairName>LargeThrustT2</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -610,7 +586,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust</BlockPairName>
+            <BlockPairName>LargeThrustT3</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -717,7 +693,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust</BlockPairName>
+            <BlockPairName>LargeThrustT4</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -824,7 +800,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust</BlockPairName>
+            <BlockPairName>LargeThrustT5</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -882,6 +858,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\thrustT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -925,21 +903,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallThrust</BlockPairName>
+            <BlockPairName>SmallThrustT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1042,7 +1006,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrust</BlockPairName>
+            <BlockPairName>SmallThrustT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1145,7 +1109,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrust</BlockPairName>
+            <BlockPairName>SmallThrustT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1248,7 +1212,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrust</BlockPairName>
+            <BlockPairName>SmallThrustT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1306,6 +1270,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\thrust_largeT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -1349,21 +1315,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>        
-            <BlockPairName>LargeThrust</BlockPairName>
+            <BlockPairName>LargeThrustT2</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1466,7 +1418,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust</BlockPairName>
+            <BlockPairName>LargeThrustT3</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1569,7 +1521,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust</BlockPairName>
+            <BlockPairName>LargeThrustT4</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1673,7 +1625,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrust</BlockPairName>
+            <BlockPairName>LargeThrustT5</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1734,6 +1686,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallThrustSciFiT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrustSciFi_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\large_IonThrusterSmall_SciFiT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -1779,21 +1733,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallThrustSciFiT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallThrustSciFiT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallThrustSciFiT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>        
-            <BlockPairName>SmallThrustSciFi</BlockPairName>
+            <BlockPairName>SmallThrustSciFiT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -1894,7 +1834,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi</BlockPairName>
+            <BlockPairName>SmallThrustSciFiT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -1996,7 +1936,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi</BlockPairName>
+            <BlockPairName>SmallThrustSciFiT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -2099,7 +2039,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi</BlockPairName>
+            <BlockPairName>SmallThrustSciFiT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -2152,6 +2092,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeThrustSciFiT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrustSciFi_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\large_IonThrusterLarge_SciFiT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -2199,21 +2141,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeThrustSciFiT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeThrustSciFiT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeThrustSciFiT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>        
-            <BlockPairName>LargeThrustSciFi</BlockPairName>
+            <BlockPairName>LargeThrustSciFiT2</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -2316,7 +2244,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi</BlockPairName>
+            <BlockPairName>LargeThrustSciFiT3</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -2419,7 +2347,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi</BlockPairName>
+            <BlockPairName>LargeThrustSciFiT4</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -2522,7 +2450,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi</BlockPairName>
+            <BlockPairName>LargeThrustSciFiT5</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -2576,6 +2504,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallThrustSciFiT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrustSciFi_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Small_IonThrusterSmall_SciFiT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -2619,21 +2549,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallThrustSciFiT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallThrustSciFiT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallThrustSciFiT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallThrustSciFi</BlockPairName>
+            <BlockPairName>SmallThrustSciFiT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -2732,7 +2648,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi</BlockPairName>
+            <BlockPairName>SmallThrustSciFiT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -2831,7 +2747,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi</BlockPairName>
+            <BlockPairName>SmallThrustSciFiT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -2930,7 +2846,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFi</BlockPairName>
+            <BlockPairName>SmallThrustSciFiT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -2984,6 +2900,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeThrustSciFiT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrustSciFi_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Small_IonThrusterLarge_SciFiT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -3027,21 +2945,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeThrustSciFiT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeThrustSciFiT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeThrustSciFiT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>        
-            <BlockPairName>LargeThrustSciFi</BlockPairName>
+            <BlockPairName>LargeThrustSciFiT2</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3140,7 +3044,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi</BlockPairName>
+            <BlockPairName>LargeThrustSciFiT3</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3239,7 +3143,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi</BlockPairName>
+            <BlockPairName>LargeThrustSciFiT4</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3339,7 +3243,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFi</BlockPairName>
+            <BlockPairName>LargeThrustSciFiT5</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3395,6 +3299,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallModularThrusterT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallModularThruster_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeGridModularIonThrusterSmallT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -3440,21 +3346,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallModularThrusterT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallModularThrusterT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallModularThrusterT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>        
-            <BlockPairName>SmallModularThruster</BlockPairName>
+            <BlockPairName>SmallModularThrusterT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3555,7 +3447,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallModularThruster</BlockPairName>
+            <BlockPairName>SmallModularThrusterT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3657,7 +3549,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallModularThruster</BlockPairName>
+            <BlockPairName>SmallModularThrusterT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3760,7 +3652,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallModularThruster</BlockPairName>
+            <BlockPairName>SmallModularThrusterT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3813,6 +3705,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeModularThrusterT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeModularThruster_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeGridModularIonThrusterLargeT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -3862,21 +3756,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeModularThrusterT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeModularThrusterT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeModularThrusterT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>        
-            <BlockPairName>LargeModularThruster</BlockPairName>
+            <BlockPairName>LargeModularThrusterT2</BlockPairName>
             <Center x="0" y="1" z="2" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -3981,7 +3861,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeModularThruster</BlockPairName>
+            <BlockPairName>LargeModularThrusterT3</BlockPairName>
             <Center x="0" y="1" z="2" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -4086,7 +3966,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeModularThruster</BlockPairName>
+            <BlockPairName>LargeModularThrusterT4</BlockPairName>
             <Center x="0" y="1" z="2" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -4191,7 +4071,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeModularThruster</BlockPairName>
+            <BlockPairName>LargeModularThrusterT5</BlockPairName>
             <Center x="0" y="1" z="2" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -4245,6 +4125,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallModularThrusterT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallModularThruster_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallGridModularIonThrusterSmallT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -4288,21 +4170,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallModularThrusterT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallModularThrusterT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallModularThrusterT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallModularThruster</BlockPairName>
+            <BlockPairName>SmallModularThrusterT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -4401,7 +4269,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallModularThruster</BlockPairName>
+            <BlockPairName>SmallModularThrusterT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -4500,7 +4368,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallModularThruster</BlockPairName>
+            <BlockPairName>SmallModularThrusterT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -4599,7 +4467,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallModularThruster</BlockPairName>
+            <BlockPairName>SmallModularThrusterT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -4653,6 +4521,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeModularThrusterT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeModularThruster_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallGridModularIonThrusterLargeT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -4700,21 +4570,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeModularThrusterT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeModularThrusterT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeModularThrusterT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>        
-            <BlockPairName>LargeModularThruster</BlockPairName>
+            <BlockPairName>LargeModularThrusterT2</BlockPairName>
             <Center x="0" y="1" z="2" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -4817,7 +4673,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeModularThruster</BlockPairName>
+            <BlockPairName>LargeModularThrusterT3</BlockPairName>
             <Center x="0" y="1" z="2" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -4920,7 +4776,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeModularThruster</BlockPairName>
+            <BlockPairName>LargeModularThrusterT4</BlockPairName>
             <Center x="0" y="1" z="2" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
@@ -5024,7 +4880,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeModularThruster</BlockPairName>
+            <BlockPairName>LargeModularThrusterT5</BlockPairName>
             <Center x="0" y="1" z="2" />
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>

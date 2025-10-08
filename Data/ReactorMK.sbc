@@ -8,6 +8,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMLargeBlockSmallGeneratorT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallReactor_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\nuclear_reactorT2.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -40,21 +42,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallGeneratorT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallGeneratorT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallGeneratorT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -151,7 +139,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -248,7 +236,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -346,7 +334,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -408,6 +396,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMLargeBlockLargeGeneratorT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeReactor_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\nuclear_reactor_largeT2.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -444,21 +434,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeGeneratorT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeGeneratorT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeGeneratorT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -556,7 +532,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -655,7 +631,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -754,7 +730,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -813,6 +789,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMSmallBlockSmallGeneratorT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallReactor_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\nuclear_reactorT2.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -845,21 +823,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -955,21 +919,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1065,7 +1015,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1163,7 +1113,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1227,6 +1177,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMSmallBlockLargeGeneratorT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeReactor_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\nuclear_reactor_largeT2.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -1264,21 +1216,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeGeneratorT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeGeneratorT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeGeneratorT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -1378,7 +1316,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -1478,7 +1416,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -1580,7 +1518,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -1641,6 +1579,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallReactorWarfare2_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinSmallT2.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -1672,21 +1612,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1782,7 +1708,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1878,7 +1804,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1975,7 +1901,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2037,6 +1963,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeReactorWarfare2_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinLargeT2.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -2073,21 +2001,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2185,7 +2099,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2284,7 +2198,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2383,7 +2297,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2442,6 +2356,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallReactorWarfare2_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinSmallT2.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -2478,21 +2394,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2592,21 +2494,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2706,7 +2594,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2808,7 +2696,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
+            <BlockPairName>SmallReactorT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2872,6 +2760,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeReactorWarfare2_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinLargeT2.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -2909,21 +2799,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Reactor</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -3023,7 +2899,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -3123,7 +2999,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -3225,7 +3101,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactor</BlockPairName>
+            <BlockPairName>LargeReactorT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>

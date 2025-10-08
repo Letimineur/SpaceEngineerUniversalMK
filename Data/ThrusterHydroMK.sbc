@@ -8,6 +8,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeHydrogenThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeHydrogenThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterLargeT2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -54,21 +56,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeHydrogenThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeHydrogenThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeHydrogenThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -174,7 +162,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -281,7 +269,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -388,7 +376,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -446,6 +434,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallHydrogenThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallHydrogenThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterSmallT2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -490,21 +480,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallHydrogenThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallHydrogenThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallHydrogenThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustT2</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -610,7 +586,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustT3</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -717,7 +693,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustT4</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -825,7 +801,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustT5</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -885,6 +861,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeHydrogenThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeHydrogenThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterLargeT2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -932,21 +910,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeHydrogenThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeHydrogenThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeHydrogenThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1051,7 +1015,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1159,7 +1123,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1268,7 +1232,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrust</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1325,6 +1289,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallHydrogenThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallHydrogenThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterSmallT2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -1369,21 +1335,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallHydrogenThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallHydrogenThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallHydrogenThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustT2</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1487,7 +1439,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustT3</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1591,7 +1543,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustT4</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1696,7 +1648,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrust</BlockPairName>
+            <BlockPairName>HydrogenThrustT5</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1756,6 +1708,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeHydrogenThrustIndustrialT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialLargeT2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -1800,21 +1754,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeHydrogenThrustIndustrialT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeHydrogenThrustIndustrialT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeHydrogenThrustIndustrialT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialT2</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1919,7 +1859,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialT3</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2024,7 +1964,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialT4</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2129,7 +2069,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialT5</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2188,6 +2128,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallHydrogenThrustIndustrialT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialSmallT2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -2228,21 +2170,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallHydrogenThrustIndustrialT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallHydrogenThrustIndustrialT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallHydrogenThrustIndustrialT3</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialT2</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2345,7 +2273,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialT3</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2449,7 +2377,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialT4</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2554,7 +2482,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialT5</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2614,6 +2542,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeHydrogenThrustIndustrialT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialLargeT2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -2658,21 +2588,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeHydrogenThrustIndustrialT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeHydrogenThrustIndustrialT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeHydrogenThrustIndustrialT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialT2</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2775,7 +2691,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialT3</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2881,7 +2797,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialT4</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2988,7 +2904,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialT5</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -3046,6 +2962,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallHydrogenThrustIndustrialT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialSmallT2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -3085,21 +3003,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallHydrogenThrustIndustrialT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallHydrogenThrustIndustrialT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallHydrogenThrustIndustrialT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialT2</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -3199,7 +3103,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialT3</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -3299,7 +3203,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialT4</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -3400,7 +3304,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialT5</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>

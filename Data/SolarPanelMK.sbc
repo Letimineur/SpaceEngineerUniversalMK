@@ -6,6 +6,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMLargeBlockSolarPanelT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SolarPanel_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelT2.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -41,21 +43,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockSolarPanelT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockSolarPanelT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockSolarPanelT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SolarPanel</BlockPairName>
+            <BlockPairName>SolarPanelT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
@@ -190,7 +178,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SolarPanel</BlockPairName>
+            <BlockPairName>SolarPanelT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
@@ -325,7 +313,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SolarPanel</BlockPairName>
+            <BlockPairName>SolarPanelT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
@@ -462,7 +450,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SolarPanel</BlockPairName>
+            <BlockPairName>SolarPanelT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
@@ -560,6 +548,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMSmallBlockSolarPanelT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SolarPanel_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelT2.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -593,21 +583,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockSolarPanelT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockSolarPanelT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockSolarPanelT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SolarPanel</BlockPairName>
+            <BlockPairName>SolarPanelT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -741,7 +717,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SolarPanel</BlockPairName>
+            <BlockPairName>SolarPanelT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -875,7 +851,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SolarPanel</BlockPairName>
+            <BlockPairName>SolarPanelT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -1010,7 +986,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SolarPanel</BlockPairName>
+            <BlockPairName>SolarPanelT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -1110,6 +1086,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMLargeBlockColorableSolarPanelT2</SubtypeId>
             </Id>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_ColorableSolarPanel_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinT2.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -1141,21 +1119,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockColorableSolarPanelT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockColorableSolarPanelT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockColorableSolarPanelT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
@@ -1255,8 +1219,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMLargeBlockColorableSolarPanelT3</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_ColorableSolarPanel_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinT3.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -1289,7 +1253,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
@@ -1389,8 +1353,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMLargeBlockColorableSolarPanelT4</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_ColorableSolarPanel_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinT4.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -1423,7 +1387,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
@@ -1523,8 +1487,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMLargeBlockColorableSolarPanelT5</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_ColorableSolarPanel_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinT5.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -1559,7 +1523,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
@@ -1661,6 +1625,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerT2.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -1690,21 +1656,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants> 
-            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerT2</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
@@ -1815,7 +1767,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
@@ -1927,7 +1879,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
@@ -2039,7 +1991,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
@@ -2121,6 +2073,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerInvertedT2.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -2150,21 +2104,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants> 
-            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
@@ -2276,7 +2216,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT2</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
@@ -2389,7 +2329,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
@@ -2502,7 +2442,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
@@ -2585,6 +2525,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMSmallBlockColorableSolarPanelT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_ColorableSolarPanel_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinT2.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -2616,21 +2558,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockColorableSolarPanelT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockColorableSolarPanelT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockColorableSolarPanelT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>  
-            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -2764,7 +2692,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -2898,7 +2826,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -3033,7 +2961,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -3135,6 +3063,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerT2.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -3164,21 +3094,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>  
-            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
@@ -3288,7 +3204,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
@@ -3398,7 +3314,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
@@ -3508,7 +3424,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
@@ -3595,6 +3511,8 @@
                 <TypeId>SolarPanel</TypeId>
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerInvertedT2.dds</Icon>
             <Description>Description_SolarPanel</Description>
@@ -3624,21 +3542,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>SolarPanel</TypeId>
-                    <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants> 
-            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT2</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
@@ -3748,7 +3652,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
@@ -3858,7 +3762,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
@@ -3968,7 +3872,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>

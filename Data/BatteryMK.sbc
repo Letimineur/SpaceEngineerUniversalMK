@@ -8,6 +8,8 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LTMLargeBlockBatteryBlockT2</SubtypeId>
             </Id>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_Battery_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\BatteryT2.dds</Icon>
             <Description>Description_Battery</Description>
@@ -37,21 +39,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMLargeBlockBatteryBlockT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMLargeBlockBatteryBlockT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMLargeBlockBatteryBlockT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>BatteryBlock</BlockPairName>
+            <BlockPairName>BatteryBlockT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
@@ -88,8 +76,8 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LTMLargeBlockBatteryBlockT3</SubtypeId>
             </Id>
-           <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_Battery_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\BatteryT3.dds</Icon>
             <Description>Description_Battery</Description>
@@ -119,7 +107,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlock</BlockPairName>
+            <BlockPairName>BatteryBlockT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
@@ -156,8 +144,8 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LTMLargeBlockBatteryBlockT4</SubtypeId>
             </Id>
-           <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_Battery_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\BatteryT4.dds</Icon>
             <Description>Description_Battery</Description>
@@ -189,7 +177,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlock</BlockPairName>
+            <BlockPairName>BatteryBlockT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
@@ -226,8 +214,8 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LTMLargeBlockBatteryBlockT5</SubtypeId>
             </Id>
-           <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_Battery_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\BatteryT5.dds</Icon>
             <Description>Description_Battery</Description>
@@ -260,7 +248,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlock</BlockPairName>
+            <BlockPairName>BatteryBlockT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
@@ -293,12 +281,15 @@
             </TargetingGroups>
         </Definition>
 
+        
 <!-- Region Small Blocks-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LTMSmallBlockBatteryBlockT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_Battery_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\BatteryT2.dds</Icon>
             <Description>Description_Battery</Description>
@@ -325,21 +316,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMSmallBlockBatteryBlockT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMSmallBlockBatteryBlockT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMSmallBlockBatteryBlockT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>    
-            <BlockPairName>BatteryBlock</BlockPairName>
+            <BlockPairName>BatteryBlockT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -373,7 +350,7 @@
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
-                <SubtypeId>SmallBlockBatteryBlockT3</SubtypeId>
+                <SubtypeId>LTMSmallBlockBatteryBlockT3</SubtypeId>
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
@@ -403,7 +380,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlock</BlockPairName>
+            <BlockPairName>BatteryBlockT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -437,9 +414,9 @@
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
-                <SubtypeId>SmallBlockBatteryBlockT4</SubtypeId>
+                <SubtypeId>LTMSmallBlockBatteryBlockT4</SubtypeId>
             </Id>
-           <GuiVisible>false</GuiVisible>
+            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
             <DisplayName>DisplayName_Block_Battery_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\BatteryT4.dds</Icon>
@@ -469,7 +446,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlock</BlockPairName>
+            <BlockPairName>BatteryBlockT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -503,7 +480,7 @@
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
-                <SubtypeId>SmallBlockBatteryBlockT5</SubtypeId>
+                <SubtypeId>LTMSmallBlockBatteryBlockT5</SubtypeId>
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
@@ -535,7 +512,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlock</BlockPairName>
+            <BlockPairName>BatteryBlockT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -573,6 +550,8 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LTMSmallBlockSmallBatteryBlockT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallBattery_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Battery1x1T2.dds</Icon>
             <Description>Description_Battery</Description>
@@ -599,21 +578,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallBatteryBlockT2</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallBatteryBlockT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallBatteryBlockT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>  
-            <BlockPairName>Battery1x1Block</BlockPairName>
+            <BlockPairName>Battery1x1BlockT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
 
@@ -675,7 +640,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
             </BuildProgressModels> 
-            <BlockPairName>Battery1x1Block</BlockPairName>
+            <BlockPairName>Battery1x1BlockT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
 
@@ -737,7 +702,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
             </BuildProgressModels> 
-            <BlockPairName>Battery1x1Block</BlockPairName>
+            <BlockPairName>Battery1x1BlockT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
 
@@ -799,7 +764,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
             </BuildProgressModels> 
-            <BlockPairName>Battery1x1Block</BlockPairName>
+            <BlockPairName>Battery1x1BlockT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
 
@@ -837,6 +802,8 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LTMLargeBlockBatteryBlockWarfare2T2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_BatteryWarfare2_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\BatteryReskinT2.dds</Icon>
             <Description>Description_Battery</Description>
@@ -866,21 +833,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMLargeBlockBatteryBlockWarfare2T3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMLargeBlockBatteryBlockWarfare2T4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlocke</TypeId>
-                    <SubtypeId>LTMLargeBlockBatteryBlockWarfare2T5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants> 
-            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <BlockPairName>BatteryBlockWarfare2T2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -947,7 +900,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <BlockPairName>BatteryBlockWarfare2T3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -1016,7 +969,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <BlockPairName>BatteryBlockWarfare2T4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -1086,7 +1039,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <BlockPairName>BatteryBlockWarfare2T5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -1124,6 +1077,8 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LTMSmallBlockBatteryBlockWarfare2T2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_BatteryWarfare2_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\BatteryReskin_SmallT2.dds</Icon>
             <Description>Description_Battery</Description>
@@ -1158,21 +1113,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMSmallBlockBatteryBlockWarfare2T3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMSmallBlockBatteryBlockWarfare2T4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>BatteryBlock</TypeId>
-                    <SubtypeId>LTMSmallBlockBatteryBlockWarfare2T5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <BlockPairName>BatteryBlockWarfare2T2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -1242,7 +1183,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <BlockPairName>BatteryBlockWarfare2T3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -1314,7 +1255,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <BlockPairName>BatteryBlockWarfare2T4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -1386,7 +1327,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <BlockPairName>BatteryBlockWarfare2T5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>

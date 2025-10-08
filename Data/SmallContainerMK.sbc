@@ -7,6 +7,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockSmallContainerT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallCargoContainer_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\containerT2.dds</Icon>
             <Description>Description_SmallCargoContainer</Description>
@@ -40,21 +42,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallContainerT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallContainerT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallContainerT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>            
-            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <BlockPairName>SmallCargoContainerT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -108,7 +96,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
             </BuildProgressModels>            
-            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <BlockPairName>SmallCargoContainerT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -137,9 +125,9 @@
             <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
             <Components>
                 <Component Subtype="InteriorPlate" Count="40" />
-                <Component Subtype="InteriorPlateT" Count="2" />
+                <Component Subtype="InteriorPlateMK" Count="2" />
                 <Component Subtype="Construction" Count="80" />
-                <Component Subtype="ConstructionT" Count="2" />
+                <Component Subtype="ConstructionMK" Count="2" />
                 <Component Subtype="MetalGrid" Count="32" />
                 <Component Subtype="SmallTube" Count="60" />
                 <Component Subtype="SmallTube" Count="1" />
@@ -163,7 +151,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
             </BuildProgressModels>            
-            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <BlockPairName>SmallCargoContainerT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -218,7 +206,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
             </BuildProgressModels>            
-            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <BlockPairName>SmallCargoContainerT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -236,6 +224,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockSmallContainerT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallCargoContainer_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\containerT2.dds</Icon>
             <Description>Description_SmallCargoContainer</Description>
@@ -265,21 +255,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallContainerT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallContainerT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallContainerT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>  
-            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <BlockPairName>SmallCargoContainerT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -327,7 +303,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <BlockPairName>SmallCargoContainerT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -375,7 +351,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <BlockPairName>SmallCargoContainerT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -423,7 +399,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <BlockPairName>SmallCargoContainerT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>6</BuildTimeSeconds>

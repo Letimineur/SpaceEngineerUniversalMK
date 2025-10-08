@@ -1,46 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<CategoryClasses>
-		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-			<Id>
-				<TypeId>GuiBlockCategoryDefinition</TypeId>
-				<SubtypeId/>
-			</Id>
-			<DisplayName>T2-5 x2-x16</DisplayName>
-			<Name>MK-T2-5_X2-X16</Name>
-			<ItemIds>
-				<string>LTMLargeBlockLargeContainerT2</string>
-				<string>LTMLargeBlockLargeIndustrialContainerT2</string>
-				<string>LTMLargeProductivityModuleT2</string>
-				<string>LTMLargeEffectivenessModuleT2</string>
-				<string>LTMLargeEnergyModuleT2</string>
-				<string>LTMLargeBlockLargeThrustT2</string>
-				<string>LTMLargeBlockLargeAtmosphericThrustT2</string>
-				<string>LTMLargeBlockLargeHydrogenThrustT2</string>
-				<string>LTMLargeBlockLargeThrustSciFiT2</string>
-				<string>LTMLargeBlockLargeAtmosphericThrustSciFiT2</string>
-				<string>LTMLargeBlockLargeHydrogenThrustIndustrialT2</string>
-				<string>LTMLargeBlockLargeModularThrusterT2</string>
-				<string>LTMLargeBlockLargeFlatAtmosphericThrustT2</string>
-				<string>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT2</string>
-				<string>LTMLargeBlockGyroT2</string>
-				<string>LTMLargeOxygenTankSmallT2</string>
-				<string>LTMLargeBlockOxygenTankLabT2</string>
-				<string>LTMLargeHydrogenTankT2</string>
-				<string>LTMLargeHydrogenTankSmallLabT2</string>
-				<string>LTMLargeHydrogenTankIndustrialT2</string>
-				<string>LTMLargeBlockOxygenGeneratorT2</string>
-				<string>LTMLargeBlockOxygenGeneratorLabT2</string>
-				<string>LTMLargeHydrogenEngineT2</string>
-				<string>LTMLargeBlockLargeGeneratorT2</string>
-				<string>LTMLargeBlockLargeGeneratorWarfare2T2</string>
-				<string>LTMLargeBlockBatteryBlockT2</string>
-				<string>LTMLargeBlockBatteryBlockWarfare2T2</string>
-				<string>LTMLargeBlockSolarPanelT2</string>
-				<string>LTMLargeBlockColorableSolarPanelT2</string>
-				<string>LTMLargeBlockWindTurbineT2</string>
-			</ItemIds>
-		</Category>
-	</CategoryClasses>
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CategoryClasses>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition"> <!-- Character Weapons -->
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId>Compact_Power_Tiered_Vanilla</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_CPTV_All_Block</DisplayName>
+            <Name>All Block Compact Power Tiered Vanilla</Name>
+            <SearchBlocks>true</SearchBlocks>
+            <ItemIds>
+                <string>CargoContainer/LTMLargeBlockLargeContainerT2</string>
+                <string>CargoContainer/LTMLargeBlockLargeContainerT3</string>
+                <string>CargoContainer/LTMLargeBlockLargeContainerT4</string>
+                <string>CargoContainer/LTMLargeBlockLargeContainerT5</string>
+                <string>UpgradeModule/LTMLargeProductivityModuleT2</string>
+                <string>UpgradeModule/LTMLargeEffectivenessModuleT2</string>
+                <string>UpgradeModule/LTMLargeEnergyModuleT2</string>
+                <string>BatteryBlock/LTMLargeBlockBatteryBlockT2</string>
+                <string>BatteryBlock/LTMLargeBlockBatteryBlockT3</string>
+                <string>BatteryBlock/LTMLargeBlockBatteryBlockT4</string>
+                <string>BatteryBlock/LTMLargeBlockBatteryBlockT5</string>
+                <string>SolarPanel/LTMLargeBlockColorableSolarPanelT2</string>
+                <string>SolarPanel/LTMLargeBlockColorableSolarPanelT3</string>
+                <string>SolarPanel/LTMLargeBlockColorableSolarPanelT4</string>
+                <string>SolarPanel/LTMLargeBlockColorableSolarPanelT5</string>
+                <string>WindTurbine/LTMLargeBlockWindTurbineReskinT2</string>
+                <string>OxygenGenerator/LTMLargeBlockOxygenGeneratorT2</string>
+                <string>OxygenGenerator/LTMLargeBlockOxygenGeneratorT3</string>
+                <string>OxygenGenerator/LTMLargeBlockOxygenGeneratorT4</string>
+                <string>OxygenGenerator/LTMLargeBlockOxygenGeneratorT5</string>
+                <string>Gyro/LTMLargeBlockGyroT2</string>
+                <string>OxygenTank/LTMLargeOxygenTankSmallT2</string>
+                <string>OxygenTank/LTMLargeOxygenTankSmallT3</string>
+                <string>OxygenTank/LTMLargeOxygenTankSmallT4</string>
+                <string>OxygenTank/LTMLargeOxygenTankSmallT5</string>
+                <string>OxygenTank/LTMLargeHydrogenTankIndustrialT2</string>
+                <string>OxygenTank/LTMLargeHydrogenTankIndustrialT3</string>
+                <string>OxygenTank/LTMLargeHydrogenTankIndustrialT4</string>
+                <string>OxygenTank/LTMLargeHydrogenTankIndustrialT5</string>
+                <string>HydrogenEngine/LTMLargeHydrogenEngineT2</string>
+            </ItemIds>
+        </Category>
+    </CategoryClasses>
 </Definitions>

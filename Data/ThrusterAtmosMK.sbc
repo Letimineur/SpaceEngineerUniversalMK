@@ -8,6 +8,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterLargeLargeT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -53,21 +55,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT2</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -181,7 +169,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT3</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -295,7 +283,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT4</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -409,7 +397,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT5</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -474,6 +462,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterSmallT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -519,21 +509,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -647,7 +623,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -762,7 +738,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -878,7 +854,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -945,6 +921,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterLargeLargeT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -990,21 +968,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT2</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1118,7 +1082,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT3</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1233,7 +1197,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT3</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1350,7 +1314,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT5</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1417,6 +1381,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrust_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterSmallT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -1461,21 +1427,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallAtmosphericThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallAtmosphericThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallAtmosphericThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1588,7 +1540,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1703,7 +1655,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1818,7 +1770,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1887,6 +1839,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustSciFiT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Large_AtmosphericThrusterLarge_SciFiT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -1932,21 +1886,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeAtmosphericThrustSciFiT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeAtmosphericThrustSciFiT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeAtmosphericThrustSciFiT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT2</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2056,7 +1996,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT3</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2166,7 +2106,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT4</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2276,7 +2216,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT5</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2337,6 +2277,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustSciFiT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Large_AtmosphericThrusterSmall_SciFiT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -2382,21 +2324,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallAtmosphericThrustSciFiT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallAtmosphericThrustSciFiT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallAtmosphericThrustSciFiT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -2506,7 +2434,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -2617,7 +2545,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -2729,7 +2657,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -2792,6 +2720,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustSciFiT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Small_AtmosphericThrusterLarge_SciFiT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -2837,21 +2767,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeAtmosphericThrustSciFiT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeAtmosphericThrustSciFiT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeAtmosphericThrustSciFiT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT2</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -2961,7 +2877,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT3</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3072,7 +2988,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT4</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3185,7 +3101,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <BlockPairName>LargeAtmoThrustT5</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3248,8 +3164,10 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustSciFiT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T2\Small_AtmosphericThrusterSmallT2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T2\Small_AtmosphericThrusterSmall_SciFiT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3275,9 +3193,8 @@
                 <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction3.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3292,21 +3209,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallAtmosphericThrustSciFiT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallAtmosphericThrustSciFiT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallAtmosphericThrustSciFiT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -3372,7 +3275,7 @@
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T3</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T3\Small_AtmosphericThrusterSmallT3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T3\Small_AtmosphericThrusterSmall_SciFiT3.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3398,9 +3301,8 @@
                 <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction3.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3415,7 +3317,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -3481,7 +3383,7 @@
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T4</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T4\Small_AtmosphericThrusterSmallT4.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T4\Small_AtmosphericThrusterSmall_SciFiT4.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3509,9 +3411,8 @@
                 <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction3.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3526,7 +3427,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT4</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -3592,7 +3493,7 @@
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T5</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T5\Small_AtmosphericThrusterSmallT5.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T5\Small_AtmosphericThrusterSmall_SciFiT5.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3620,9 +3521,8 @@
                 <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction3.mwm" />
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3637,7 +3537,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <BlockPairName>SmallAtmoThrustT5</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -3702,6 +3602,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterLargeT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -3751,21 +3653,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatT2</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3870,7 +3758,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeFlatAtmosphericThrusterLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeFlatAtmosphericThrusterLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatT3</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -3978,7 +3866,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeFlatAtmosphericThrusterLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeFlatAtmosphericThrusterLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatT4</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -4086,7 +3974,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LargeFlatAtmosphericThrusterLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LargeFlatAtmosphericThrusterLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatT5</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -4153,6 +4041,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterSmallT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -4202,21 +4092,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatT2</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -4333,7 +4209,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -4450,7 +4326,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -4569,7 +4445,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -4635,6 +4511,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterSmallT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -4683,21 +4561,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatT2</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -4815,7 +4679,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatT3</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -4933,7 +4797,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatT4</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -5052,7 +4916,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlat</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatT5</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -5120,6 +4984,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallFlatAtmosphericThrusterSmallT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -5168,21 +5034,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>8</BuildTimeSeconds>
@@ -5299,7 +5151,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>8</BuildTimeSeconds>
@@ -5416,7 +5268,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>8</BuildTimeSeconds>
@@ -5534,7 +5386,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlat</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>8</BuildTimeSeconds>
@@ -5603,6 +5455,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterDShapeLargeT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -5652,21 +5506,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatDShapeT2</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -5783,7 +5623,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatDShapeT3</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -5903,7 +5743,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatDShapeT4</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -6023,7 +5863,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatDShapeT5</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -6090,6 +5930,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustDShapeT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterDShapeSmallT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -6139,21 +5981,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustDShapeT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustDShapeT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustDShapeT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatDShapeT2</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -6270,7 +6098,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatDShapeT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -6387,7 +6215,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatDShapeT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -6506,7 +6334,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatDShapeT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
@@ -6572,6 +6400,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustDShapeT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallFlatAtmosphericThrusterDShapeLargeT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -6620,21 +6450,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustDShapeT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustDShapeT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustDShapeT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatDShapeT2</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -6752,7 +6568,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatDShapeT3</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -6870,7 +6686,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatDShapeT4</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -6989,7 +6805,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>LargeAtmoThrustFlatDShapeT5</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -7057,6 +6873,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustDShapeT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallFlatAtmosphericThrusterDShapeSmallT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -7105,21 +6923,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustDShapeT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustDShapeT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>Thrust</TypeId>
-                    <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustDShapeT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>SmallAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatDShapeT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>8</BuildTimeSeconds>
@@ -7236,7 +7040,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatDShapeT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>8</BuildTimeSeconds>
@@ -7353,7 +7157,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatDShapeT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>8</BuildTimeSeconds>
@@ -7471,7 +7275,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustFlatDShape</BlockPairName>
+            <BlockPairName>SmallAtmoThrustFlatDShapeT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>8</BuildTimeSeconds>

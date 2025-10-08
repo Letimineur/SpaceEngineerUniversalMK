@@ -7,6 +7,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeOxygenTankSmallT2</SubtypeId>
             </Id>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_SmallOxygenTank_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenTankT2.dds</Icon>
             <Description>Description_OxygenTank</Description>
@@ -47,21 +49,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMLargeOxygenTankSmallT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMLargeOxygenTankSmallT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMLargeOxygenTankSmallT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>OxygenTank</BlockPairName>
+            <BlockPairName>OxygenTankT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -110,8 +98,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeOxygenTankSmallT3</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_SmallOxygenTank_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\OxygenTankT3.dds</Icon>
             <Description>Description_OxygenTank</Description>
@@ -154,7 +142,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenTank</BlockPairName>
+            <BlockPairName>OxygenTankT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -203,8 +191,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeOxygenTankSmallT4</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_SmallOxygenTank_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\OxygenTankT4.dds</Icon>
             <Description>Description_OxygenTank</Description>
@@ -247,7 +235,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenTank</BlockPairName>
+            <BlockPairName>OxygenTankT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -296,8 +284,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeOxygenTankSmallT5</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_SmallOxygenTank_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\OxygenTankT5.dds</Icon>
             <Description>Description_OxygenTank</Description>
@@ -341,7 +329,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenTank</BlockPairName>
+            <BlockPairName>OxygenTankT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -394,6 +382,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeBlockOxygenTankLabT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallOxygenTankLab_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Lab_SmallOxygenTankT2.dds</Icon>
             <Description>Description_OxygenTank</Description>
@@ -427,21 +417,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Lab_SmallOxygenTankConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Lab_SmallOxygenTankConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMLargeBlockOxygenTankLabT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMLargeBlockOxygenTankLabT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMLargeBlockOxygenTankLabT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>OxygenTankLab</BlockPairName>
+            <BlockPairName>OxygenTankLabT2</BlockPairName>
             <MirroringY>X</MirroringY>
             <MirroringX>Y</MirroringX>
             <EdgeType>Light</EdgeType>
@@ -527,7 +503,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Lab_SmallOxygenTankConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Lab_SmallOxygenTankConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenTankLab</BlockPairName>
+            <BlockPairName>OxygenTankLabT3</BlockPairName>
             <MirroringY>X</MirroringY>
             <MirroringX>Y</MirroringX>
             <EdgeType>Light</EdgeType>
@@ -613,7 +589,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Lab_SmallOxygenTankConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Lab_SmallOxygenTankConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenTankLab</BlockPairName>
+            <BlockPairName>OxygenTankLabT4</BlockPairName>
             <MirroringY>X</MirroringY>
             <MirroringX>Y</MirroringX>
             <EdgeType>Light</EdgeType>
@@ -700,7 +676,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Lab_SmallOxygenTankConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Lab_SmallOxygenTankConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenTankLab</BlockPairName>
+            <BlockPairName>OxygenTankLabT5</BlockPairName>
             <MirroringY>X</MirroringY>
             <MirroringX>Y</MirroringX>
             <EdgeType>Light</EdgeType>
@@ -750,6 +726,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMOxygenTankSmallT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_OxygenTank_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenTankSmallT2.dds</Icon>
             <Description>Description_OxygenTank</Description>
@@ -783,21 +761,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMOxygenTankSmallT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMOxygenTankSmallT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMOxygenTankSmallT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>LargeOxygenTank</BlockPairName>
+            <BlockPairName>LargeOxygenTankT2</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -879,7 +843,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeOxygenTank</BlockPairName>
+            <BlockPairName>LargeOxygenTankT3</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -961,7 +925,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeOxygenTank</BlockPairName>
+            <BlockPairName>LargeOxygenTankT4</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1048,7 +1012,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeOxygenTank</BlockPairName>
+            <BlockPairName>LargeOxygenTankT5</BlockPairName>
             <Center x="1" y="1" z="1" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -1096,6 +1060,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMSmallOxygenTankSmallT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallOxygenTank_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenTankT2.dds</Icon>
             <Description>Description_OxygenTank</Description>
@@ -1125,21 +1091,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SmallOxygenTankConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SmallOxygenTankConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMSmallOxygenTankSmallT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMSmallOxygenTankSmallT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenTank</TypeId>
-                    <SubtypeId>LTMSmallOxygenTankSmallT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>OxygenTank</BlockPairName>
+            <BlockPairName>OxygenTankT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1216,7 +1168,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SmallOxygenTankConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SmallOxygenTankConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenTank</BlockPairName>
+            <BlockPairName>OxygenTankT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1293,7 +1245,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SmallOxygenTankConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SmallOxygenTankConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenTank</BlockPairName>
+            <BlockPairName>OxygenTankT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1370,7 +1322,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SmallOxygenTankConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SmallOxygenTankConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenTank</BlockPairName>
+            <BlockPairName>OxygenTankT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>

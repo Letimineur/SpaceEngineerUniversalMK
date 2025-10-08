@@ -6,6 +6,8 @@
                 <TypeId>HydrogenEngine</TypeId>
                 <SubtypeId>LTMLargeHydrogenEngineT2</SubtypeId>
             </Id>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_Hydrogen_Engine_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineLargeT2.dds</Icon>
             <Description>Description_PowerGenerator</Description>
@@ -37,21 +39,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>HydrogenEngine</TypeId>
-                    <SubtypeId>LTMLargeHydrogenEngineT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>HydrogenEngine</TypeId>
-                    <SubtypeId>LTMLargeHydrogenEngineT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>HydrogenEngine</TypeId>
-                    <SubtypeId>LTMLargeHydrogenEngineT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>HydrogenEngine</BlockPairName>
+            <BlockPairName>HydrogenEngineT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -143,7 +131,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine</BlockPairName>
+            <BlockPairName>HydrogenEngineT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -236,7 +224,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine</BlockPairName>
+            <BlockPairName>HydrogenEngineT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -331,7 +319,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine</BlockPairName>
+            <BlockPairName>HydrogenEngineT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -391,6 +379,8 @@
                 <TypeId>HydrogenEngine</TypeId>
                 <SubtypeId>LTMSmallHydrogenEngineT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_Hydrogen_Engine_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineSmallT2.dds</Icon>
             <Description>Description_PowerGenerator</Description>
@@ -425,21 +415,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>HydrogenEngine</TypeId>
-                    <SubtypeId>LTMSmallHydrogenEngineT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>HydrogenEngine</TypeId>
-                    <SubtypeId>LTMSmallHydrogenEngineT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>HydrogenEngine</TypeId>
-                    <SubtypeId>LTMSmallHydrogenEngineT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>HydrogenEngine</BlockPairName>
+            <BlockPairName>HydrogenEngineT2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -519,7 +495,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine</BlockPairName>
+            <BlockPairName>HydrogenEngineT3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -601,7 +577,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine</BlockPairName>
+            <BlockPairName>HydrogenEngineT4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -683,7 +659,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngine</BlockPairName>
+            <BlockPairName>HydrogenEngineT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

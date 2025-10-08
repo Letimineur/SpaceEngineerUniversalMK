@@ -6,6 +6,8 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>LTMLargeBlockOxygenGeneratorLabT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_OxygenGeneratorLab_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Lab_O2H2_GeneratorT2.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
@@ -45,21 +47,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Lab_O2H2_GeneratorConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Lab_O2H2_GeneratorConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMLargeBlockOxygenGeneratorLabT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMLargeBlockOxygenGeneratorLabT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMLargeBlockOxygenGeneratorLabT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>OxygenGeneratorLab</BlockPairName>
+            <BlockPairName>OxygenGeneratorLabT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -164,7 +152,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Lab_O2H2_GeneratorConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Lab_O2H2_GeneratorConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenGeneratorLab</BlockPairName>
+            <BlockPairName>OxygenGeneratorLabT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -270,7 +258,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Lab_O2H2_GeneratorConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Lab_O2H2_GeneratorConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenGeneratorLab</BlockPairName>
+            <BlockPairName>OxygenGeneratorLabT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -376,7 +364,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Lab_O2H2_GeneratorConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Lab_O2H2_GeneratorConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenGeneratorLab</BlockPairName>
+            <BlockPairName>OxygenGeneratorLabT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -447,6 +435,8 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>LTMSmallBlockOxygenGeneratorLabT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_OxygenGeneratorLab_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Lab_O2H2_Generator_SmallT2.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
@@ -481,20 +471,6 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Lab_O2H2_Generator_SmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Lab_O2H2_Generator_SmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMSmallBlockOxygenGeneratorLabT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMSmallBlockOxygenGeneratorLabT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMSmallBlockOxygenGeneratorLabT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
             <Center x="0" y="1" z="1" />
             <BuildTimeSeconds>14</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
@@ -539,7 +515,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGeneratorLab</BlockPairName>
+            <BlockPairName>OxygenGeneratorLabT2</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -642,7 +618,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGeneratorLab</BlockPairName>
+            <BlockPairName>OxygenGeneratorLabT3</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -745,7 +721,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGeneratorLab</BlockPairName>
+            <BlockPairName>OxygenGeneratorLabT4</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -849,7 +825,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGeneratorLab</BlockPairName>
+            <BlockPairName>OxygenGeneratorLabT5</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -878,6 +854,8 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>LTMLargeBlockOxygenGeneratorT2</SubtypeId>
             </Id>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_OxygenGenerator_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenGeneratorT2.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
@@ -913,21 +891,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMLargeBlockOxygenGeneratorT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMLargeBlockOxygenGeneratorT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMLargeBlockOxygenGeneratorT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
-            <BlockPairName>OxygenGenerator</BlockPairName>
+            <BlockPairName>OxygenGeneratorT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>22</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -989,8 +953,8 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>LTMLargeBlockOxygenGeneratorT3</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_OxygenGenerator_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\OxygenGeneratorT3.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
@@ -1026,7 +990,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenGenerator</BlockPairName>
+            <BlockPairName>OxygenGeneratorT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>22</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -1088,8 +1052,8 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>LTMLargeBlockOxygenGeneratorT4</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_OxygenGenerator_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\OxygenGeneratorT4.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
@@ -1125,7 +1089,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenGenerator</BlockPairName>
+            <BlockPairName>OxygenGeneratorT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>22</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -1187,8 +1151,8 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>LTMLargeBlockOxygenGeneratorT5</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_OxygenGenerator_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\OxygenGeneratorT5.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
@@ -1225,7 +1189,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>OxygenGenerator</BlockPairName>
+            <BlockPairName>OxygenGeneratorT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>22</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -1304,6 +1268,8 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>LTMOxygenGeneratorSmallT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_OxygenGenerator_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenGeneratorSmallT2.dds</Icon>
             <Description>Description_OxygenGenerator</Description>
@@ -1340,20 +1306,6 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenGeneratorConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenGeneratorConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockVariants>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMOxygenGeneratorSmallT3</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMOxygenGeneratorSmallT4</SubtypeId>
-                </BlockVariant>
-                <BlockVariant>
-                    <TypeId>OxygenGenerator</TypeId>
-                    <SubtypeId>LTMOxygenGeneratorSmallT5</SubtypeId>
-                </BlockVariant>
-            </BlockVariants>
             <Center x="1" y="1" z="0" />
             <BuildTimeSeconds>14</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
@@ -1398,7 +1350,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGenerator</BlockPairName>
+            <BlockPairName>OxygenGeneratorT2</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -1502,7 +1454,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGenerator</BlockPairName>
+            <BlockPairName>OxygenGeneratorT3</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -1606,7 +1558,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGenerator</BlockPairName>
+            <BlockPairName>OxygenGeneratorT4</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -1711,7 +1663,7 @@
             </BlueprintClasses>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <BlockPairName>OxygenGenerator</BlockPairName>
+            <BlockPairName>OxygenGeneratorT5</BlockPairName>
             <GenerateSound>BlockOxyGenProcess</GenerateSound>
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
