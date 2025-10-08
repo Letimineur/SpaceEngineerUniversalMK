@@ -63,8 +63,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeContainerT3</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\container_largeT3.dds</Icon>
             <Description>LargeCargoContainer</Description>

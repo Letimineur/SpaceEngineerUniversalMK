@@ -1839,8 +1839,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustSciFiT2</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Large_AtmosphericThrusterLarge_SciFiT2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -1947,8 +1947,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustSciFiT3</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Large_AtmosphericThrusterLarge_SciFiT3.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -2057,8 +2057,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustSciFiT4</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Large_AtmosphericThrusterLarge_SciFiT4.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
@@ -2167,8 +2167,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustSciFiT5</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Large_AtmosphericThrusterLarge_SciFiT5.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>

@@ -2092,8 +2092,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeThrustSciFiT2</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeThrustSciFi_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\large_IonThrusterLarge_SciFiT2.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -2194,8 +2194,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeThrustSciFiT3</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeThrustSciFi_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\large_IonThrusterLarge_SciFiT3.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -2297,8 +2297,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeThrustSciFiT4</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeThrustSciFi_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\large_IonThrusterLarge_SciFiT4.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -2400,8 +2400,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeThrustSciFiT5</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeThrustSciFi_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\large_IonThrusterLarge_SciFiT5.dds</Icon>
             <Description>Description_IonThrust</Description>

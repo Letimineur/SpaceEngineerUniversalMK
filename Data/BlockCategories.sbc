@@ -25,7 +25,6 @@
                 <string>SolarPanel/LTMLargeBlockColorableSolarPanelT3</string>
                 <string>SolarPanel/LTMLargeBlockColorableSolarPanelT4</string>
                 <string>SolarPanel/LTMLargeBlockColorableSolarPanelT5</string>
-                <string>WindTurbine/LTMLargeBlockWindTurbineReskinT2</string>
                 <string>OxygenGenerator/LTMLargeBlockOxygenGeneratorT2</string>
                 <string>OxygenGenerator/LTMLargeBlockOxygenGeneratorT3</string>
                 <string>OxygenGenerator/LTMLargeBlockOxygenGeneratorT4</string>
@@ -35,11 +34,27 @@
                 <string>OxygenTank/LTMLargeOxygenTankSmallT3</string>
                 <string>OxygenTank/LTMLargeOxygenTankSmallT4</string>
                 <string>OxygenTank/LTMLargeOxygenTankSmallT5</string>
-                <string>OxygenTank/LTMLargeHydrogenTankIndustrialT2</string>
-                <string>OxygenTank/LTMLargeHydrogenTankIndustrialT3</string>
-                <string>OxygenTank/LTMLargeHydrogenTankIndustrialT4</string>
-                <string>OxygenTank/LTMLargeHydrogenTankIndustrialT5</string>
+                <string>OxygenTank/LTMLargeHydrogenTankT2</string>
+                <string>OxygenTank/LTMLargeHydrogenTankT3</string>
+                <string>OxygenTank/LTMLargeHydrogenTankT4</string>
+                <string>OxygenTank/LTMLargeHydrogenTankT5</string>
                 <string>HydrogenEngine/LTMLargeHydrogenEngineT2</string>
+                <string>Thrust/LTMLargeBlockLargeAtmosphericThrustSciFiT2</string>
+                <string>Thrust/LTMLargeBlockLargeAtmosphericThrustSciFiT3</string>
+                <string>Thrust/LTMLargeBlockLargeAtmosphericThrustSciFiT4</string>
+                <string>Thrust/LTMLargeBlockLargeAtmosphericThrustSciFiT5</string>
+                <string>Thrust/LTMLargeBlockLargeHydrogenThrustIndustrialT2</string>
+                <string>Thrust/LTMLargeBlockLargeHydrogenThrustIndustrialT3</string>
+                <string>Thrust/LTMLargeBlockLargeHydrogenThrustIndustrialT4</string>
+                <string>Thrust/LTMLargeBlockLargeHydrogenThrustIndustrialT5</string>
+                <string>Thrust/LTMLargeBlockLargeThrustSciFiT2</string>
+                <string>Thrust/LTMLargeBlockLargeThrustSciFiT3</string>
+                <string>Thrust/LTMLargeBlockLargeThrustSciFiT4</string>
+                <string>Thrust/LTMLargeBlockLargeThrustSciFiT5</string>
+                <string>Reactor/LTMLargeBlockLargeGeneratorWarfare2T2</string>
+                <string>Reactor/LTMLargeBlockLargeGeneratorWarfare2T3</string>
+                <string>Reactor/LTMLargeBlockLargeGeneratorWarfare2T4</string>
+                <string>Reactor/LTMLargeBlockLargeGeneratorWarfare2T5</string>
             </ItemIds>
         </Category>
     </CategoryClasses>

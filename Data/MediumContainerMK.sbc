@@ -6,8 +6,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockMediumContainerT2</SubtypeId>
             </Id>
-            <GuiVisible>true</GuiVisible>
-            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_MediumCargoContainer_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\container_mediumT2.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>

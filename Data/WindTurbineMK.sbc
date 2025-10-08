@@ -303,8 +303,8 @@
                 <TypeId>WindTurbine</TypeId>
                 <SubtypeId>LTMLargeBlockWindTurbineReskinT2</SubtypeId>
             </Id>
-            <GuiVisible>true</GuiVisible>
-            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_WindTurbineReskin_T2</DisplayName>
             <Description>Description_WindTurbine</Description>
             <Icon>Textures\GUI\Icons\Cubes\T2\WindTurbineReskin_LargeT2.dds</Icon>

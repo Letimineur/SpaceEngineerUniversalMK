@@ -7,8 +7,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeHydrogenTankT2</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_HydrogenTank_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenTankT2.dds</Icon>
             <Description>Description_HydrogenTank</Description>
@@ -93,8 +93,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeHydrogenTankT3</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_HydrogenTank_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenTankT3.dds</Icon>
             <Description>Description_HydrogenTank</Description>
@@ -180,8 +180,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeHydrogenTankT4</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_HydrogenTank_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenTankT4.dds</Icon>
             <Description>Description_HydrogenTank</Description>
@@ -267,8 +267,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeHydrogenTankT5</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_HydrogenTank_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenTankT5.dds</Icon>
             <Description>Description_HydrogenTank</Description>
@@ -1031,8 +1031,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeHydrogenTankIndustrialT2</SubtypeId>
             </Id>
-            <GuiVisible>true</GuiVisible>
-            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_HydrogenTankIndustrial_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenTankIndustrialT2.dds</Icon>
             <Description>Description_HydrogenTank</Description>
@@ -1121,8 +1121,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeHydrogenTankIndustrialT3</SubtypeId>
             </Id>
-            <GuiVisible>true</GuiVisible>
-            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_HydrogenTankIndustrial_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenTankIndustrialT3.dds</Icon>
             <Description>Description_HydrogenTank</Description>
@@ -1212,8 +1212,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeHydrogenTankIndustrialT4</SubtypeId>
             </Id>
-            <GuiVisible>true</GuiVisible>
-            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_HydrogenTankIndustrial_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenTankIndustrialT4.dds</Icon>
             <Description>Description_HydrogenTank</Description>
@@ -1303,8 +1303,8 @@
                 <TypeId>OxygenTank</TypeId>
                 <SubtypeId>LTMLargeHydrogenTankIndustrialT5</SubtypeId>
             </Id>
-            <GuiVisible>true</GuiVisible>
-            <Public>true</Public>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_HydrogenTankIndustrial_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenTankIndustrialT5.dds</Icon>
             <Description>Description_HydrogenTank</Description>

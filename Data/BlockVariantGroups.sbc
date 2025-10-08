@@ -113,7 +113,7 @@
         </BlockVariantGroup>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4BatteryGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\T4\BatteryT4dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T4\BatteryT4.dds</Icon>
             <DisplayName>DisplayName_Block_T4Battery</DisplayName>
             <Description>Description_Battery_Block</Description>
             <Blocks>
@@ -144,13 +144,15 @@
             <Description>Description_T2SolarPanel_Block</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelT2" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockSolarPanelT2" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelCornerInvertedT2" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelCornerT2" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockSolarPanelT2" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelT2" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockSolarPanelT2" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelCornerInvertedT2" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelCornerT2" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockSolarPanelT2" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineReskinT2" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineT2" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -160,13 +162,15 @@
             <Description>Description_T3SolarPanel_Block</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelT3" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockSolarPanelT3" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelCornerInvertedT3" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelCornerT3" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockSolarPanelT3" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelT3" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockSolarPanelT3" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelCornerInvertedT3" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelCornerT3" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockSolarPanelT3" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineReskinT3" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineT3" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -176,13 +180,15 @@
             <Description>Description_T4SolarPanel_Block</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelT4" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockSolarPanelT4" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelCornerInvertedT4" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelCornerT4" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockSolarPanelT4" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelT4" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockSolarPanelT4" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelCornerInvertedT4" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelCornerT4" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockSolarPanelT4" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineReskinT4" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineT4" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -192,28 +198,14 @@
             <Description>Description_T5SolarPanel_Block</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelT5" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockSolarPanelT5" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelCornerInvertedT5" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockColorableSolarPanelCornerT5" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMLargeBlockSolarPanelT5" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelT5" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockSolarPanelT5" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelCornerInvertedT5" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockColorableSolarPanelCornerT5" />
-            </Blocks>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindTurbineGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\T2\WindTurbineReskin_LargeT2.dds</Icon>
-            <DisplayName>DisplayName_Block_WindTurbine</DisplayName>
-            <Description>Description_WindTurbine_Block</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeProductivityModuleT2" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeProductivityModuleT3" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeProductivityModuleT4" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeProductivityModuleT5" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineT2" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineT3" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineT4" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LTMSmallBlockSolarPanelT5" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineReskinT5" />
                 <Block Type="MyObjectBuilder_WindTurbine" Subtype="LTMLargeBlockWindTurbineT5" />
             </Blocks>
         </BlockVariantGroup>
@@ -331,60 +323,60 @@
         </BlockVariantGroup>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2HydrogenTankGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenTankIndustrialT2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenTankT2.dds</Icon>
             <DisplayName>DisplayName_Block_T2HydrogenTank</DisplayName>
             <Description>Description_T2HydrogenTank_Block</Description>
             <Blocks>
+                <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankT2" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankIndustrialT2" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankSmallT2" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankLabT2" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankSmallT2" />
-                <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankT2" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankSmallLabT2" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankT2" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3HydrogenTankGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenTankIndustrialT3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenTankT3.dds</Icon>
             <DisplayName>DisplayName_Block_T3HydrogenTank</DisplayName>
             <Description>Description_T3HydrogenTank_Block</Description>
             <Blocks>
+                <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankT3" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankIndustrialT3" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankSmallT3" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankLabT3" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankSmallT3" />
-                <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankT3" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankSmallLabT3" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankT3" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4HydrogenTankGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenTankIndustrialT4.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenTankT4.dds</Icon>
             <DisplayName>DisplayName_Block_T4HydrogenTank</DisplayName>
             <Description>Description_T4HydrogenTank_Block</Description>
             <Blocks>
+                <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankT4" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankIndustrialT4" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankSmallT4" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankLabT4" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankSmallT4" />
-                <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankT4" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankSmallLabT4" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankT4" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5HydrogenTankGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenTankIndustrialT5.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenTankT5.dds</Icon>
             <DisplayName>DisplayName_Block_T5HydrogenTank</DisplayName>
             <Description>Description_T5HydrogenTank_Block</Description>
             <Blocks>
+                <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankT5" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankIndustrialT5" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankSmallT5" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankLabT5" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankSmallT5" />
-                <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankT5" />
                 <Block Type="OxygenTank" Subtype="LTMLargeHydrogenTankSmallLabT5" />
                 <Block Type="OxygenTank" Subtype="LTMSmallHydrogenTankT5" />
             </Blocks>
@@ -403,6 +395,310 @@
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT3" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT4" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT5" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2AtmosphericThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T2\Large_AtmosphericThrusterLarge_SciFiT2.dds</Icon>
+            <DisplayName>DisplayName_Block_T2AtmosphericThrust</DisplayName>
+            <Description>Description_T2AtmosphericThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeAtmosphericThrustSciFiT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallAtmosphericThrustSciFiT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeAtmosphericThrustT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallAtmosphericThrustT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeFlatAtmosphericThrustT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallFlatAtmosphericThrustT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeFlatAtmosphericThrustDShapeT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallFlatAtmosphericThrustDShapeT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeAtmosphericThrustSciFiT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallAtmosphericThrustSciFiT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeAtmosphericThrustT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallAtmosphericThrustT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeFlatAtmosphericThrustT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallFlatAtmosphericThrustT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeFlatAtmosphericThrustDShapeT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallFlatAtmosphericThrustDShapeT2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3AtmosphericThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T3\Large_AtmosphericThrusterLarge_SciFiT3.dds</Icon>
+            <DisplayName>DisplayName_Block_T3AtmosphericThrust</DisplayName>
+            <Description>Description_T3AtmosphericThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeAtmosphericThrustSciFiT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallAtmosphericThrustSciFiT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeAtmosphericThrustT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallAtmosphericThrustT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeFlatAtmosphericThrustT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallFlatAtmosphericThrustT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeFlatAtmosphericThrustDShapeT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallFlatAtmosphericThrustDShapeT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeAtmosphericThrustSciFiT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallAtmosphericThrustSciFiT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeAtmosphericThrustT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallAtmosphericThrustT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeFlatAtmosphericThrustT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallFlatAtmosphericThrustT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeFlatAtmosphericThrustDShapeT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallFlatAtmosphericThrustDShapeT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4AtmosphericThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T4\Large_AtmosphericThrusterLarge_SciFiT4.dds</Icon>
+            <DisplayName>DisplayName_Block_T4AtmosphericThrust</DisplayName>
+            <Description>Description_T4AtmosphericThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeAtmosphericThrustSciFiT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallAtmosphericThrustSciFiT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeAtmosphericThrustT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallAtmosphericThrustT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeFlatAtmosphericThrustT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallFlatAtmosphericThrustT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeFlatAtmosphericThrustDShapeT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallFlatAtmosphericThrustDShapeT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeAtmosphericThrustSciFiT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallAtmosphericThrustSciFiT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeAtmosphericThrustT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallAtmosphericThrustT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeFlatAtmosphericThrustT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallFlatAtmosphericThrustT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeFlatAtmosphericThrustDShapeT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallFlatAtmosphericThrustDShapeT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5AtmosphericThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T5\Large_AtmosphericThrusterLarge_SciFiT5.dds</Icon>
+            <DisplayName>DisplayName_Block_T5AtmosphericThrust</DisplayName>
+            <Description>Description_T5AtmosphericThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeAtmosphericThrustSciFiT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallAtmosphericThrustSciFiT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeAtmosphericThrustT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallAtmosphericThrustT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeFlatAtmosphericThrustT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallFlatAtmosphericThrustT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeFlatAtmosphericThrustDShapeT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallFlatAtmosphericThrustDShapeT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeAtmosphericThrustSciFiT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallAtmosphericThrustSciFiT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeAtmosphericThrustT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallAtmosphericThrustT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeFlatAtmosphericThrustT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallFlatAtmosphericThrustT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeFlatAtmosphericThrustDShapeT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallFlatAtmosphericThrustDShapeT5" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2HydrogenThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialLargeT2.dds</Icon>
+            <DisplayName>DisplayName_Block_T2HydrogenThrust</DisplayName>
+            <Description>Description_T2HydrogenThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustIndustrialT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustIndustrialT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustIndustrialT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustIndustrialT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustT2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3HydrogenThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterIndustrialLargeT3.dds</Icon>
+            <DisplayName>DisplayName_Block_T3HydrogenThrust</DisplayName>
+            <Description>Description_T3HydrogenThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustIndustrialT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustIndustrialT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustIndustrialT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustIndustrialT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4HydrogenThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterIndustrialLargeT4.dds</Icon>
+            <DisplayName>DisplayName_Block_T4HydrogenThrust</DisplayName>
+            <Description>Description_T4HydrogenThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustIndustrialT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustIndustrialT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustIndustrialT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustIndustrialT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5HydrogenThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterIndustrialLargeT5.dds</Icon>
+            <DisplayName>DisplayName_Block_T5HydrogenThrust</DisplayName>
+            <Description>Description_T5HydrogenThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustIndustrialT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustIndustrialT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustIndustrialT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustIndustrialT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustT5" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2IONThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T2\large_IonThrusterLarge_SciFiT2.dds</Icon>
+            <DisplayName>DisplayName_Block_T2IONThrust</DisplayName>
+            <Description>Description_T2IONThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustSciFiT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustSciFiT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeModularThrusterT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallModularThrusterT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeThrustSciFiT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallThrustSciFiT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeModularThrusterT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallModularThrusterT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeThrustT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallThrustT2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3IONThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T3\large_IonThrusterLarge_SciFiT3.dds</Icon>
+            <DisplayName>DisplayName_Block_T3IONThrust</DisplayName>
+            <Description>Description_T3IONThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustSciFiT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustSciFiT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeModularThrusterT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallModularThrusterT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeThrustSciFiT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallThrustSciFiT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeModularThrusterT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallModularThrusterT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeThrustT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallThrustT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4IONThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T4\large_IonThrusterLarge_SciFiT4.dds</Icon>
+            <DisplayName>DisplayName_Block_T4IONThrust</DisplayName>
+            <Description>Description_T4IONThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustSciFiT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustSciFiT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeModularThrusterT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallModularThrusterT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeThrustSciFiT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallThrustSciFiT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeModularThrusterT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallModularThrusterT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeThrustT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallThrustT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5IONThrustGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T5\large_IonThrusterLarge_SciFiT5.dds</Icon>
+            <DisplayName>DisplayName_Block_T5IONThrust</DisplayName>
+            <Description>Description_T5IONThrust_Block</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustSciFiT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustSciFiT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeModularThrusterT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallModularThrusterT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeThrustSciFiT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallThrustSciFiT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeModularThrusterT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallModularThrusterT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeThrustT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallThrustT5" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2ReactorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinLargeT2.dds</Icon>
+            <DisplayName>DisplayName_Block_T2Reactor</DisplayName>
+            <Description>Description_T2Reactor_Block</Description>
+            <Blocks>
+                <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorWarfare2T2" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorWarfare2T2" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorT2" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorT2" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockLargeGeneratorWarfare2T2" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorWarfare2T2" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockLargeGeneratorT2" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorT2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3ReactorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T3\ReactorReskinLargeT3.dds</Icon>
+            <DisplayName>DisplayName_Block_T3Reactor</DisplayName>
+            <Description>Description_T3Reactor_Block</Description>
+            <Blocks>
+                <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorWarfare2T3" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorWarfare2T3" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorT3" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorT3" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockLargeGeneratorWarfare2T3" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorWarfare2T3" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockLargeGeneratorT3" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4ReactorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T4\ReactorReskinLargeT4.dds</Icon>
+            <DisplayName>DisplayName_Block_T4Reactor</DisplayName>
+            <Description>Description_T4Reactor_Block</Description>
+            <Blocks>
+                <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorWarfare2T4" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorWarfare2T4" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorT4" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorT4" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockLargeGeneratorWarfare2T4" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorWarfare2T4" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockLargeGeneratorT4" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5ReactorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T5\ReactorReskinLargeT5.dds</Icon>
+            <DisplayName>DisplayName_Block_T5Reactor</DisplayName>
+            <Description>Description_T5Reactor_Block</Description>
+            <Blocks>
+                <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorWarfare2T5" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorWarfare2T5" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorT5" />
+                <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorT5" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockLargeGeneratorWarfare2T5" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorWarfare2T5" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockLargeGeneratorT5" />
+                <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorT5" />
             </Blocks>
         </BlockVariantGroup>
     </BlockVariantGroups>

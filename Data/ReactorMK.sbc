@@ -1963,8 +1963,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T2</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeReactorWarfare2_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinLargeT2.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -2059,8 +2059,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T3</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeReactorWarfare2_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\ReactorReskinLargeT3.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -2157,8 +2157,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T4</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeReactorWarfare2_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\ReactorReskinLargeT4.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -2256,8 +2256,8 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T5</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeReactorWarfare2_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\ReactorReskinLargeT5.dds</Icon>
             <Description>Description_Reactor</Description>

@@ -1708,8 +1708,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeHydrogenThrustIndustrialT2</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialLargeT2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -1812,8 +1812,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeHydrogenThrustIndustrialT3</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterIndustrialLargeT3.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -1917,8 +1917,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeHydrogenThrustIndustrialT4</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterIndustrialLargeT4.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -2022,8 +2022,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeHydrogenThrustIndustrialT5</SubtypeId>
             </Id>
-            <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <GuiVisible>true</GuiVisible>
+            <Public>true</Public>
             <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterIndustrialLargeT5.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
