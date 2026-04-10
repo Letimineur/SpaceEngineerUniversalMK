@@ -8,9 +8,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SolarPanel_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SolarPanel_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelT2.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="4" y="2" z="1" />
@@ -142,9 +142,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SolarPanel_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SolarPanel_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelT3.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="4" y="2" z="1" />
@@ -277,9 +277,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SolarPanel_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SolarPanel_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelT4.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="4" y="2" z="1" />
@@ -412,9 +412,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SolarPanel_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SolarPanel_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelT5.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="4" y="2" z="1" />
@@ -550,9 +550,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SolarPanel_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SolarPanel_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelT2.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="10" y="5" z="1" />
@@ -684,9 +684,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SolarPanel_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SolarPanel_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelT3.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="10" y="5" z="1" />
@@ -818,9 +818,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SolarPanel_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SolarPanel_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelT4.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="10" y="5" z="1" />
@@ -952,9 +952,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SolarPanel_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SolarPanel_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelT5.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="10" y="5" z="1" />
@@ -1088,9 +1088,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanel_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinT2.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -1221,9 +1221,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanel_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinT3.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -1355,9 +1355,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanel_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinT4.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -1489,9 +1489,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanel_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinT5.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -1627,9 +1627,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerT2.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -1738,9 +1738,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerT3.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -1849,9 +1849,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerT4.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -1961,9 +1961,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerT5.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -2075,9 +2075,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerInvertedT2.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -2187,9 +2187,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerInvertedT3.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -2299,9 +2299,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerInvertedT4.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -2412,9 +2412,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerInvertedT5.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="1" />
@@ -2527,9 +2527,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanel_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinT2.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -2661,9 +2661,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanel_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinT3.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -2795,9 +2795,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanel_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinT4.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -2929,9 +2929,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanel_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinT5.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -3065,9 +3065,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerT2.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -3175,9 +3175,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerT3.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -3285,9 +3285,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerT4.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -3395,9 +3395,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerT5.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -3513,9 +3513,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerInvertedT2.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -3623,9 +3623,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerInvertedT3.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -3733,9 +3733,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerInvertedT4.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />
@@ -3843,9 +3843,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerInvertedT5.dds</Icon>
-            <Description>Description_SolarPanel</Description>
+            <Description>{LOC:Description_SolarPanel}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="10" z="1" />

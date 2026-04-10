@@ -10,9 +10,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeCargoContainer_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\container_largeT2.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -65,9 +65,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeCargoContainer_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\container_largeT3.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -119,9 +119,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeCargoContainer_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\container_largeT4.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -174,9 +174,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeCargoContainer_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\container_largeT5.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -231,9 +231,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeCargoContainer_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\container_largeT2.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="5" z="5" />
@@ -280,9 +280,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeCargoContainer_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\container_largeT3.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="5" z="5" />
@@ -328,9 +328,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeCargoContainer_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\container_largeT4.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="5" z="5" />
@@ -376,9 +376,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeCargoContainer_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\container_largeT5.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="5" y="5" z="5" />
@@ -427,9 +427,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeIndustrialCargoContainer_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\CargoContainerT2.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -503,9 +503,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeIndustrialCargoContainer_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\CargoContainerT3.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -579,9 +579,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeIndustrialCargoContainer_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\CargoContainerT4.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -657,9 +657,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeIndustrialCargoContainer_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\CargoContainerT5.dds</Icon>
-            <Description>LargeCargoContainer</Description>
+            <Description>{LOC:Description_LargeCargoContainer}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />

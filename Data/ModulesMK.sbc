@@ -9,9 +9,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_ProductivityModule_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ProductivityModule_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\UpgradeProductivityT2.dds</Icon>
-            <Description>Description_ProductivityModule</Description>
+            <Description>{LOC:Description_ProductivityModule}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -69,9 +69,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ProductivityModule_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ProductivityModule_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\UpgradeProductivityT3.dds</Icon>
-            <Description>Description_ProductivityModule</Description>
+            <Description>{LOC:Description_ProductivityModule}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -129,9 +129,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ProductivityModule_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ProductivityModule_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\UpgradeProductivityT4.dds</Icon>
-            <Description>Description_ProductivityModule</Description>
+            <Description>{LOC:Description_ProductivityModule}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -190,9 +190,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_ProductivityModule_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_ProductivityModule_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\UpgradeProductivityT5.dds</Icon>
-            <Description>Description_ProductivityModule</Description>
+            <Description>{LOC:Description_ProductivityModule}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -254,9 +254,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_EffectivenessModule_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_EffectivenessModule_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\UpgradeEffectivenessT2.dds</Icon>
-            <Description>Description_EffectivenessModule</Description>
+            <Description>{LOC:Description_EffectivenessModule}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -312,9 +312,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_EffectivenessModule_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_EffectivenessModule_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\UpgradeEffectivenessT3.dds</Icon>
-            <Description>Description_EffectivenessModule</Description>
+            <Description>{LOC:Description_EffectivenessModule}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -370,9 +370,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_EffectivenessModule_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_EffectivenessModule_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\UpgradeEffectivenessT4.dds</Icon>
-            <Description>Description_EffectivenessModule</Description>
+            <Description>{LOC:Description_EffectivenessModule}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -430,9 +430,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_EffectivenessModule_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_EffectivenessModule_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\UpgradeEffectivenessT5.dds</Icon>
-            <Description>Description_EffectivenessModule</Description>
+            <Description>{LOC:Description_EffectivenessModule}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -491,9 +491,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>Power Efficiency Module T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_PowerEfficiencyModule_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\UpgradeEnergyT2.dds</Icon>
-            <Description>Description_EnergyModule</Description>
+            <Description>{LOC:Description_EnergyModule}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />

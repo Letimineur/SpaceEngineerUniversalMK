@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>10042026</Id>
+  <Language>fr</Language>
+  <Context>Common</Context>
+  <ResourceName>Common</ResourceName>
+  <Default>true</Default>
+  <ResXName>MyTexts.fr.resx</ResXName>
+  <Entries />
+</MyObjectBuilder_Localization>

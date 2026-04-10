@@ -8,9 +8,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGeneratorLab_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGeneratorLab_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Lab_O2H2_GeneratorT2.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="2" />
@@ -112,9 +112,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGeneratorLab_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGeneratorLab_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Lab_O2H2_GeneratorT3.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="2" />
@@ -217,9 +217,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGeneratorLab_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGeneratorLab_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Lab_O2H2_GeneratorT4.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="2" />
@@ -323,9 +323,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGeneratorLab_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGeneratorLab_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Lab_O2H2_GeneratorT5.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="2" />
@@ -437,9 +437,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGeneratorLab_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGeneratorLab_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Lab_O2H2_Generator_SmallT2.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="3" z="3" />
@@ -540,9 +540,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGeneratorLab_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGeneratorLab_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Lab_O2H2_Generator_SmallT3.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="3" z="3" />
@@ -643,9 +643,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGeneratorLab_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGeneratorLab_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Lab_O2H2_Generator_SmallT4.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="3" z="3" />
@@ -746,9 +746,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGeneratorLab_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGeneratorLab_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Lab_O2H2_Generator_SmallT5.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="3" z="3" />
@@ -856,9 +856,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_OxygenGenerator_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGenerator_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenGeneratorT2.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -955,9 +955,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_OxygenGenerator_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGenerator_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\OxygenGeneratorT3.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -1054,9 +1054,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_OxygenGenerator_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGenerator_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\OxygenGeneratorT4.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -1153,9 +1153,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_OxygenGenerator_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGenerator_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\OxygenGeneratorT5.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -1270,9 +1270,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGenerator_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGenerator_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenGeneratorSmallT2.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -1374,9 +1374,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGenerator_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGenerator_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\OxygenGeneratorSmallT3.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -1478,9 +1478,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGenerator_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGenerator_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\OxygenGeneratorSmallT4.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -1582,9 +1582,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenGenerator_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenGenerator_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\OxygenGeneratorSmallT5.dds</Icon>
-            <Description>Description_OxygenGenerator</Description>
+            <Description>{LOC:Description_OxygenGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />

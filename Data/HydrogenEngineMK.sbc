@@ -8,9 +8,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_Hydrogen_Engine_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Hydrogen_Engine_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineLargeT2.dds</Icon>
-            <Description>Description_PowerGenerator</Description>
+            <Description>{LOC:Description_PowerGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -100,9 +100,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Hydrogen_Engine_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Hydrogen_Engine_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenEngineLargeT3.dds</Icon>
-            <Description>Description_PowerGenerator</Description>
+            <Description>{LOC:Description_PowerGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -192,9 +192,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Hydrogen_Engine_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Hydrogen_Engine_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenEngineLargeT4.dds</Icon>
-            <Description>Description_PowerGenerator</Description>
+            <Description>{LOC:Description_PowerGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -285,9 +285,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Hydrogen_Engine_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Hydrogen_Engine_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenEngineLargeT5.dds</Icon>
-            <Description>Description_PowerGenerator</Description>
+            <Description>{LOC:Description_PowerGenerator}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -381,9 +381,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Hydrogen_Engine_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Hydrogen_Engine_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineSmallT2.dds</Icon>
-            <Description>Description_PowerGenerator</Description>
+            <Description>{LOC:Description_PowerGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="2" />
@@ -461,9 +461,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Hydrogen_Engine_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Hydrogen_Engine_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenEngineSmallT3.dds</Icon>
-            <Description>Description_PowerGenerator</Description>
+            <Description>{LOC:Description_PowerGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="2" />
@@ -541,9 +541,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Hydrogen_Engine_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Hydrogen_Engine_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenEngineSmallT4.dds</Icon>
-            <Description>Description_PowerGenerator</Description>
+            <Description>{LOC:Description_PowerGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="2" />
@@ -623,9 +623,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Hydrogen_Engine_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Hydrogen_Engine_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenEngineSmallT5.dds</Icon>
-            <Description>Description_PowerGenerator</Description>
+            <Description>{LOC:Description_PowerGenerator}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="2" />

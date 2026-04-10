@@ -9,9 +9,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_HydrogenTank_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenTankT2.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -95,9 +95,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_HydrogenTank_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenTankT3.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -182,9 +182,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_HydrogenTank_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenTankT4.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -269,9 +269,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_HydrogenTank_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenTankT5.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -361,9 +361,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmall_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\largeHydrogenTankSmallT2.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -439,9 +439,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmall_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\largeHydrogenTankSmallT3.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -519,9 +519,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmall_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\largeHydrogenTankSmallT4.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -599,9 +599,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmall_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\largeHydrogenTankSmallT5.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -683,9 +683,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmallLab_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmallLab_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Lab_SmallHydrogenTankT2.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -768,9 +768,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmallLab_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmallLab_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Lab_SmallHydrogenTankT3.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -855,9 +855,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmallLab_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmallLab_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Lab_SmallHydrogenTankT4.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -942,9 +942,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmallLab_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmallLab_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Lab_SmallHydrogenTankT5.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1033,9 +1033,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankIndustrial_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankIndustrial_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenTankIndustrialT2.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1123,9 +1123,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankIndustrial_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankIndustrial_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenTankIndustrialT3.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1214,9 +1214,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankIndustrial_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankIndustrial_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenTankIndustrialT4.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1305,9 +1305,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankIndustrial_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankIndustrial_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenTankIndustrialT5.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1398,9 +1398,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTank_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenTankT2.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1493,9 +1493,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTank_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenTankT3.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1590,9 +1590,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTank_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenTankT4.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1689,9 +1689,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTank_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenTankT5.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1792,9 +1792,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmall_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallHydrogenTankSmallT2.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1870,9 +1870,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmall_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallHydrogenTankSmallT3.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1948,9 +1948,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmall_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallHydrogenTankSmallT4.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2026,9 +2026,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankSmall_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallHydrogenTankSmallT5.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <Public>true</Public>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2108,9 +2108,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankLab_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankLab_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LabHydrogenTankT2.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2192,9 +2192,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankLab_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankLab_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LabHydrogenTankT3.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2278,9 +2278,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankLab_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankLab_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LabHydrogenTankT4.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2366,9 +2366,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenTankLab_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenTankLab_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LabHydrogenTankT5.dds</Icon>
-            <Description>Description_HydrogenTank</Description>
+            <Description>{LOC:Description_HydrogenTank}</Description>
             <CubeSize>Small</CubeSize>
             <Public>true</Public>
             <BlockTopology>TriangleMesh</BlockTopology>

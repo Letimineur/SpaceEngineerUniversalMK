@@ -10,9 +10,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_Battery_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Battery_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\BatteryT2.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -78,9 +78,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_Battery_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Battery_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\BatteryT3.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -146,9 +146,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_Battery_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Battery_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\BatteryT4.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -216,9 +216,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_Battery_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Battery_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\BatteryT5.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -290,9 +290,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Battery_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Battery_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\BatteryT2.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="3" />
@@ -354,9 +354,9 @@
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Battery_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Battery_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\BatteryT3.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="3" />
@@ -418,9 +418,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Battery_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Battery_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\BatteryT4.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="3" />
@@ -484,9 +484,9 @@
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_Battery_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_Battery_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\BatteryT5.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="3" />
@@ -552,9 +552,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallBattery_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallBattery_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Battery1x1T2.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -614,9 +614,9 @@
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallBattery_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallBattery_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Battery1x1T3.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -676,9 +676,9 @@
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallBattery_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallBattery_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Battery1x1T4.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -738,9 +738,9 @@
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallBattery_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallBattery_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Battery1x1T5.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -804,9 +804,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_BatteryWarfare2_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_BatteryWarfare2_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\BatteryReskinT2.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -871,9 +871,9 @@
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_BatteryWarfare2_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_BatteryWarfare2_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\BatteryReskinT3.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -938,9 +938,9 @@
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_BatteryWarfare2_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_BatteryWarfare2_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\BatteryReskinT4.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -1007,9 +1007,9 @@
             </Id>
            <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_BatteryWarfare2_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_BatteryWarfare2_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\BatteryReskinT5.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -1079,9 +1079,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_BatteryWarfare2_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_BatteryWarfare2_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\BatteryReskin_SmallT2.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="3" />
@@ -1149,9 +1149,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_BatteryWarfare2_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_BatteryWarfare2_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\BatteryReskin_SmallT3.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="3" />
@@ -1219,9 +1219,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_BatteryWarfare2_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_BatteryWarfare2_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\BatteryReskin_SmallT4.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="3" />
@@ -1291,9 +1291,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_BatteryWarfare2_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_BatteryWarfare2_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\BatteryReskin_SmallT5.dds</Icon>
-            <Description>Description_Battery</Description>
+            <Description>{LOC:Description_Battery}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="3" />

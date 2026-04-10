@@ -1,62 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
-        <xsd:complexType>
+      <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
-            <xsd:element name="metadata">
+          <xsd:element name="metadata">
             <xsd:complexType>
-                <xsd:sequence>
+              <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
-                </xsd:sequence>
-                <xsd:attribute name="name" use="required" type="xsd:string" />
-                <xsd:attribute name="type" type="xsd:string" />
-                <xsd:attribute name="mimetype" type="xsd:string" />
-                <xsd:attribute ref="xml:space" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
-            </xsd:element>
-            <xsd:element name="assembly">
+          </xsd:element>
+          <xsd:element name="assembly">
             <xsd:complexType>
-                <xsd:attribute name="alias" type="xsd:string" />
-                <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
-            </xsd:element>
-            <xsd:element name="data">
+          </xsd:element>
+          <xsd:element name="data">
             <xsd:complexType>
-                <xsd:sequence>
+              <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-                </xsd:sequence>
-                <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-                <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-                <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-                <xsd:attribute ref="xml:space" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
-            </xsd:element>
-            <xsd:element name="resheader">
+          </xsd:element>
+          <xsd:element name="resheader">
             <xsd:complexType>
-                <xsd:sequence>
+              <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                </xsd:sequence>
-                <xsd:attribute name="name" type="xsd:string" use="required" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
-            </xsd:element>
+          </xsd:element>
         </xsd:choice>
-        </xsd:complexType>
+      </xsd:complexType>
     </xsd:element>
-    </xsd:schema>
-    <resheader name="resmimetype">
-        <value>text/microsoft-resx</value>
-    </resheader>
-    <resheader name="version">
-        <value>2.0</value>
-    </resheader>
-    <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-    <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="DisplayName_MK_All_Block" xml:space="preserve">
+    <value>Universal Tiered Blocks</value>
+  </data>
+<!-- *********************Region Component******************************-->
+    <data name="DisplayName_ConstructionComponent_MK" xml:space="preserve">
+        <value>Denser Construction Component</value>
+    </data>
+    <data name="DisplayName_Girder_MK" xml:space="preserve">
+        <value>Denser Girder</value>
+    </data>
+    <data name="DisplayName_MetalGrid_MK" xml:space="preserve">
+        <value>Denser Metal Grid</value>
+    </data>
+    <data name="DisplayName_InteriorPlate_MK" xml:space="preserve">
+        <value>Denser Interior Plate</value>
+    </data>
+    <data name="DisplayName_SteelPlate_MK" xml:space="preserve">
+        <value>Denser Steel Plate</value>
+    </data>
+    <data name="DisplayName_SmallTube_MK" xml:space="preserve">
+        <value>Denser Small Tube</value>
+    </data>
+    <data name="DisplayName_LargeSteelTube_MK" xml:space="preserve">
+        <value>Denser Large Steel Tube</value>
+    </data>
+    <data name="DisplayName_Motor_MK" xml:space="preserve">
+        <value>Denser Motor</value>
+    </data>
+    <data name="DisplayName_Display_MK" xml:space="preserve">
+        <value>Denser Display</value>
+    </data>
+    <data name="DisplayName_BulletproofGlass_MK" xml:space="preserve">
+        <value>Denser Bulletproof Glass</value>
+    </data>
+    <data name="DisplayName_Computer_MK" xml:space="preserve">
+        <value>Denser Computer</value>
+    </data>
+    <data name="DisplayName_ReactorComponent_MK" xml:space="preserve">
+        <value>Denser Reactor Component</value>
+    </data>
+    <data name="DisplayName_ThrustComponent_MK" xml:space="preserve">
+        <value>Denser Thrust Component</value>
+    </data>
+    <data name="DisplayName_GravityGeneratorComponent_MK" xml:space="preserve">
+        <value>Denser Gravity Generator Component</value>
+    </data>
+    <data name="DisplayName_MedicalComponent_MK" xml:space="preserve">
+        <value>Denser Medical Component</value>
+    </data>
+    <data name="DisplayName_RadioCommunicationComponent_MK" xml:space="preserve">
+        <value>Denser Radio Communication Component</value>
+    </data>
+    <data name="DisplayName_DetectorComponent_MK" xml:space="preserve">
+        <value>Denser Detector Component</value>
+    </data>
+    <data name="DisplayName_SolarCell_MK" xml:space="preserve">
+        <value>Denser Solar Cell</value>
+    </data>
+    <data name="DisplayName_PowerCell_MK" xml:space="preserve">
+        <value>Denser Power Cell</value>
+    </data>
+    <data name="DisplayName_Superconductor_MK" xml:space="preserve">
+        <value>Denser Superconductor</value>
+    </data>
 <!-- *********************Region Container******************************-->
     <data name="DisplayName_Block_SmallCargoContainer_T2" xml:space="preserve">
         <value>Small Container T2</value>
@@ -256,16 +322,16 @@
     <data name="DisplayName_Block_SmallAtmoThrustSciFi_T5" xml:space="preserve">
         <value>Sci-Fi Atmospheric Thrusters T5</value>
     </data>
-    <data name="DisplayName_Block_LargeThrustSciFi_T2" xml:space="preserve">
+    <data name="DisplayName_Block_LargeAtmoThrustSciFi_T2" xml:space="preserve">
         <value>Sci-Fi Large Atmospheric Thruster T2</value>
     </data>
-    <data name="DisplayName_Block_LargeThrustSciFi_T3" xml:space="preserve">
+    <data name="DisplayName_Block_LargeAtmoThrustSciFi_T3" xml:space="preserve">
         <value>Sci-Fi Large Atmospheric Thruster T3</value>
     </data>
-    <data name="DisplayName_Block_LargeThrustSciFi_T4" xml:space="preserve">
+    <data name="DisplayName_Block_LargeAtmoThrustSciFi_T4" xml:space="preserve">
         <value>Sci-Fi Large Atmospheric Thruster T4</value>
     </data>
-    <data name="DisplayName_Block_LargeThrustSciFi_T5" xml:space="preserve">
+    <data name="DisplayName_Block_LargeAtmoThrustSciFi_T5" xml:space="preserve">
         <value>Sci-Fi Large Atmospheric Thruster T5</value>
     </data>
     <data name="DisplayName_Block_SmallAtmoThrustFlat_T2" xml:space="preserve">

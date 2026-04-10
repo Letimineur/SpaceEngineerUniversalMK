@@ -10,9 +10,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterLargeLargeT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -122,9 +122,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterLargeLargeT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -236,9 +236,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterLargeLargeT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -350,9 +350,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterLargeLargeT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -464,9 +464,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterSmallT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -577,9 +577,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterSmallT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -691,9 +691,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterSmallT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -806,9 +806,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterSmallT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -923,9 +923,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterLargeLargeT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -1037,9 +1037,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterLargeLargeT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -1151,9 +1151,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterLargeLargeT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -1266,9 +1266,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterLargeLargeT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -1383,9 +1383,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterSmallT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -1496,9 +1496,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterSmallT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -1609,9 +1609,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterSmallT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -1724,9 +1724,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrust_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterSmallT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -1841,9 +1841,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Large_AtmosphericThrusterLarge_SciFiT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -1949,9 +1949,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Large_AtmosphericThrusterLarge_SciFiT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -2059,9 +2059,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Large_AtmosphericThrusterLarge_SciFiT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -2169,9 +2169,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Large_AtmosphericThrusterLarge_SciFiT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -2279,9 +2279,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Large_AtmosphericThrusterSmall_SciFiT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -2388,9 +2388,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Large_AtmosphericThrusterSmall_SciFiT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -2498,9 +2498,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Large_AtmosphericThrusterSmall_SciFiT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -2609,9 +2609,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Large_AtmosphericThrusterSmall_SciFiT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -2722,9 +2722,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Small_AtmosphericThrusterLarge_SciFiT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -2832,9 +2832,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Small_AtmosphericThrusterLarge_SciFiT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -2942,9 +2942,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Small_AtmosphericThrusterLarge_SciFiT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -3053,9 +3053,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Small_AtmosphericThrusterLarge_SciFiT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="5" />
@@ -3166,9 +3166,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Small_AtmosphericThrusterSmall_SciFiT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -3274,9 +3274,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Small_AtmosphericThrusterSmall_SciFiT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -3382,9 +3382,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Small_AtmosphericThrusterSmall_SciFiT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -3492,9 +3492,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Small_AtmosphericThrusterSmall_SciFiT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="3" />
@@ -3604,9 +3604,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterLargeT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -3721,9 +3721,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterLargeT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -3826,9 +3826,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterLargeT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -3934,9 +3934,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterLargeT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -4043,9 +4043,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterSmallT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -4159,9 +4159,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterSmallT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -4276,9 +4276,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterSmallT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -4393,9 +4393,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterSmallT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -4513,9 +4513,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterSmallT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -4630,9 +4630,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterSmallT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -4748,9 +4748,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterSmallT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -4866,9 +4866,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlat_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterSmallT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -4986,9 +4986,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallFlatAtmosphericThrusterSmallT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -5103,9 +5103,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallFlatAtmosphericThrusterSmallT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -5220,9 +5220,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallFlatAtmosphericThrusterSmallT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -5337,9 +5337,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlat_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallFlatAtmosphericThrusterSmallT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -5457,9 +5457,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlatDShape_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterDShapeLargeT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -5574,9 +5574,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlatDShape_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterDShapeLargeT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -5691,9 +5691,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlatDShape_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterDShapeLargeT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -5811,9 +5811,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlatDShape_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterDShapeLargeT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -5932,9 +5932,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterDShapeSmallT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -6048,9 +6048,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterDShapeSmallT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -6165,9 +6165,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterDShapeSmallT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -6282,9 +6282,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterDShapeSmallT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -6402,9 +6402,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallFlatAtmosphericThrusterDShapeLargeT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -6519,9 +6519,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallFlatAtmosphericThrusterDShapeLargeT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -6637,9 +6637,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallFlatAtmosphericThrusterDShapeLargeT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -6755,9 +6755,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustFlatDShape_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallFlatAtmosphericThrusterDShapeLargeT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="2" />
@@ -6875,9 +6875,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShapeT2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallFlatAtmosphericThrusterDShapeSmallT2.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -6992,9 +6992,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShapeT3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallFlatAtmosphericThrusterDShapeSmallT3.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -7109,9 +7109,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShapeT4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallFlatAtmosphericThrusterDShapeSmallT4.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -7226,9 +7226,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustFlatDShapeT5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShapeT5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallFlatAtmosphericThrusterDShapeSmallT5.dds</Icon>
-            <Description>Description_AtmosphericThrust</Description>
+            <Description>{LOC:Description_AtmosphericThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />

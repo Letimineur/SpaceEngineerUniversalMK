@@ -6,7 +6,7 @@
                 <TypeId>GuiBlockCategoryDefinition</TypeId>
                 <SubtypeId>Compact_Power_Tiered_Vanilla</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_CPTV_All_Block</DisplayName>
+            <DisplayName>{LOC:DisplayName_MK_All_Block}</DisplayName>
             <Name>All Block Compact Power Tiered Vanilla</Name>
             <SearchBlocks>true</SearchBlocks>
             <ItemIds>

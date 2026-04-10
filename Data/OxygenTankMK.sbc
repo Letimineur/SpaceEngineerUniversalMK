@@ -9,9 +9,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTank_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenTankT2.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -100,9 +100,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTank_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\OxygenTankT3.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -193,9 +193,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTank_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\OxygenTankT4.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -286,9 +286,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTank_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\OxygenTankT5.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -384,9 +384,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTankLab_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTankLab_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Lab_SmallOxygenTankT2.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="1" z="1" />
@@ -468,9 +468,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTankLab_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTankLab_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Lab_SmallOxygenTankT3.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="1" z="1" />
@@ -554,9 +554,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTankLab_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTankLab_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Lab_SmallOxygenTankT4.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="1" z="1" />
@@ -640,9 +640,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTankLab_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTankLab_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Lab_SmallOxygenTankT5.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="1" z="1" />
@@ -728,9 +728,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenTank_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenTank_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenTankSmallT2.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -810,9 +810,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenTank_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenTank_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\OxygenTankSmallT3.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -892,9 +892,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenTank_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenTank_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\OxygenTankSmallT4.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -974,9 +974,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_OxygenTank_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_OxygenTank_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\OxygenTankSmallT5.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -1062,9 +1062,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTank_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenTankT2.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -1139,9 +1139,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTank_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\OxygenTankT3.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -1216,9 +1216,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTank_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\OxygenTankT4.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />
@@ -1293,9 +1293,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallOxygenTank_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\OxygenTankT5.dds</Icon>
-            <Description>Description_OxygenTank</Description>
+            <Description>{LOC:Description_OxygenTank}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="2" z="1" />

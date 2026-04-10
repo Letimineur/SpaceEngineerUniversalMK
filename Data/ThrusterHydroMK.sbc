@@ -10,9 +10,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterLargeT2.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -115,9 +115,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterLargeT3.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -221,9 +221,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterLargeT4.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -328,9 +328,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterLargeT5.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -436,9 +436,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterSmallT2.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -540,9 +540,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterSmallT3.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -646,9 +646,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterSmallT4.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -753,9 +753,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterSmallT5.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -863,9 +863,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterLargeT2.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -968,9 +968,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterLargeT3.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -1073,9 +1073,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterLargeT4.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -1181,9 +1181,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterLargeT5.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -1291,9 +1291,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterSmallT2.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -1395,9 +1395,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterSmallT3.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -1499,9 +1499,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterSmallT4.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -1603,9 +1603,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_SmallHydrogenThrust_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterSmallT5.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -1710,9 +1710,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrustIndustrial_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialLargeT2.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="4" />
@@ -1814,9 +1814,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrustIndustrial_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterIndustrialLargeT3.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="4" />
@@ -1919,9 +1919,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrustIndustrial_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterIndustrialLargeT4.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="4" />
@@ -2024,9 +2024,9 @@
             </Id>
             <GuiVisible>true</GuiVisible>
             <Public>true</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrustIndustrial_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterIndustrialLargeT5.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="4" />
@@ -2130,9 +2130,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustIndustrial_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialSmallT2.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -2231,9 +2231,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustIndustrial_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterIndustrialSmallT3.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -2334,9 +2334,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustIndustrial_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterIndustrialSmallT4.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -2438,9 +2438,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustIndustrial_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterIndustrialSmallT5.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -2544,9 +2544,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrustIndustrial_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialLargeT2.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="4" />
@@ -2647,9 +2647,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrustIndustrial_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterIndustrialLargeT3.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="4" />
@@ -2750,9 +2750,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrustIndustrial_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterIndustrialLargeT4.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="4" />
@@ -2856,9 +2856,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_LargeHydrogenThrustIndustrial_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterIndustrialLargeT5.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="4" />
@@ -2964,9 +2964,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T2</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenThrustIndustrial_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialSmallT2.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -3064,9 +3064,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T3</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenThrustIndustrial_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterIndustrialSmallT3.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -3164,9 +3164,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T4</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenThrustIndustrial_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterIndustrialSmallT4.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -3264,9 +3264,9 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>false</Public>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial_T5</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_HydrogenThrustIndustrial_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterIndustrialSmallT5.dds</Icon>
-            <Description>Description_HydrogenThrust</Description>
+            <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
