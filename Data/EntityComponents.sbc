@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+    <!--*********************************************** LargeContainerMK.sbc Large Blocks**********************************************-->
+        <!-- Region Large Blocks-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockLargeContainerT2</SubtypeId>
+            </Id>
+            <Size x="9.5" y="9.5" z="9.5" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockLargeContainerT3</SubtypeId>
+            </Id>
+            <Size x="11.9" y="11.9" z="11.9" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockLargeContainerT4</SubtypeId>
+            </Id>
+            <Size x="15.0" y="15.0" z="15.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockLargeContainerT5</SubtypeId>
+            </Id>
+            <Size x="18.9" y="18.9" z="18.9" />
+        </EntityComponent>
+    <!-- Region Small Blocks-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockLargeContainerT2</SubtypeId>
+            </Id>
+            <Size x="3.15" y="3.15" z="3.15" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockLargeContainerT3</SubtypeId>
+            </Id>
+            <Size x="4.0" y="4.0" z="4.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockLargeContainerT4</SubtypeId>
+            </Id>
+            <Size x="5.0" y="5.0" z="5.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockLargeContainerT5</SubtypeId>
+            </Id>
+            <Size x="6.3" y="6.3" z="6.3" />
+        </EntityComponent>
+    <!-- *********************Region DLC Blocks******************************-->
+    <!-- Region Large Blocks-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT2</SubtypeId>
+            </Id>
+            <Size x="9.5" y="9.5" z="9.5" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT3</SubtypeId>
+            </Id>
+            <Size x="11.9" y="11.9" z="11.9" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT4</SubtypeId>
+            </Id>
+            <Size x="15.0" y="15.0" z="15.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT5</SubtypeId>
+            </Id>
+            <Size x="18.9" y="18.9" z="18.9" />
+        </EntityComponent>
+    <!--*********************************************** MediumContainerMK.sbc Large Blocks**********************************************-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT2</SubtypeId>
+            </Id>
+            <Size x="1.9" y="1.9" z="1.9" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT3</SubtypeId>
+            </Id>
+            <Size x="2.4" y="2.4" z="2.4" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT4</SubtypeId>
+            </Id>
+            <Size x="3" y="3" z="3" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT5</SubtypeId>
+            </Id>
+            <Size x="3.8" y="3.8" z="3.8" />
+        </EntityComponent>
+    <!--*********************************************** ModularContainerMK.sbc Large Blocks**********************************************-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockModularContainerT2</SubtypeId>
+            </Id>
+            <Size x="2.71" y="2.71" z="2.71" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockModularContainerT3</SubtypeId>
+            </Id>
+            <Size x="3.42" y="3.42" z="3.42" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockModularContainerT4</SubtypeId>
+            </Id>
+            <Size x="4.31" y="4.31" z="4.31" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockModularContainerT5</SubtypeId>
+            </Id>
+            <Size x="5.43" y="5.43" z="5.43" />
+        </EntityComponent>
+    <!--*********************************************** SmallContainerMK.sbc Large Blocks**********************************************-->
+        <!-- Region Large Blocks-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerT2</SubtypeId>
+            </Id>
+            <Size x="3.15" y="3.15" z="3.15" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerT3</SubtypeId>
+            </Id>
+            <Size x="4.0" y="4.0" z="4.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerT4</SubtypeId>
+            </Id>
+            <Size x="5.0" y="5.0" z="5.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerT5</SubtypeId>
+            </Id>
+            <Size x="6.3" y="6.3" z="6.3" />
+        </EntityComponent>
+<!-- Region Small Blocks-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerT2</SubtypeId>
+            </Id>
+            <Size x="0.63" y="0.63" z="0.63" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerT3</SubtypeId>
+            </Id>
+            <Size x="0.8" y="0.8" z="0.8" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerT4</SubtypeId>
+            </Id>
+            <Size x="1.0" y="1.0" z="1.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerT5</SubtypeId>
+            </Id>
+            <Size x="1.26" y="1.26" z="1.26" />
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>

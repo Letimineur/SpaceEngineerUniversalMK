@@ -28,5 +28,10 @@
     <Entry Class="Components" BlueprintSubtypeId="SolarCellMK" />
     <Entry Class="Components" BlueprintSubtypeId="PowerCellMK" />
     <Entry Class="Components" BlueprintSubtypeId="SuperconductorMK" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LTMLargeProductivityModuleT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LTMLargeProductivityModuleT3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LTMLargeProductivityModuleT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LTMLargeProductivityModuleT5" />
   </BlueprintClassEntries>
 </Definitions>

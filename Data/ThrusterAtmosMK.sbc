@@ -9,7 +9,7 @@
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterLargeLargeT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -121,7 +121,7 @@
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterLargeLargeT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -235,7 +235,7 @@
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterLargeLargeT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -349,7 +349,7 @@
                 <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterLargeLargeT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -463,7 +463,7 @@
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterSmallT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -576,7 +576,7 @@
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterSmallT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -690,7 +690,7 @@
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterSmallT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -805,7 +805,7 @@
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterSmallT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -922,7 +922,7 @@
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterLargeLargeT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -1036,7 +1036,7 @@
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterLargeLargeT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -1150,7 +1150,7 @@
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterLargeLargeT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -1265,7 +1265,7 @@
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterLargeLargeT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -1382,7 +1382,7 @@
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterSmallT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -1495,7 +1495,7 @@
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterSmallT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -1608,7 +1608,7 @@
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterSmallT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -1723,7 +1723,7 @@
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterSmallT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -2278,7 +2278,7 @@
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustSciFiT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Large_AtmosphericThrusterSmall_SciFiT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -2387,7 +2387,7 @@
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustSciFiT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Large_AtmosphericThrusterSmall_SciFiT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -2497,7 +2497,7 @@
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustSciFiT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Large_AtmosphericThrusterSmall_SciFiT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -2608,7 +2608,7 @@
                 <SubtypeId>LTMLargeBlockSmallAtmosphericThrustSciFiT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Large_AtmosphericThrusterSmall_SciFiT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -2721,7 +2721,7 @@
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustSciFiT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Small_AtmosphericThrusterLarge_SciFiT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -2831,7 +2831,7 @@
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustSciFiT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Small_AtmosphericThrusterLarge_SciFiT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -2941,7 +2941,7 @@
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustSciFiT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Small_AtmosphericThrusterLarge_SciFiT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -3052,7 +3052,7 @@
                 <SubtypeId>LTMSmallBlockLargeAtmosphericThrustSciFiT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Small_AtmosphericThrusterLarge_SciFiT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -3165,7 +3165,7 @@
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustSciFiT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Small_AtmosphericThrusterSmall_SciFiT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -3273,7 +3273,7 @@
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustSciFiT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Small_AtmosphericThrusterSmall_SciFiT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -3381,7 +3381,7 @@
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustSciFiT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Small_AtmosphericThrusterSmall_SciFiT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -3491,7 +3491,7 @@
                 <SubtypeId>LTMSmallBlockSmallAtmosphericThrustSciFiT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Small_AtmosphericThrusterSmall_SciFiT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -3603,7 +3603,7 @@
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterLargeT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -3720,7 +3720,7 @@
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterLargeT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -3825,7 +3825,7 @@
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterLargeT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -3933,7 +3933,7 @@
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterLargeT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -4042,7 +4042,7 @@
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterSmallT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -4158,7 +4158,7 @@
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterSmallT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -4275,7 +4275,7 @@
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterSmallT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -4392,7 +4392,7 @@
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterSmallT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -4512,7 +4512,7 @@
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterSmallT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -4629,7 +4629,7 @@
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterSmallT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -4747,7 +4747,7 @@
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterSmallT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -4865,7 +4865,7 @@
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlat_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterSmallT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -4985,7 +4985,7 @@
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallFlatAtmosphericThrusterSmallT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -5102,7 +5102,7 @@
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallFlatAtmosphericThrusterSmallT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -5219,7 +5219,7 @@
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallFlatAtmosphericThrusterSmallT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -5336,7 +5336,7 @@
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlat_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallFlatAtmosphericThrusterSmallT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -5456,7 +5456,7 @@
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlatDShape_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterDShapeLargeT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -5573,7 +5573,7 @@
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlatDShape_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterDShapeLargeT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -5690,7 +5690,7 @@
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlatDShape_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterDShapeLargeT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -5810,7 +5810,7 @@
                 <SubtypeId>LTMLargeBlockLargeFlatAtmosphericThrustDShapeT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeAtmoThrustFlatDShape_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterDShapeLargeT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -5931,7 +5931,7 @@
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustDShapeT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeFlatAtmosphericThrusterDShapeSmallT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -6047,7 +6047,7 @@
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustDShapeT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeFlatAtmosphericThrusterDShapeSmallT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -6164,7 +6164,7 @@
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustDShapeT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeFlatAtmosphericThrusterDShapeSmallT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -6281,7 +6281,7 @@
                 <SubtypeId>LTMLargeBlockSmallFlatAtmosphericThrustDShapeT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeFlatAtmosphericThrusterDShapeSmallT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -6401,7 +6401,7 @@
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustDShapeT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallFlatAtmosphericThrusterDShapeLargeT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -6518,7 +6518,7 @@
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustDShapeT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallFlatAtmosphericThrusterDShapeLargeT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -6636,7 +6636,7 @@
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustDShapeT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallFlatAtmosphericThrusterDShapeLargeT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -6754,7 +6754,7 @@
                 <SubtypeId>LTMSmallBlockLargeFlatAtmosphericThrustDShapeT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShape_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallFlatAtmosphericThrusterDShapeLargeT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -6874,7 +6874,7 @@
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustDShapeT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShapeT2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallFlatAtmosphericThrusterDShapeSmallT2.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -6991,7 +6991,7 @@
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustDShapeT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShapeT3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallFlatAtmosphericThrusterDShapeSmallT3.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -7108,7 +7108,7 @@
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustDShapeT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShapeT4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallFlatAtmosphericThrusterDShapeSmallT4.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>
@@ -7225,7 +7225,7 @@
                 <SubtypeId>LTMSmallBlockSmallFlatAtmosphericThrustDShapeT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallAtmoThrustFlatDShapeT5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallFlatAtmosphericThrusterDShapeSmallT5.dds</Icon>
             <Description>{LOC:Description_AtmosphericThrust}</Description>

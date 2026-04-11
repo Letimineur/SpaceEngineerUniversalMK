@@ -7,7 +7,7 @@
                 <SubtypeId>LTMLargeBlockWindTurbineT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_WindTurbine_T2}</DisplayName>
             <Description>{LOC:Description_WindTurbine}</Description>
             <Icon>Textures\GUI\Icons\Cubes\T2\WindTurbineT2.dds</Icon>
@@ -78,7 +78,7 @@
                 <SubtypeId>LTMLargeBlockWindTurbineT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_WindTurbine_T3}</DisplayName>
             <Description>{LOC:Description_WindTurbine}</Description>
             <Icon>Textures\GUI\Icons\Cubes\T3\WindTurbineT3.dds</Icon>
@@ -151,7 +151,7 @@
                 <SubtypeId>LTMLargeBlockWindTurbineT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_WindTurbine_T4}</DisplayName>
             <Description>{LOC:Description_WindTurbine}</Description>
             <Icon>Textures\GUI\Icons\Cubes\T4\WindTurbineT4.dds</Icon>
@@ -226,7 +226,7 @@
                 <SubtypeId>LTMLargeBlockWindTurbineT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_WindTurbine_T5}</DisplayName>
             <Description>{LOC:Description_WindTurbine}</Description>
             <Icon>Textures\GUI\Icons\Cubes\T5\WindTurbineT5.dds</Icon>
@@ -304,7 +304,7 @@
                 <SubtypeId>LTMLargeBlockWindTurbineReskinT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_WindTurbineReskin_T2}</DisplayName>
             <Description>{LOC:Description_WindTurbine}</Description>
             <Icon>Textures\GUI\Icons\Cubes\T2\WindTurbineReskin_LargeT2.dds</Icon>
@@ -374,7 +374,7 @@
                 <SubtypeId>LTMLargeBlockWindTurbineReskinT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_WindTurbineReskin_T3}</DisplayName>
             <Description>{LOC:Description_WindTurbine}</Description>
             <Icon>Textures\GUI\Icons\Cubes\T3\WindTurbineReskin_LargeT3.dds</Icon>
@@ -444,7 +444,7 @@
                 <SubtypeId>LTMLargeBlockWindTurbineReskinT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_WindTurbineReskin_T4}</DisplayName>
             <Description>{LOC:Description_WindTurbine}</Description>
             <Icon>Textures\GUI\Icons\Cubes\T4\WindTurbineReskin_LargeT4.dds</Icon>
@@ -517,7 +517,7 @@
                 <SubtypeId>LTMLargeBlockWindTurbineReskinT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_WindTurbineReskin_T5}</DisplayName>
             <Description>{LOC:Description_WindTurbine}</Description>
             <Icon>Textures\GUI\Icons\Cubes\T5\WindTurbineReskin_LargeT5.dds</Icon>

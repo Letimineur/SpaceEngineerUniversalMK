@@ -8,7 +8,6 @@
             </Id>
             <DisplayName>{LOC:DisplayName_MK_All_Block}</DisplayName>
             <Name>All Block Compact Power Tiered Vanilla</Name>
-            <SearchBlocks>true</SearchBlocks>
             <ItemIds>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT2</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT3</string>

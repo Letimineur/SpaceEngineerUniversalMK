@@ -9,7 +9,7 @@
                 <SubtypeId>LTMLargeBlockSmallGeneratorT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactor_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\nuclear_reactorT2.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -104,7 +104,7 @@
                 <SubtypeId>LTMLargeBlockSmallGeneratorT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactor_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\nuclear_reactorT3.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -201,7 +201,7 @@
                 <SubtypeId>LTMLargeBlockSmallGeneratorT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactor_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\nuclear_reactorT4.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -298,7 +298,7 @@
                 <SubtypeId>LTMLargeBlockSmallGeneratorT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactor_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\nuclear_reactorT5.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -397,7 +397,7 @@
                 <SubtypeId>LTMLargeBlockLargeGeneratorT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactor_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\nuclear_reactor_largeT2.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -493,7 +493,7 @@
                 <SubtypeId>LTMLargeBlockLargeGeneratorT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactor_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\nuclear_reactor_largeT3.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -591,7 +591,7 @@
                 <SubtypeId>LTMLargeBlockLargeGeneratorT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactor_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\nuclear_reactor_largeT4.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -690,7 +690,7 @@
                 <SubtypeId>LTMLargeBlockLargeGeneratorT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactor_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\nuclear_reactor_largeT5.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -790,7 +790,7 @@
                 <SubtypeId>LTMSmallBlockSmallGeneratorT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactor_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\nuclear_reactorT2.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -886,7 +886,7 @@
                 <SubtypeId>LTMSmallBlockSmallGeneratorT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactor_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\nuclear_reactorT3.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -982,7 +982,7 @@
                 <SubtypeId>LTMSmallBlockSmallGeneratorT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactor_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\nuclear_reactorT4.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -1078,7 +1078,7 @@
                 <SubtypeId>LTMSmallBlockSmallGeneratorT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactor_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\nuclear_reactorT5.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -1178,7 +1178,7 @@
                 <SubtypeId>LTMSmallBlockLargeGeneratorT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactor_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\nuclear_reactor_largeT2.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -1276,7 +1276,7 @@
                 <SubtypeId>LTMSmallBlockLargeGeneratorT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactor_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\nuclear_reactor_largeT3.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -1376,7 +1376,7 @@
                 <SubtypeId>LTMSmallBlockLargeGeneratorT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactor_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\nuclear_reactor_largeT4.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -1476,7 +1476,7 @@
                 <SubtypeId>LTMSmallBlockLargeGeneratorT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactor_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\nuclear_reactor_largeT5.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -1580,7 +1580,7 @@
                 <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactorWarfare2_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinSmallT2.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -1674,7 +1674,7 @@
                 <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactorWarfare2_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\ReactorReskinSmallT3.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -1770,7 +1770,7 @@
                 <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactorWarfare2_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\ReactorReskinSmallT4.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -1866,7 +1866,7 @@
                 <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactorWarfare2_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\ReactorReskinSmallT5.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -2357,7 +2357,7 @@
                 <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactorWarfare2_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinSmallT2.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -2457,7 +2457,7 @@
                 <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactorWarfare2_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\ReactorReskinSmallT3.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -2557,7 +2557,7 @@
                 <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactorWarfare2_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\ReactorReskinSmallT4.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -2657,7 +2657,7 @@
                 <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallReactorWarfare2_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\ReactorReskinSmallT5.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -2761,7 +2761,7 @@
                 <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactorWarfare2_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinLargeT2.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -2859,7 +2859,7 @@
                 <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactorWarfare2_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\ReactorReskinLargeT3.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -2959,7 +2959,7 @@
                 <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactorWarfare2_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\ReactorReskinLargeT4.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>
@@ -3059,7 +3059,7 @@
                 <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeReactorWarfare2_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\ReactorReskinLargeT5.dds</Icon>
             <Description>{LOC:Description_Reactor}</Description>

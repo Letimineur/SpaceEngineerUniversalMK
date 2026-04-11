@@ -383,7 +383,7 @@
                 <SubtypeId>LTMLargeBlockOxygenTankLabT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallOxygenTankLab_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Lab_SmallOxygenTankT2.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -467,7 +467,7 @@
                 <SubtypeId>LTMLargeBlockOxygenTankLabT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallOxygenTankLab_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Lab_SmallOxygenTankT3.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -553,7 +553,7 @@
                 <SubtypeId>LTMLargeBlockOxygenTankLabT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallOxygenTankLab_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Lab_SmallOxygenTankT4.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -639,7 +639,7 @@
                 <SubtypeId>LTMLargeBlockOxygenTankLabT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallOxygenTankLab_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Lab_SmallOxygenTankT5.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -727,7 +727,7 @@
                 <SubtypeId>LTMOxygenTankSmallT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OxygenTank_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenTankSmallT2.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -809,7 +809,7 @@
                 <SubtypeId>LTMOxygenTankSmallT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OxygenTank_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\OxygenTankSmallT3.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -891,7 +891,7 @@
                 <SubtypeId>LTMOxygenTankSmallT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OxygenTank_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\OxygenTankSmallT4.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -973,7 +973,7 @@
                 <SubtypeId>LTMOxygenTankSmallT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OxygenTank_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\OxygenTankSmallT5.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -1061,7 +1061,7 @@
                 <SubtypeId>LTMSmallOxygenTankSmallT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\OxygenTankT2.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -1138,7 +1138,7 @@
                 <SubtypeId>LTMSmallOxygenTankSmallT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\OxygenTankT3.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -1215,7 +1215,7 @@
                 <SubtypeId>LTMSmallOxygenTankSmallT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\OxygenTankT4.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>
@@ -1292,7 +1292,7 @@
                 <SubtypeId>LTMSmallOxygenTankSmallT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallOxygenTank_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\OxygenTankT5.dds</Icon>
             <Description>{LOC:Description_OxygenTank}</Description>

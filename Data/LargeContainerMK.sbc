@@ -230,7 +230,7 @@
                 <SubtypeId>LTMSmallBlockLargeContainerT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\container_largeT2.dds</Icon>
             <Description>{LOC:Description_LargeCargoContainer}</Description>
@@ -279,7 +279,7 @@
                 <SubtypeId>LTMSmallBlockLargeContainerT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\container_largeT3.dds</Icon>
             <Description>{LOC:Description_LargeCargoContainer}</Description>
@@ -327,7 +327,7 @@
                 <SubtypeId>LTMSmallBlockLargeContainerT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\container_largeT4.dds</Icon>
             <Description>{LOC:Description_LargeCargoContainer}</Description>
@@ -375,7 +375,7 @@
                 <SubtypeId>LTMSmallBlockLargeContainerT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeCargoContainer_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\container_largeT5.dds</Icon>
             <Description>{LOC:Description_LargeCargoContainer}</Description>
@@ -426,7 +426,7 @@
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeIndustrialCargoContainer_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\CargoContainerT2.dds</Icon>
             <Description>{LOC:Description_LargeCargoContainer}</Description>
@@ -502,7 +502,7 @@
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeIndustrialCargoContainer_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\CargoContainerT3.dds</Icon>
             <Description>{LOC:Description_LargeCargoContainer}</Description>
@@ -578,7 +578,7 @@
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeIndustrialCargoContainer_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\CargoContainerT4.dds</Icon>
             <Description>{LOC:Description_LargeCargoContainer}</Description>
@@ -656,7 +656,7 @@
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeIndustrialCargoContainer_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\CargoContainerT5.dds</Icon>
             <Description>{LOC:Description_LargeCargoContainer}</Description>
@@ -730,94 +730,4 @@
             <DLC>HeavyIndustry</DLC>
         </Definition>
     </CubeBlocks>
-    <EntityComponents>
-<!-- Region Large Blocks-->
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMLargeBlockLargeContainerT2</SubtypeId>
-            </Id>
-            <Size x="9.5" y="9.5" z="9.5" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMLargeBlockLargeContainerT3</SubtypeId>
-            </Id>
-            <Size x="11.9" y="11.9" z="11.9" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMLargeBlockLargeContainerT4</SubtypeId>
-            </Id>
-            <Size x="15.0" y="15.0" z="15.0" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMLargeBlockLargeContainerT5</SubtypeId>
-            </Id>
-            <Size x="18.9" y="18.9" z="18.9" />
-        </EntityComponent>
-<!-- Region Small Blocks-->
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockLargeContainerT2</SubtypeId>
-            </Id>
-            <Size x="3.15" y="3.15" z="3.15" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockLargeContainerT3</SubtypeId>
-            </Id>
-            <Size x="4.0" y="4.0" z="4.0" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockLargeContainerT4</SubtypeId>
-            </Id>
-            <Size x="5.0" y="5.0" z="5.0" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockLargeContainerT5</SubtypeId>
-            </Id>
-            <Size x="6.3" y="6.3" z="6.3" />
-        </EntityComponent>
-<!-- *********************Region DLC Blocks******************************-->
-<!-- Region Large Blocks-->
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT2</SubtypeId>
-            </Id>
-            <Size x="9.5" y="9.5" z="9.5" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT3</SubtypeId>
-            </Id>
-            <Size x="11.9" y="11.9" z="11.9" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT4</SubtypeId>
-            </Id>
-            <Size x="15.0" y="15.0" z="15.0" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT5</SubtypeId>
-            </Id>
-            <Size x="18.9" y="18.9" z="18.9" />
-        </EntityComponent>
-    </EntityComponents>
 </Definitions>

@@ -7,7 +7,7 @@
                 <SubtypeId>LTMLargeBlockSolarPanelT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SolarPanel_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelT2.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -141,7 +141,7 @@
                 <SubtypeId>LTMLargeBlockSolarPanelT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SolarPanel_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelT3.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -276,7 +276,7 @@
                 <SubtypeId>LTMLargeBlockSolarPanelT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SolarPanel_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelT4.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -411,7 +411,7 @@
                 <SubtypeId>LTMLargeBlockSolarPanelT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SolarPanel_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelT5.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -549,7 +549,7 @@
                 <SubtypeId>LTMSmallBlockSolarPanelT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SolarPanel_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelT2.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -683,7 +683,7 @@
                 <SubtypeId>LTMSmallBlockSolarPanelT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SolarPanel_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelT3.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -817,7 +817,7 @@
                 <SubtypeId>LTMSmallBlockSolarPanelT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SolarPanel_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelT4.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -951,7 +951,7 @@
                 <SubtypeId>LTMSmallBlockSolarPanelT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SolarPanel_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelT5.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -1626,7 +1626,7 @@
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerT2.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -1737,7 +1737,7 @@
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerT3.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -1848,7 +1848,7 @@
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerT4.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -1960,7 +1960,7 @@
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerT5.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -2074,7 +2074,7 @@
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerInvertedT2.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -2186,7 +2186,7 @@
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerInvertedT3.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -2298,7 +2298,7 @@
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerInvertedT4.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -2411,7 +2411,7 @@
                 <SubtypeId>LTMLargeBlockColorableSolarPanelCornerInvertedT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerInvertedT5.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -2526,7 +2526,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinT2.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -2558,7 +2558,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelT5</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -2660,7 +2660,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinT3.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -2692,7 +2692,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelT2</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -2794,7 +2794,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinT4.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -2826,7 +2826,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelT3</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT4</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -2928,7 +2928,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanel_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinT5.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -2961,7 +2961,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelT4</BlockPairName>
+            <BlockPairName>ColorableSolarPanelT5</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -3064,7 +3064,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerT2.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -3174,7 +3174,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerT3.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -3284,7 +3284,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerT4.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -3394,7 +3394,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCorner_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerT5.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -3512,7 +3512,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SolarPanelReskinCornerInvertedT2.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -3622,7 +3622,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SolarPanelReskinCornerInvertedT3.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -3732,7 +3732,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SolarPanelReskinCornerInvertedT4.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>
@@ -3842,7 +3842,7 @@
                 <SubtypeId>LTMSmallBlockColorableSolarPanelCornerInvertedT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ColorableSolarPanelCornerInverted_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SolarPanelReskinCornerInvertedT5.dds</Icon>
             <Description>{LOC:Description_SolarPanel}</Description>

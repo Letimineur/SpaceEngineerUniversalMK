@@ -360,7 +360,7 @@
                 <SubtypeId>LTMLargeHydrogenTankSmallT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\largeHydrogenTankSmallT2.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -438,7 +438,7 @@
                 <SubtypeId>LTMLargeHydrogenTankSmallT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\largeHydrogenTankSmallT3.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -518,7 +518,7 @@
                 <SubtypeId>LTMLargeHydrogenTankSmallT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\largeHydrogenTankSmallT4.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -598,7 +598,7 @@
                 <SubtypeId>LTMLargeHydrogenTankSmallT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\largeHydrogenTankSmallT5.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -682,7 +682,7 @@
                 <SubtypeId>LTMLargeHydrogenTankSmallLabT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmallLab_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Lab_SmallHydrogenTankT2.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -767,7 +767,7 @@
                 <SubtypeId>LTMLargeHydrogenTankSmallLabT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmallLab_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Lab_SmallHydrogenTankT3.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -854,7 +854,7 @@
                 <SubtypeId>LTMLargeHydrogenTankSmallLabT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmallLab_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Lab_SmallHydrogenTankT4.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -941,7 +941,7 @@
                 <SubtypeId>LTMLargeHydrogenTankSmallLabT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmallLab_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Lab_SmallHydrogenTankT5.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1032,7 +1032,7 @@
                 <SubtypeId>LTMLargeHydrogenTankIndustrialT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankIndustrial_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenTankIndustrialT2.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1122,7 +1122,7 @@
                 <SubtypeId>LTMLargeHydrogenTankIndustrialT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankIndustrial_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenTankIndustrialT3.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1213,7 +1213,7 @@
                 <SubtypeId>LTMLargeHydrogenTankIndustrialT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankIndustrial_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenTankIndustrialT4.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1304,7 +1304,7 @@
                 <SubtypeId>LTMLargeHydrogenTankIndustrialT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankIndustrial_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenTankIndustrialT5.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1397,7 +1397,7 @@
                 <SubtypeId>LTMSmallHydrogenTankT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenTankT2.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1492,7 +1492,7 @@
                 <SubtypeId>LTMSmallHydrogenTankT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenTankT3.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1589,7 +1589,7 @@
                 <SubtypeId>LTMSmallHydrogenTankT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenTankT4.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1688,7 +1688,7 @@
                 <SubtypeId>LTMSmallHydrogenTankT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTank_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenTankT5.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1791,7 +1791,7 @@
                 <SubtypeId>LTMSmallHydrogenTankSmallT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallHydrogenTankSmallT2.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1869,7 +1869,7 @@
                 <SubtypeId>LTMSmallHydrogenTankSmallT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallHydrogenTankSmallT3.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -1947,7 +1947,7 @@
                 <SubtypeId>LTMSmallHydrogenTankSmallT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallHydrogenTankSmallT4.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -2025,7 +2025,7 @@
                 <SubtypeId>LTMSmallHydrogenTankSmallT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankSmall_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallHydrogenTankSmallT5.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -2107,7 +2107,7 @@
                 <SubtypeId>LTMSmallHydrogenTankLabT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankLab_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LabHydrogenTankT2.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -2191,7 +2191,7 @@
                 <SubtypeId>LTMSmallHydrogenTankLabT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankLab_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LabHydrogenTankT3.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -2277,7 +2277,7 @@
                 <SubtypeId>LTMSmallHydrogenTankLabT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankLab_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LabHydrogenTankT4.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>
@@ -2365,7 +2365,7 @@
                 <SubtypeId>LTMSmallHydrogenTankLabT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_HydrogenTankLab_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LabHydrogenTankT5.dds</Icon>
             <Description>{LOC:Description_HydrogenTank}</Description>

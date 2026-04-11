@@ -68,7 +68,7 @@
                 <SubtypeId>LTMLargeProductivityModuleT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ProductivityModule_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\UpgradeProductivityT3.dds</Icon>
             <Description>{LOC:Description_ProductivityModule}</Description>
@@ -128,7 +128,7 @@
                 <SubtypeId>LTMLargeProductivityModuleT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ProductivityModule_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\UpgradeProductivityT4.dds</Icon>
             <Description>{LOC:Description_ProductivityModule}</Description>
@@ -189,7 +189,7 @@
                 <SubtypeId>LTMLargeProductivityModuleT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ProductivityModule_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\UpgradeProductivityT5.dds</Icon>
             <Description>{LOC:Description_ProductivityModule}</Description>
@@ -292,7 +292,7 @@
             <Upgrades>
                 <MyUpgradeModuleInfo>
                     <UpgradeType>Effectiveness</UpgradeType>
-                    <Modifier>1.1810154</Modifier>
+                    <Modifier>1.182</Modifier>
                     <ModifierType>Multiplicative</ModifierType>
                 </MyUpgradeModuleInfo>
             </Upgrades>
@@ -311,7 +311,7 @@
                 <SubtypeId>LTMLargeEffectivenessModuleT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_EffectivenessModule_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\UpgradeEffectivenessT3.dds</Icon>
             <Description>{LOC:Description_EffectivenessModule}</Description>
@@ -350,7 +350,7 @@
             <Upgrades>
                 <MyUpgradeModuleInfo>
                     <UpgradeType>Effectiveness</UpgradeType>
-                    <Modifier>1.4142134</Modifier>
+                    <Modifier>1.364</Modifier>
                     <ModifierType>Multiplicative</ModifierType>
                 </MyUpgradeModuleInfo>
             </Upgrades>
@@ -369,7 +369,7 @@
                 <SubtypeId>LTMLargeEffectivenessModuleT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_EffectivenessModule_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\UpgradeEffectivenessT4.dds</Icon>
             <Description>{LOC:Description_EffectivenessModule}</Description>
@@ -410,7 +410,7 @@
             <Upgrades>
                 <MyUpgradeModuleInfo>
                     <UpgradeType>Effectiveness</UpgradeType>
-                    <Modifier>1.2</Modifier>
+                    <Modifier>1.728</Modifier>
                     <ModifierType>Multiplicative</ModifierType>
                 </MyUpgradeModuleInfo>
             </Upgrades>
@@ -429,7 +429,7 @@
                 <SubtypeId>LTMLargeEffectivenessModuleT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_EffectivenessModule_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\UpgradeEffectivenessT5.dds</Icon>
             <Description>{LOC:Description_EffectivenessModule}</Description>
@@ -470,7 +470,7 @@
             <Upgrades>
                 <MyUpgradeModuleInfo>
                     <UpgradeType>Effectiveness</UpgradeType>
-                    <Modifier>4.0</Modifier>
+                    <Modifier>2.456</Modifier>
                     <ModifierType>Multiplicative</ModifierType>
                 </MyUpgradeModuleInfo>
             </Upgrades>

@@ -7,7 +7,7 @@
                 <SubtypeId>LTMSmallBlockModularContainerT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ModularCargoContainer_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\CargoContainerReskin_SmallT2.dds</Icon>
             <Description>{LOC:Description_MediumCargoContainer}</Description>
@@ -59,7 +59,7 @@
                 <SubtypeId>LTMSmallBlockModularContainerT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ModularCargoContainer_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\CargoContainerReskin_SmallT3.dds</Icon>
             <Description>{LOC:Description_MediumCargoContainer}</Description>
@@ -112,7 +112,7 @@
                 <SubtypeId>LTMSmallBlockModularContainerT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ModularCargoContainer_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\CargoContainerReskin_SmallT4.dds</Icon>
             <Description>{LOC:Description_MediumCargoContainer}</Description>
@@ -166,7 +166,7 @@
                 <SubtypeId>LTMSmallBlockModularContainerT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_ModularCargoContainer_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\CargoContainerReskin_SmallT5.dds</Icon>
             <Description>{LOC:Description_MediumCargoContainer}</Description>
@@ -215,36 +215,4 @@
             <DLC>Contact</DLC>
         </Definition>
     </CubeBlocks>
-
-
-    <EntityComponents>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockModularContainerT2</SubtypeId>
-            </Id>
-            <Size x="2.71" y="2.71" z="2.71" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockModularContainerT3</SubtypeId>
-            </Id>
-            <Size x="3.42" y="3.42" z="3.42" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockModularContainerT4</SubtypeId>
-            </Id>
-            <Size x="4.31" y="4.31" z="4.31" />
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockModularContainerT5</SubtypeId>
-            </Id>
-            <Size x="5.43" y="5.43" z="5.43" />
-        </EntityComponent>
-    </EntityComponents>
 </Definitions>

@@ -9,7 +9,7 @@
                 <SubtypeId>LTMLargeBlockSmallThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\thrustT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -113,7 +113,7 @@
                 <SubtypeId>LTMLargeBlockSmallThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\thrustT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -218,7 +218,7 @@
                 <SubtypeId>LTMLargeBlockSmallThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\thrustT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -324,7 +324,7 @@
                 <SubtypeId>LTMLargeBlockSmallThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\thrustT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -431,7 +431,7 @@
                 <SubtypeId>LTMLargeBlockLargeThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\thrust_largeT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -537,7 +537,7 @@
                 <SubtypeId>LTMLargeBlockLargeThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\thrust_largeT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -644,7 +644,7 @@
                 <SubtypeId>LTMLargeBlockLargeThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\thrust_largeT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -751,7 +751,7 @@
                 <SubtypeId>LTMLargeBlockLargeThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\thrust_largeT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -859,7 +859,7 @@
                 <SubtypeId>LTMSmallBlockSmallThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\thrustT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -962,7 +962,7 @@
                 <SubtypeId>LTMSmallBlockSmallThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\thrustT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1065,7 +1065,7 @@
                 <SubtypeId>LTMSmallBlockSmallThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\thrustT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1168,7 +1168,7 @@
                 <SubtypeId>LTMSmallBlockSmallThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\thrustT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1271,7 +1271,7 @@
                 <SubtypeId>LTMSmallBlockLargeThrustT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrust_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\thrust_largeT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1374,7 +1374,7 @@
                 <SubtypeId>LTMSmallBlockLargeThrustT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrust_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\thrust_largeT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1477,7 +1477,7 @@
                 <SubtypeId>LTMSmallBlockLargeThrustT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrust_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\thrust_largeT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1580,7 +1580,7 @@
                 <SubtypeId>LTMSmallBlockLargeThrustT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrust_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\thrust_largeT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1687,7 +1687,7 @@
                 <SubtypeId>LTMLargeBlockSmallThrustSciFiT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\large_IonThrusterSmall_SciFiT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1787,7 +1787,7 @@
                 <SubtypeId>LTMLargeBlockSmallThrustSciFiT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\large_IonThrusterSmall_SciFiT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1888,7 +1888,7 @@
                 <SubtypeId>LTMLargeBlockSmallThrustSciFiT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\large_IonThrusterSmall_SciFiT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -1990,7 +1990,7 @@
                 <SubtypeId>LTMLargeBlockSmallThrustSciFiT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\large_IonThrusterSmall_SciFiT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -2505,7 +2505,7 @@
                 <SubtypeId>LTMSmallBlockSmallThrustSciFiT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Small_IonThrusterSmall_SciFiT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -2604,7 +2604,7 @@
                 <SubtypeId>LTMSmallBlockSmallThrustSciFiT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Small_IonThrusterSmall_SciFiT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -2703,7 +2703,7 @@
                 <SubtypeId>LTMSmallBlockSmallThrustSciFiT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Small_IonThrusterSmall_SciFiT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -2802,7 +2802,7 @@
                 <SubtypeId>LTMSmallBlockSmallThrustSciFiT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Small_IonThrusterSmall_SciFiT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -2901,7 +2901,7 @@
                 <SubtypeId>LTMSmallBlockLargeThrustSciFiT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrustSciFi_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\Small_IonThrusterLarge_SciFiT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3000,7 +3000,7 @@
                 <SubtypeId>LTMSmallBlockLargeThrustSciFiT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrustSciFi_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\Small_IonThrusterLarge_SciFiT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3099,7 +3099,7 @@
                 <SubtypeId>LTMSmallBlockLargeThrustSciFiT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrustSciFi_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\Small_IonThrusterLarge_SciFiT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3198,7 +3198,7 @@
                 <SubtypeId>LTMSmallBlockLargeThrustSciFiT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeThrustSciFi_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\Small_IonThrusterLarge_SciFiT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3300,7 +3300,7 @@
                 <SubtypeId>LTMLargeBlockSmallModularThrusterT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallModularThruster_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeGridModularIonThrusterSmallT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3400,7 +3400,7 @@
                 <SubtypeId>LTMLargeBlockSmallModularThrusterT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallModularThruster_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeGridModularIonThrusterSmallT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3501,7 +3501,7 @@
                 <SubtypeId>LTMLargeBlockSmallModularThrusterT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallModularThruster_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeGridModularIonThrusterSmallT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3603,7 +3603,7 @@
                 <SubtypeId>LTMLargeBlockSmallModularThrusterT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallModularThruster_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeGridModularIonThrusterSmallT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3706,7 +3706,7 @@
                 <SubtypeId>LTMLargeBlockLargeModularThrusterT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeModularThruster_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\LargeGridModularIonThrusterLargeT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3810,7 +3810,7 @@
                 <SubtypeId>LTMLargeBlockLargeModularThrusterT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeModularThruster_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\LargeGridModularIonThrusterLargeT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -3915,7 +3915,7 @@
                 <SubtypeId>LTMLargeBlockLargeModularThrusterT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeModularThruster_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\LargeGridModularIonThrusterLargeT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -4020,7 +4020,7 @@
                 <SubtypeId>LTMLargeBlockLargeModularThrusterT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeModularThruster_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\LargeGridModularIonThrusterLargeT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -4126,7 +4126,7 @@
                 <SubtypeId>LTMSmallBlockSmallModularThrusterT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallModularThruster_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallGridModularIonThrusterSmallT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -4225,7 +4225,7 @@
                 <SubtypeId>LTMSmallBlockSmallModularThrusterT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallModularThruster_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallGridModularIonThrusterSmallT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -4324,7 +4324,7 @@
                 <SubtypeId>LTMSmallBlockSmallModularThrusterT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallModularThruster_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallGridModularIonThrusterSmallT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -4423,7 +4423,7 @@
                 <SubtypeId>LTMSmallBlockSmallModularThrusterT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallModularThruster_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallGridModularIonThrusterSmallT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -4522,7 +4522,7 @@
                 <SubtypeId>LTMSmallBlockLargeModularThrusterT2</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeModularThruster_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\SmallGridModularIonThrusterLargeT2.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -4625,7 +4625,7 @@
                 <SubtypeId>LTMSmallBlockLargeModularThrusterT3</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeModularThruster_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\SmallGridModularIonThrusterLargeT3.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -4728,7 +4728,7 @@
                 <SubtypeId>LTMSmallBlockLargeModularThrusterT4</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeModularThruster_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\SmallGridModularIonThrusterLargeT4.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
@@ -4831,7 +4831,7 @@
                 <SubtypeId>LTMSmallBlockLargeModularThrusterT5</SubtypeId>
             </Id>
             <GuiVisible>false</GuiVisible>
-            <Public>false</Public>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_LargeModularThruster_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\SmallGridModularIonThrusterLargeT5.dds</Icon>
             <Description>{LOC:Description_IonThrust}</Description>
