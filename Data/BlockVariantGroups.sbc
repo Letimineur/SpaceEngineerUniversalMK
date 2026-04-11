@@ -391,10 +391,18 @@
                 <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineT3" />
                 <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineT4" />
                 <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineT5" />
+                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT2" />
+                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT3" />
+                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT4" />
+                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT5" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT2" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT3" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT4" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT5" />
+                <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineReskinT2" />
+                <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineReskinT3" />
+                <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineReskinT4" />
+                <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineReskinT5" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -501,10 +509,14 @@
             <Blocks>
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustIndustrialT2" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustIndustrialT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustReskinT2" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustReskinT2" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustT2" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustT2" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustIndustrialT2" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustIndustrialT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustReskinT2" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustReskinT2" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustT2" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustT2" />
             </Blocks>
@@ -517,10 +529,14 @@
             <Blocks>
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustIndustrialT3" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustIndustrialT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustReskinT3" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustReskinT3" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustT3" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustT3" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustIndustrialT3" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustIndustrialT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustReskinT3" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustReskinT3" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustT3" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustT3" />
             </Blocks>
@@ -533,10 +549,14 @@
             <Blocks>
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustIndustrialT4" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustIndustrialT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustReskinT4" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustReskinT4" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustT4" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustT4" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustIndustrialT4" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustIndustrialT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustReskinT4" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustReskinT4" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustT4" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustT4" />
             </Blocks>
@@ -549,10 +569,14 @@
             <Blocks>
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustIndustrialT5" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustIndustrialT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustReskinT5" />
+                <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustReskinT5" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeHydrogenThrustT5" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallHydrogenThrustT5" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustIndustrialT5" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustIndustrialT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustReskinT5" />
+                <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustReskinT5" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockLargeHydrogenThrustT5" />
                 <Block Type="Thrust" Subtype="LTMSmallBlockSmallHydrogenThrustT5" />
             </Blocks>
@@ -561,7 +585,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2IONThrustGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T2\large_IonThrusterLarge_SciFiT2.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_IONThrust_T2}</DisplayName>
-            <Description>{LOC:Description_IONThrust_Block_T2}</Description>
+            <Description>{LOC:Description_IONThrust_Block}</Description>
             <Blocks>
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustSciFiT2" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustSciFiT2" />
@@ -581,7 +605,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3IONThrustGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T3\large_IonThrusterLarge_SciFiT3.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_IONThrust_T3}</DisplayName>
-            <Description>{LOC:Description_IONThrust_Block_T3}</Description>
+            <Description>{LOC:Description_IONThrust_Block}</Description>
             <Blocks>
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustSciFiT3" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustSciFiT3" />
@@ -601,7 +625,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4IONThrustGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T4\large_IonThrusterLarge_SciFiT4.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_IONThrust_T4}</DisplayName>
-            <Description>{LOC:Description_IONThrust_Block_T4}</Description>
+            <Description>{LOC:Description_IONThrust_Block}</Description>
             <Blocks>
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustSciFiT4" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustSciFiT4" />
@@ -621,7 +645,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5IONThrustGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T5\large_IonThrusterLarge_SciFiT5.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_IONThrust_T5}</DisplayName>
-            <Description>{LOC:Description_IONThrust_Block_T5}</Description>
+            <Description>{LOC:Description_IONThrust_Block}</Description>
             <Blocks>
                 <Block Type="Thrust" Subtype="LTMLargeBlockLargeThrustSciFiT5" />
                 <Block Type="Thrust" Subtype="LTMLargeBlockSmallThrustSciFiT5" />
@@ -641,7 +665,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2ReactorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T2\ReactorReskinLargeT2.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_Reactor_T2}</DisplayName>
-            <Description>{LOC:Description_Reactor_Block_T2}</Description>
+            <Description>{LOC:Description_Reactor_Block}</Description>
             <Blocks>
                 <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorWarfare2T2" />
                 <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorWarfare2T2" />
@@ -657,7 +681,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3ReactorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T3\ReactorReskinLargeT3.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_Reactor_T3}</DisplayName>
-            <Description>{LOC:Description_Reactor_Block_T3}</Description>
+            <Description>{LOC:Description_Reactor_Block}</Description>
             <Blocks>
                 <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorWarfare2T3" />
                 <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorWarfare2T3" />
@@ -673,7 +697,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4ReactorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T4\ReactorReskinLargeT4.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_Reactor_T4}</DisplayName>
-            <Description>{LOC:Description_Reactor_Block_T4}</Description>
+            <Description>{LOC:Description_Reactor_Block}</Description>
             <Blocks>
                 <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorWarfare2T4" />
                 <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorWarfare2T4" />
@@ -689,7 +713,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5ReactorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T5\ReactorReskinLargeT5.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_Reactor_T5}</DisplayName>
-            <Description>{LOC:Description_Reactor_Block_T5}</Description>
+            <Description>{LOC:Description_Reactor_Block}</Description>
             <Blocks>
                 <Block Type="Reactor" Subtype="LTMLargeBlockLargeGeneratorWarfare2T5" />
                 <Block Type="Reactor" Subtype="LTMLargeBlockSmallGeneratorWarfare2T5" />
@@ -699,6 +723,46 @@
                 <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorWarfare2T5" />
                 <Block Type="Reactor" Subtype="LTMSmallBlockLargeGeneratorT5" />
                 <Block Type="Reactor" Subtype="LTMSmallBlockSmallGeneratorT5" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2JumpDrive" />
+            <Icon>Textures\GUI\Icons\Cubes\T2\JumpDriveT2.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_JumpDrive_T2}</DisplayName>
+            <Description>{LOC:Description_JumpDrive}</Description>
+            <Blocks>
+                <Block Type="JumpDrive" Subtype="LTMLargeJumpDriveT2" />
+                <Block Type="JumpDrive" Subtype="LTMLargeJumpDriveReskinT2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3JumpDrive" />
+            <Icon>Textures\GUI\Icons\Cubes\T3\JumpDriveT3.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_JumpDrive_T3}</DisplayName>
+            <Description>{LOC:Description_JumpDrive}</Description>
+            <Blocks>
+                <Block Type="JumpDrive" Subtype="LTMLargeJumpDriveT3" />
+                <Block Type="JumpDrive" Subtype="LTMLargeJumpDriveReskinT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4JumpDrive" />
+            <Icon>Textures\GUI\Icons\Cubes\T4\JumpDriveT4.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_JumpDrive_T4}</DisplayName>
+            <Description>{LOC:Description_JumpDrive}</Description>
+            <Blocks>
+                <Block Type="JumpDrive" Subtype="LTMLargeJumpDriveT4" />
+                <Block Type="JumpDrive" Subtype="LTMLargeJumpDriveReskinT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5JumpDrive" />
+            <Icon>Textures\GUI\Icons\Cubes\T5\JumpDriveT5.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_JumpDrive_T5}</DisplayName>
+            <Description>{LOC:Description_JumpDrive}</Description>
+            <Blocks>
+                <Block Type="JumpDrive" Subtype="LTMLargeJumpDriveT5" />
+                <Block Type="JumpDrive" Subtype="LTMLargeJumpDriveReskinT5" />
             </Blocks>
         </BlockVariantGroup>
     </BlockVariantGroups>

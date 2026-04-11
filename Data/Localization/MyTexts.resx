@@ -431,6 +431,31 @@
     <data name="DisplayName_Block_LargeHydrogenThrustIndustrial_T5" xml:space="preserve">
         <value>Industrial Large Hydrogen Thruster T5</value>
     </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustReskin_T2" xml:space="preserve">
+        <value>Scifi Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustReskin_T3" xml:space="preserve">
+        <value>Scifi Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustReskin_T4" xml:space="preserve">
+        <value>Scifi Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallHydrogenThrustReskin_T5" xml:space="preserve">
+        <value>Scifi Hydrogen Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustReskin_T2" xml:space="preserve">
+        <value>Scifi Large Hydrogen Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustReskin_T3" xml:space="preserve">
+        <value>Scifi Large Hydrogen Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustReskin_T4" xml:space="preserve">
+        <value>Scifi Large Hydrogen Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeHydrogenThrustReskin_T5" xml:space="preserve">
+        <value>Scifi Large Hydrogen Thruster T5</value>
+    </data>
+
     <!-- *********************Region Power******************************-->
     <data name="DisplayName_Block_Hydrogen_Engine_T2" xml:space="preserve">
         <value>Hydrogen Engine T2</value>
@@ -443,6 +468,18 @@
     </data>
     <data name="DisplayName_Block_Hydrogen_Engine_T5" xml:space="preserve">
         <value>Hydrogen Engine T5</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_EngineReskin_T2" xml:space="preserve">
+        <value>SCI-FI Hydrogen Engine T2</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_EngineReskin_T3" xml:space="preserve">
+        <value>SCI-FI Hydrogen Engine T3</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_EngineReskin_T4" xml:space="preserve">
+        <value>SCI-FI Hydrogen Engine T4</value>
+    </data>
+    <data name="DisplayName_Block_Hydrogen_EngineReskin_T5" xml:space="preserve">
+        <value>SCI-FI Hydrogen Engine T5</value>
     </data>
     <data name="DisplayName_Block_SmallReactor_T2" xml:space="preserve">
         <value>Small Reactor T2</value>
@@ -733,5 +770,29 @@
     </data>
     <data name="DisplayName_Block_Gyroscope_T5" xml:space="preserve">
         <value>Gyroscope T5</value>
+    </data>
+    <data name="DisplayName_Block_JumpDrive_T2" xml:space="preserve">
+        <value>Jump Drive T2</value>
+    </data>
+    <data name="DisplayName_Block_JumpDrive_T3" xml:space="preserve">
+        <value>Jump Drive T3</value>
+    </data>
+    <data name="DisplayName_Block_JumpDrive_T4" xml:space="preserve">
+        <value>Jump Drive T4</value>
+    </data>
+    <data name="DisplayName_Block_JumpDrive_T5" xml:space="preserve">
+        <value>Jump Drive T5</value>
+    </data>
+    <data name="DisplayName_Block_JumpDriveReskin_T2" xml:space="preserve">
+        <value>Jump Drive Type II T2</value>
+    </data>
+    <data name="DisplayName_Block_JumpDriveReskin_T3" xml:space="preserve">
+        <value>Jump Drive Type II T3</value>
+    </data>
+    <data name="DisplayName_Block_JumpDriveReskin_T4" xml:space="preserve">
+        <value>Jump Drive Type II T4</value>
+    </data>
+    <data name="DisplayName_Block_JumpDriveReskin_T5" xml:space="preserve">
+        <value>Jump Drive Type II T5</value>
     </data>
 </root>

@@ -54,6 +54,10 @@
                 <string>Reactor/LTMLargeBlockLargeGeneratorWarfare2T3</string>
                 <string>Reactor/LTMLargeBlockLargeGeneratorWarfare2T4</string>
                 <string>Reactor/LTMLargeBlockLargeGeneratorWarfare2T5</string>
+                <string>JumpDrive/LTMLargeJumpDriveT2</string>
+                <string>JumpDrive/LTMLargeJumpDriveT3</string>
+                <string>JumpDrive/LTMLargeJumpDriveT4</string>
+                <string>JumpDrive/LTMLargeJumpDriveT5</string>
             </ItemIds>
         </Category>
     </CategoryClasses>
