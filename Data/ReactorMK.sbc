@@ -1612,7 +1612,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorT2</BlockPairName>
+            <BlockPairName>SmallReactorWarfare2T2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1708,7 +1708,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorT3</BlockPairName>
+            <BlockPairName>SmallReactorWarfare2T3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1804,7 +1804,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorT4</BlockPairName>
+            <BlockPairName>SmallReactorWarfare2T4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1901,7 +1901,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorT5</BlockPairName>
+            <BlockPairName>SmallReactorWarfare2T5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2001,7 +2001,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorT2</BlockPairName>
+            <BlockPairName>LargeReactorWarfare2T2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2099,7 +2099,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorT3</BlockPairName>
+            <BlockPairName>LargeReactorWarfare2T3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2198,7 +2198,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorT4</BlockPairName>
+            <BlockPairName>LargeReactorWarfare2T4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2297,7 +2297,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorT5</BlockPairName>
+            <BlockPairName>LargeReactorWarfare2T5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2394,7 +2394,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorT2</BlockPairName>
+            <BlockPairName>SmallReactorWarfare2T2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2494,7 +2494,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorT3</BlockPairName>
+            <BlockPairName>SmallReactorWarfare2T3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2594,7 +2594,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorT4</BlockPairName>
+            <BlockPairName>SmallReactorWarfare2T4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2696,7 +2696,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorT5</BlockPairName>
+            <BlockPairName>SmallReactorWarfare2T5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -2799,7 +2799,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorT2</BlockPairName>
+            <BlockPairName>LargeReactorWarfare2T2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -2899,7 +2899,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorT3</BlockPairName>
+            <BlockPairName>LargeReactorWarfare2T3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -2999,7 +2999,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorT4</BlockPairName>
+            <BlockPairName>LargeReactorWarfare2T4</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -3101,7 +3101,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorT5</BlockPairName>
+            <BlockPairName>LargeReactorWarfare2T5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>

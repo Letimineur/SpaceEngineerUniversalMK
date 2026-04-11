@@ -698,5 +698,6 @@
                 <string>PowerSystems</string>
             </TargetingGroups>
         </Definition>
+        
     </CubeBlocks>
 </Definitions>

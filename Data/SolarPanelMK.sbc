@@ -1659,7 +1659,7 @@
             <BlockPairName>ColorableSolarPanelCornerT2</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <MirroringBlock>LTMLargeBlockColorableSolarPanelCornerInvertedT2</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>24</BuildTimeSeconds>
 
@@ -1770,7 +1770,7 @@
             <BlockPairName>ColorableSolarPanelCornerT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <MirroringBlock>LTMLargeBlockColorableSolarPanelCornerInvertedT3</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>24</BuildTimeSeconds>
 
@@ -1882,7 +1882,7 @@
             <BlockPairName>ColorableSolarPanelCornerT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <MirroringBlock>LTMLargeBlockColorableSolarPanelCornerInvertedT4</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>24</BuildTimeSeconds>
 
@@ -1994,7 +1994,7 @@
             <BlockPairName>ColorableSolarPanelCornerT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <MirroringBlock>LTMLargeBlockColorableSolarPanelCornerInvertedT5</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>24</BuildTimeSeconds>
 
@@ -2104,10 +2104,10 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInvertedT5</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT2</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
+            <MirroringBlock>LTMLargeBlockColorableSolarPanelCornerT2</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>24</BuildTimeSeconds>
 
@@ -2216,10 +2216,10 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInvertedT2</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
+            <MirroringBlock>LTMLargeBlockColorableSolarPanelCornerT3</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>24</BuildTimeSeconds>
 
@@ -2329,10 +2329,10 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInvertedT3</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
+            <MirroringBlock>LTMLargeBlockColorableSolarPanelCornerT4</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>24</BuildTimeSeconds>
 
@@ -2442,10 +2442,10 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerInvertedT4</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerInvertedT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
+            <MirroringBlock>LTMLargeBlockColorableSolarPanelCornerT5</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>24</BuildTimeSeconds>
 
@@ -3094,10 +3094,10 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>ColorableSolarPanelCornerT5</BlockPairName>
+            <BlockPairName>ColorableSolarPanelCornerT2</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <MirroringBlock>LTMSmallBlockColorableSolarPanelCornerInvertedT2</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>14</BuildTimeSeconds>
 
@@ -3207,7 +3207,7 @@
             <BlockPairName>ColorableSolarPanelCornerT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <MirroringBlock>LTMSmallBlockColorableSolarPanelCornerInvertedT3</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>14</BuildTimeSeconds>
 
@@ -3317,7 +3317,7 @@
             <BlockPairName>ColorableSolarPanelCornerT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <MirroringBlock>LTMSmallBlockColorableSolarPanelCornerInvertedT4</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>14</BuildTimeSeconds>
 
@@ -3427,7 +3427,7 @@
             <BlockPairName>ColorableSolarPanelCornerT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <MirroringBlock>LTMSmallBlockColorableSolarPanelCornerInvertedT5</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>14</BuildTimeSeconds>
 
@@ -3545,7 +3545,7 @@
             <BlockPairName>ColorableSolarPanelCornerInvertedT2</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
+            <MirroringBlock>LTMSmallBlockColorableSolarPanelCornerT2</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>14</BuildTimeSeconds>
 
@@ -3655,7 +3655,7 @@
             <BlockPairName>ColorableSolarPanelCornerInvertedT3</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
+            <MirroringBlock>LTMSmallBlockColorableSolarPanelCornerT3</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>14</BuildTimeSeconds>
 
@@ -3765,7 +3765,7 @@
             <BlockPairName>ColorableSolarPanelCornerInvertedT4</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
+            <MirroringBlock>LTMSmallBlockColorableSolarPanelCornerT4</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>14</BuildTimeSeconds>
 
@@ -3875,7 +3875,7 @@
             <BlockPairName>ColorableSolarPanelCornerInvertedT5</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
+            <MirroringBlock>LTMSmallBlockColorableSolarPanelCornerT5</MirroringBlock>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>14</BuildTimeSeconds>
 
