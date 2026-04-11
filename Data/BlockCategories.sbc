@@ -9,13 +9,13 @@
             <DisplayName>{LOC:DisplayName_MK_All_Block}</DisplayName>
             <Name>All Block Compact Power Tiered Vanilla</Name>
             <ItemIds>
+                <string>UpgradeModule/LTMLargeProductivityModuleT2</string>
+                <string>UpgradeModule/LTMLargeEffectivenessModuleT2</string>
+                <string>UpgradeModule/LTMLargeEnergyModuleT2</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT2</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT3</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT4</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT5</string>
-                <string>UpgradeModule/LTMLargeProductivityModuleT2</string>
-                <string>UpgradeModule/LTMLargeEffectivenessModuleT2</string>
-                <string>UpgradeModule/LTMLargeEnergyModuleT2</string>
                 <string>BatteryBlock/LTMLargeBlockBatteryBlockT2</string>
                 <string>BatteryBlock/LTMLargeBlockBatteryBlockT3</string>
                 <string>BatteryBlock/LTMLargeBlockBatteryBlockT4</string>

@@ -2964,7 +2964,7 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
-            <DisplayName>{LOC:DisplayName_Block_HydrogenThrustIndustrial_T2}</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustIndustrial_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenThrusterIndustrialSmallT2.dds</Icon>
             <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
@@ -3064,7 +3064,7 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
-            <DisplayName>{LOC:DisplayName_Block_HydrogenThrustIndustrial_T3}</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustIndustrial_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\HydrogenThrusterIndustrialSmallT3.dds</Icon>
             <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
@@ -3164,7 +3164,7 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
-            <DisplayName>{LOC:DisplayName_Block_HydrogenThrustIndustrial_T4}</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustIndustrial_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\HydrogenThrusterIndustrialSmallT4.dds</Icon>
             <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
@@ -3264,7 +3264,7 @@
             </Id>
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
-            <DisplayName>{LOC:DisplayName_Block_HydrogenThrustIndustrial_T5}</DisplayName>
+            <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustIndustrial_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\HydrogenThrusterIndustrialSmallT5.dds</Icon>
             <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
@@ -4660,7 +4660,7 @@
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustReskin_T2}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T2\ScifiHydrogenThrusterSmallT2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T2\ScifiHydrogenThrusterSmallSmallT2.dds</Icon>
             <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4765,7 +4765,7 @@
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustReskin_T3}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T3\ScifiHydrogenThrusterSmallT3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T3\ScifiHydrogenThrusterSmallSmallT3.dds</Icon>
             <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4870,7 +4870,7 @@
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustReskin_T4}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T4\ScifiHydrogenThrusterSmallT4.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T4\ScifiHydrogenThrusterSmallSmallT4.dds</Icon>
             <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4975,7 +4975,7 @@
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_SmallHydrogenThrustReskin_T5}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T5\ScifiHydrogenThrusterSmallT5.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T5\ScifiHydrogenThrusterSmallSmallT5.dds</Icon>
             <Description>{LOC:Description_HydrogenThrust}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
