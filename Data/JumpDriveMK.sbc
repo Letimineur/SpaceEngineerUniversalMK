@@ -288,9 +288,9 @@
             <Description>{LOC:Description_JumpDrive}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="2" />
+            <Size x="3" y="2" z="3" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+            <Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
             <Components>
                 <Component Subtype="SteelPlate" Count="80" />
                 <Component Subtype="MetalGridMK" Count="1" />
@@ -354,7 +354,7 @@
             <Description>{LOC:Description_JumpDrive}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="2" />
+            <Size x="3" y="2" z="3" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
             <Components>
@@ -422,7 +422,7 @@
             <Description>{LOC:Description_JumpDrive}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="2" />
+            <Size x="3" y="2" z="3" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
             <Components>
@@ -492,7 +492,7 @@
             <Description>{LOC:Description_JumpDrive}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="2" />
+            <Size x="3" y="2" z="3" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
             <Components>

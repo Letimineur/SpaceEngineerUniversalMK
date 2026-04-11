@@ -3396,9 +3396,9 @@
                 <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3503,9 +3503,9 @@
                 <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3611,9 +3611,9 @@
                 <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3719,9 +3719,9 @@
                 <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiHydrogenThruster_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3824,9 +3824,9 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -3931,9 +3931,9 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4039,9 +4039,9 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4148,9 +4148,9 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ScifiHydrogenThrusterSmall_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4257,9 +4257,9 @@
                 <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4363,9 +4363,9 @@
                 <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4472,9 +4472,9 @@
                 <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4582,9 +4582,9 @@
                 <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterLarge_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4686,9 +4686,9 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4791,9 +4791,9 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -4896,9 +4896,9 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -5002,9 +5002,9 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ScifiHydrogenThrusterSmall_Construction3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->

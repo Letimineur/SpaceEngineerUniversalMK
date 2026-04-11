@@ -38,6 +38,7 @@
                 <string>OxygenTank/LTMLargeHydrogenTankT4</string>
                 <string>OxygenTank/LTMLargeHydrogenTankT5</string>
                 <string>HydrogenEngine/LTMLargeHydrogenEngineT2</string>
+                <string>HydrogenEngine/LTMLargeHydrogenEngineReskinT2</string>
                 <string>Thrust/LTMLargeBlockLargeAtmosphericThrustSciFiT2</string>
                 <string>Thrust/LTMLargeBlockLargeAtmosphericThrustSciFiT3</string>
                 <string>Thrust/LTMLargeBlockLargeAtmosphericThrustSciFiT4</string>

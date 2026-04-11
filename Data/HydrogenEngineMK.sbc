@@ -1033,7 +1033,7 @@
 				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngineReskinConstruction_2.mwm" />
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngineReskinConstruction_3.mwm" />
 			</BuildProgressModels>
-			<BlockPairName>HydrogenEngineReskinT4</BlockPairName>
+			<BlockPairName>HydrogenEngineReskinT5</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -1192,9 +1192,9 @@
 			</Id>
 			<GuiVisible>false</GuiVisible>
             <Public>true</Public>
-			<DisplayName>{LOC:DisplayName_Block_Hydrogen_EngineReskinT3}</DisplayName>
+			<DisplayName>{LOC:DisplayName_Block_Hydrogen_EngineReskin_T3}</DisplayName>
 			<Description>{LOC:Description_PowerGenerator}</Description>
-			<Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineReskin_SmallT3.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\T3\HydrogenEngineReskin_SmallT3.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3" />
@@ -1291,9 +1291,9 @@
 			</Id>
 			<GuiVisible>false</GuiVisible>
             <Public>true</Public>
-			<DisplayName>{LOC:DisplayName_Block_Hydrogen_EngineReskinT4}</DisplayName>
+			<DisplayName>{LOC:DisplayName_Block_Hydrogen_EngineReskin_T4}</DisplayName>
 			<Description>{LOC:Description_PowerGenerator}</Description>
-			<Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineReskin_SmallT4.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\T4\HydrogenEngineReskin_SmallT4.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3" />
@@ -1391,9 +1391,9 @@
 			</Id>
 			<GuiVisible>false</GuiVisible>
             <Public>true</Public>
-			<DisplayName>{LOC:DisplayName_Block_Hydrogen_EngineReskinT5}</DisplayName>
+			<DisplayName>{LOC:DisplayName_Block_Hydrogen_EngineReskin_T5}</DisplayName>
 			<Description>{LOC:Description_PowerGenerator}</Description>
-			<Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineReskin_SmallT5.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\T5\HydrogenEngineReskin_SmallT5.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3" />
@@ -1436,7 +1436,7 @@
 				<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngineReskin_SmallConstruction_1.mwm" />
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngineReskin_SmallConstruction_2.mwm" />
 			</BuildProgressModels>
-			<BlockPairName>HydrogenEngineReskinT4</BlockPairName>
+			<BlockPairName>HydrogenEngineReskinT5</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>

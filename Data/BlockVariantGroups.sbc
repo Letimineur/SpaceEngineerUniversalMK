@@ -385,20 +385,28 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HydrogenEngineGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineLargeT2.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_HydrogenEngine}</DisplayName>
-            <Description>{LOC:Description_HydrogenEngine_Block}</Description>
+            <Description>{LOC:Description_PowerGenerator}</Description>
             <Blocks>
                 <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineT2" />
                 <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineT3" />
                 <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineT4" />
                 <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineT5" />
-                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT2" />
-                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT3" />
-                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT4" />
-                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT5" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT2" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT3" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT4" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineT5" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HydrogenEngineReskinGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T2\HydrogenEngineReskinT2.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_Hydrogen_EngineReskin_T2}</DisplayName>
+            <Description>{LOC:Description_PowerGenerator}</Description>
+            <Blocks>
+                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT2" />
+                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT3" />
+                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT4" />
+                <Block Type="HydrogenEngine" Subtype="LTMLargeHydrogenEngineReskinT5" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineReskinT2" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineReskinT3" />
                 <Block Type="HydrogenEngine" Subtype="LTMSmallHydrogenEngineReskinT4" />
