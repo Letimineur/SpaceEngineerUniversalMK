@@ -63,64 +63,64 @@
     <value>Universal Tiered Blocs</value>
   </data>
   <!-- *********************Region Component******************************-->
-    <data name="DisplayName_ConstructionComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_ConstructionComponent_MK" xml:space="preserve">
         <value>Composant de construction plus dense</value>
     </data>
-    <data name="DisplayName_Girder_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Girder_MK" xml:space="preserve">
         <value>Poutre plus dense</value>
     </data>
-    <data name="DisplayName_MetalGrid_MK" xml:space="preserve">
+    <data name="DisplayName_Item_MetalGrid_MK" xml:space="preserve">
         <value>Grille métallique plus dense</value>
     </data>
-    <data name="DisplayName_InteriorPlate_MK" xml:space="preserve">
+    <data name="DisplayName_Item_InteriorPlate_MK" xml:space="preserve">
         <value>Plaque intérieure plus dense</value>
     </data>
-    <data name="DisplayName_SteelPlate_MK" xml:space="preserve">
+    <data name="DisplayName_Item_SteelPlate_MK" xml:space="preserve">
         <value>Plaque d'acier plus dense</value>
     </data>
-    <data name="DisplayName_SmallTube_MK" xml:space="preserve">
-        <value>Petit tube plus dense</value>
+    <data name="DisplayName_Item_SmallSteelTube_MK" xml:space="preserve">
+        <value>Petit tube d'acier plus dense</value>
     </data>
-    <data name="DisplayName_LargeSteelTube_MK" xml:space="preserve">
+    <data name="DisplayName_Item_LargeSteelTube_MK" xml:space="preserve">
         <value>Grand tube d'acier plus dense</value>
     </data>
-    <data name="DisplayName_Motor_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Motor_MK" xml:space="preserve">
         <value>Moteur plus dense</value>
     </data>
-    <data name="DisplayName_Display_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Display_MK" xml:space="preserve">
         <value>Écran plus dense</value>
     </data>
-    <data name="DisplayName_BulletproofGlass_MK" xml:space="preserve">
+    <data name="DisplayName_Item_BulletproofGlass_MK" xml:space="preserve">
         <value>Verre blindé plus dense</value>
     </data>
-    <data name="DisplayName_Computer_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Computer_MK" xml:space="preserve">
         <value>Ordinateur plus dense</value>
     </data>
-    <data name="DisplayName_ReactorComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_ReactorComponents_MK" xml:space="preserve">
         <value>Composant de réacteur plus dense</value>
     </data>
-    <data name="DisplayName_ThrustComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_ThrustComponents_MK" xml:space="preserve">
         <value>Composant de poussée plus dense</value>
     </data>
-    <data name="DisplayName_GravityGeneratorComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_GravityGeneratorComponents_MK" xml:space="preserve">
         <value>Composant de générateur de gravité plus dense</value>
     </data>
-    <data name="DisplayName_MedicalComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_MedicalComponents_MK" xml:space="preserve">
         <value>Composant médical plus dense</value>
     </data>
-    <data name="DisplayName_RadioCommunicationComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_RadioCommunicationComponents_MK" xml:space="preserve">
         <value>Composant de communication radio plus dense</value>
     </data>
-    <data name="DisplayName_DetectorComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_DetectorComponents_MK" xml:space="preserve">
         <value>Composant détecteur plus dense</value>
     </data>
-    <data name="DisplayName_SolarCell_MK" xml:space="preserve">
+    <data name="DisplayName_Item_SolarCell_MK" xml:space="preserve">
         <value>Cellule solaire plus dense</value>
     </data>
-    <data name="DisplayName_PowerCell_MK" xml:space="preserve">
+    <data name="DisplayName_Item_PowerCell_MK" xml:space="preserve">
         <value>Cellule énergétique plus dense</value>
     </data>
-    <data name="DisplayName_Superconductor_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Superconductor_MK" xml:space="preserve">
         <value>Supraconducteur plus dense</value>
     </data>
   <!-- *********************Region Container******************************-->

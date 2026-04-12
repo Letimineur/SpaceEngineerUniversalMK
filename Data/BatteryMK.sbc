@@ -155,8 +155,8 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlateMK" Count="1" />
                 <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="SteelPlateMK" Count="1" />
                 <Component Subtype="Construction" Count="80" />
                 <Component Subtype="PowerCellMK" Count="6" />
                 <Component Subtype="PowerCell" Count="40">
@@ -166,7 +166,7 @@
                     </DeconstructId>
                 </Component>
                 <Component Subtype="ComputerMK" Count="2" />
-                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="ConstructionMK" Count="1" />
                 <Component Subtype="Construction" Count="60" />
                 <Component Subtype="SteelPlateMK" Count="4" />
                 <Component Subtype="SteelPlate" Count="80" />
@@ -225,8 +225,8 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlateMK" Count="3" />
                 <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlateMK" Count="3" />
                 <Component Subtype="ConstructionMK" Count="1" />
                 <Component Subtype="Construction" Count="60" />
                 <Component Subtype="PowerCellMK" Count="12" />
@@ -237,7 +237,7 @@
                     </DeconstructId>
                 </Component>
                 <Component Subtype="ComputerMK" Count="4" />
-                <Component Subtype="Construction" Count="3" />
+                <Component Subtype="ConstructionMK" Count="3" />
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlateMK" Count="9" />
                 <Component Subtype="SteelPlate" Count="60" />
@@ -947,8 +947,8 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\BatteryReskin.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlateMK" Count="1" />
                 <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="SteelPlateMK" Count="1" />
                 <Component Subtype="Construction" Count="80" />
                 <Component Subtype="PowerCellMK" Count="6" />
                 <Component Subtype="PowerCell" Count="40">
@@ -1016,8 +1016,8 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\BatteryReskin.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlateMK" Count="3" />
                 <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlateMK" Count="3" />
                 <Component Subtype="ConstructionMK" Count="1" />
                 <Component Subtype="Construction" Count="60" />
                 <Component Subtype="PowerCellMK" Count="12" />

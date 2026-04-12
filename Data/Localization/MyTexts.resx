@@ -63,64 +63,64 @@
     <value>Universal Tiered Blocks</value>
   </data>
 <!-- *********************Region Component******************************-->
-    <data name="DisplayName_ConstructionComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_ConstructionComponent_MK" xml:space="preserve">
         <value>Denser Construction Component</value>
     </data>
-    <data name="DisplayName_Girder_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Girder_MK" xml:space="preserve">
         <value>Denser Girder</value>
     </data>
-    <data name="DisplayName_MetalGrid_MK" xml:space="preserve">
+    <data name="DisplayName_Item_MetalGrid_MK" xml:space="preserve">
         <value>Denser Metal Grid</value>
     </data>
-    <data name="DisplayName_InteriorPlate_MK" xml:space="preserve">
+    <data name="DisplayName_Item_InteriorPlate_MK" xml:space="preserve">
         <value>Denser Interior Plate</value>
     </data>
-    <data name="DisplayName_SteelPlate_MK" xml:space="preserve">
+    <data name="DisplayName_Item_SteelPlate_MK" xml:space="preserve">
         <value>Denser Steel Plate</value>
     </data>
-    <data name="DisplayName_SmallTube_MK" xml:space="preserve">
-        <value>Denser Small Tube</value>
+    <data name="DisplayName_Item_SmallSteelTube_MK" xml:space="preserve">
+        <value>Denser Small Steel Tube</value>
     </data>
-    <data name="DisplayName_LargeSteelTube_MK" xml:space="preserve">
+    <data name="DisplayName_Item_LargeSteelTube_MK" xml:space="preserve">
         <value>Denser Large Steel Tube</value>
     </data>
-    <data name="DisplayName_Motor_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Motor_MK" xml:space="preserve">
         <value>Denser Motor</value>
     </data>
-    <data name="DisplayName_Display_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Display_MK" xml:space="preserve">
         <value>Denser Display</value>
     </data>
-    <data name="DisplayName_BulletproofGlass_MK" xml:space="preserve">
+    <data name="DisplayName_Item_BulletproofGlass_MK" xml:space="preserve">
         <value>Denser Bulletproof Glass</value>
     </data>
-    <data name="DisplayName_Computer_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Computer_MK" xml:space="preserve">
         <value>Denser Computer</value>
     </data>
-    <data name="DisplayName_ReactorComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_ReactorComponents_MK" xml:space="preserve">
         <value>Denser Reactor Component</value>
     </data>
-    <data name="DisplayName_ThrustComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_ThrustComponents_MK" xml:space="preserve">
         <value>Denser Thrust Component</value>
     </data>
-    <data name="DisplayName_GravityGeneratorComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_GravityGeneratorComponents_MK" xml:space="preserve">
         <value>Denser Gravity Generator Component</value>
     </data>
-    <data name="DisplayName_MedicalComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_MedicalComponents_MK" xml:space="preserve">
         <value>Denser Medical Component</value>
     </data>
-    <data name="DisplayName_RadioCommunicationComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_RadioCommunicationComponents_MK" xml:space="preserve">
         <value>Denser Radio Communication Component</value>
     </data>
-    <data name="DisplayName_DetectorComponent_MK" xml:space="preserve">
+    <data name="DisplayName_Item_DetectorComponents_MK" xml:space="preserve">
         <value>Denser Detector Component</value>
     </data>
-    <data name="DisplayName_SolarCell_MK" xml:space="preserve">
+    <data name="DisplayName_Item_SolarCell_MK" xml:space="preserve">
         <value>Denser Solar Cell</value>
     </data>
-    <data name="DisplayName_PowerCell_MK" xml:space="preserve">
+    <data name="DisplayName_Item_PowerCell_MK" xml:space="preserve">
         <value>Denser Power Cell</value>
     </data>
-    <data name="DisplayName_Superconductor_MK" xml:space="preserve">
+    <data name="DisplayName_Item_Superconductor_MK" xml:space="preserve">
         <value>Denser Superconductor</value>
     </data>
 <!-- *********************Region Container******************************-->
