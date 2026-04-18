@@ -26,6 +26,66 @@
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FoodProcessorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T2\food_processorT2.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_FoodProcessor}</DisplayName>
+            <Description>{LOC:Description_FoodProcessor}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LTMFoodProcessorT2" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LTMFoodProcessorT3" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LTMFoodProcessorT4" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LTMFoodProcessorT5" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2OreDetectorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T2\detectorT2.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_OreDetector}</DisplayName>
+            <Description>{LOC:Description_OreDetector}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorT2" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorT2" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorReskinT2" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorReskinT2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3OreDetectorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T3\detectorT3.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_OreDetector}</DisplayName>
+            <Description>{LOC:Description_OreDetector}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorT3" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorT3" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorReskinT3" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorReskinT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4OreDetectorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T4\detectorT4.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_OreDetector}</DisplayName>
+            <Description>{LOC:Description_OreDetector}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorT4" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorT4" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorReskinT4" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorReskinT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5OreDetectorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T5\detectorT5.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_OreDetector}</DisplayName>
+            <Description>{LOC:Description_OreDetector}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorT5" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorT5" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorReskinT5" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorReskinT5" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2ContainerGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T2\container_largeT2.dds</Icon>
             <DisplayName>{LOC:DisplayName_Block_Container_T2}</DisplayName>
@@ -38,6 +98,8 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockSmallContainerT2" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockModularContainerT2" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockLargeContainerT2" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMLargeBlockCargoTerminalT2" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMLargeBlockCargoTerminalHalfT2" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -53,6 +115,8 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockSmallContainerT3" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockModularContainerT3" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockLargeContainerT3" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMLargeBlockCargoTerminalT3" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMLargeBlockCargoTerminalHalfT3" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -67,7 +131,9 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMLargeBlockSmallContainerT4" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockSmallContainerT4" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockModularContainerT4" />
-                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockLargeContainerT4" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockLargeContainerT4" />                
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMLargeBlockCargoTerminalT4" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMLargeBlockCargoTerminalHalfT4" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -83,6 +149,8 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockSmallContainerT5" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockModularContainerT5" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMSmallBlockLargeContainerT5" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMLargeBlockCargoTerminalT5" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LTMLargeBlockCargoTerminalHalfT5" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>

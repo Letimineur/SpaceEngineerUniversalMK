@@ -136,6 +136,30 @@
   <data name="DisplayName_Block_SmallCargoContainer_T5" xml:space="preserve">
     <value>Petit conteneur T5</value>
   </data>
+  <data name="DisplayName_Block_CargoTerminal_T2" xml:space="preserve">
+        <value>Terminal de chargement T2</value>
+    </data>
+    <data name="DisplayName_Block_CargoTerminal_T3" xml:space="preserve">
+        <value>Terminal de chargement T3</value>
+    </data>
+    <data name="DisplayName_Block_CargoTerminal_T4" xml:space="preserve">
+        <value>Terminal de chargement T4</value>
+    </data>
+    <data name="DisplayName_Block_CargoTerminal_T5" xml:space="preserve">
+        <value>Terminal de chargement T5</value>
+    </data>
+    <data name="DisplayName_Block_CargoTerminalHalf_T2" xml:space="preserve">
+        <value>Moitié de Terminal de chargement T2</value>
+    </data>
+    <data name="DisplayName_Block_CargoTerminal_Half_T3" xml:space="preserve">
+        <value>Moitié de Terminal de chargement T3</value>
+    </data>
+    <data name="DisplayName_Block_CargoTerminal_Half_T4" xml:space="preserve">
+        <value>Moitié de Terminal de chargement T4</value>
+    </data>
+    <data name="DisplayName_Block_CargoTerminal_Half_T5" xml:space="preserve">
+        <value>Moitié de Terminal de chargement T5</value>
+    </data>
   <data name="DisplayName_Block_MediumCargoContainer_T2" xml:space="preserve">
     <value>Conteneur moyen T2</value>
   </data>
@@ -771,27 +795,63 @@
     <value>Gyroscope T5</value>
   </data>
   <data name="DisplayName_Block_JumpDrive_T2" xml:space="preserve">
-        <value>Réacteur de saut T2</value>
+        <value>Moteur de saut T2</value>
     </data>
     <data name="DisplayName_Block_JumpDrive_T3" xml:space="preserve">
-        <value>Réacteur de saut T3</value>
+        <value>Moteur de saut T3</value>
     </data>
     <data name="DisplayName_Block_JumpDrive_T4" xml:space="preserve">
-        <value>Réacteur de saut T4</value>
+        <value>Moteur de saut T4</value>
     </data>
     <data name="DisplayName_Block_JumpDrive_T5" xml:space="preserve">
-        <value>Réacteur de saut T5</value>
+        <value>Moteur de saut T5</value>
     </data>
     <data name="DisplayName_Block_JumpDriveReskin_T2" xml:space="preserve">
-        <value>Réacteur de saut Type II T2</value>
+        <value>Moteur de saut Type II T2</value>
     </data>
     <data name="DisplayName_Block_JumpDriveReskin_T3" xml:space="preserve">
-        <value>Réacteur de saut Type II T3</value>
+        <value>Moteur de saut Type II T3</value>
     </data>
     <data name="DisplayName_Block_JumpDriveReskin_T4" xml:space="preserve">
-        <value>Réacteur de saut Type II T4</value>
+        <value>Moteur de saut Type II T4</value>
     </data>
     <data name="DisplayName_Block_JumpDriveReskin_T5" xml:space="preserve">
-        <value>Réacteur de saut Type II T5</value>
+        <value>Moteur de saut Type II T5</value>
+    </data>
+    <data name="DisplayName_Block_FoodProcessor_T2" xml:space="preserve">
+        <value>Usine alimentaire T2</value>
+    </data>
+    <data name="DisplayName_Block_FoodProcessor_T3" xml:space="preserve">
+        <value>Usine alimentaire T3</value>
+    </data>
+    <data name="DisplayName_Block_FoodProcessor_T4" xml:space="preserve">
+        <value>Usine alimentaire T4</value>
+    </data>
+    <data name="DisplayName_Block_FoodProcessor_T5" xml:space="preserve">
+        <value>Usine alimentaire T5</value>
+    </data>
+    <data name="DisplayName_Block_OreDetector_T2" xml:space="preserve">
+        <value>Détecteur de minerais T2</value>
+    </data>
+    <data name="DisplayName_Block_OreDetector_T3" xml:space="preserve">
+        <value>Détecteur de minerais T3</value>
+    </data>
+    <data name="DisplayName_Block_OreDetector_T4" xml:space="preserve">
+        <value>Détecteur de minerais T4</value>
+    </data>
+    <data name="DisplayName_Block_OreDetector_T5" xml:space="preserve">
+        <value>Détecteur de minerais T5</value>
+    </data>
+    <data name="DisplayName_Block_OreDetectorReskin_T2" xml:space="preserve">
+        <value>Détecteur de minerais Type II T2</value>
+    </data>
+    <data name="DisplayName_Block_OreDetectorReskin_T3" xml:space="preserve">
+        <value>Détecteur de minerais Type II T3</value>
+    </data>
+    <data name="DisplayName_Block_OreDetectorReskin_T4" xml:space="preserve">
+        <value>Détecteur de minerais Type II T4</value>
+    </data>
+    <data name="DisplayName_Block_OreDetectorReskin_T5" xml:space="preserve">
+        <value>Détecteur de minerais Type II T5</value>
     </data>
 </root>

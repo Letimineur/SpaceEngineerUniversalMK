@@ -52,6 +52,14 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockSmallContainerT3" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockSmallContainerT4" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockSmallContainerT5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockCargoTerminalT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockCargoTerminalT3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockCargoTerminalT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockCargoTerminalT5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockCargoTerminalHalfT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockCargoTerminalHalfT3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockCargoTerminalHalfT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LTMLargeBlockCargoTerminalHalfT5" />
 
     <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LTMLargeBlockBatteryBlockT2" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LTMLargeBlockBatteryBlockT3" />
@@ -245,6 +253,19 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LTMLargeJumpDriveReskinT3" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LTMLargeJumpDriveReskinT4" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LTMLargeJumpDriveReskinT5" />
+    
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/LTMFoodProcessorT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/LTMFoodProcessorT3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/LTMFoodProcessorT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/LTMFoodProcessorT5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorT3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorT5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorReskinT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorReskinT3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorReskinT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorReskinT5" />
 
     
 
@@ -439,6 +460,15 @@
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/LTMSmallBlockSmallGeneratorT3" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/LTMSmallBlockSmallGeneratorT4" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/LTMSmallBlockSmallGeneratorT5" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/LTMSmallBlockOreDetectorT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/LTMSmallBlockOreDetectorT3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/LTMSmallBlockOreDetectorT4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/LTMSmallBlockOreDetectorT5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/LTMSmallBlockOreDetectorReskinT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/LTMSmallBlockOreDetectorReskinT3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/LTMSmallBlockOreDetectorReskinT4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/LTMSmallBlockOreDetectorReskinT5" />
 
   </BlueprintClassEntries>
 </Definitions>

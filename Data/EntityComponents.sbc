@@ -178,6 +178,62 @@
             </Id>
             <Size x="6.3" y="6.3" z="6.3" />
         </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockCargoTerminalT2</SubtypeId>
+            </Id>
+            <Size x="3.15" y="3.15" z="3.15" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockCargoTerminalT3</SubtypeId>
+            </Id>
+            <Size x="4.0" y="4.0" z="4.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockCargoTerminalT4</SubtypeId>
+            </Id>
+            <Size x="5.0" y="5.0" z="5.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockCargoTerminalT5</SubtypeId>
+            </Id>
+            <Size x="6.3" y="6.3" z="6.3" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockCargoTerminalHalfT2</SubtypeId>
+            </Id>
+            <Size x="1.575" y="3.15" z="3.15" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockCargoTerminalHalfT3</SubtypeId>
+            </Id>
+            <Size x="2.0" y="4.0" z="4.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockCargoTerminalHalfT4</SubtypeId>
+            </Id>
+            <Size x="2.5" y="5.0" z="5.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockCargoTerminalHalfT5</SubtypeId>
+            </Id>
+            <Size x="3.15" y="6.3" z="6.3" />
+        </EntityComponent>
 <!-- Region Small Blocks-->
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>

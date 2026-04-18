@@ -12,6 +12,11 @@
                 <string>UpgradeModule/LTMLargeProductivityModuleT2</string>
                 <string>UpgradeModule/LTMLargeEffectivenessModuleT2</string>
                 <string>UpgradeModule/LTMLargeEnergyModuleT2</string>
+                <string>Assembler/LTMFoodProcessorT2</string>
+                <string>OreDetector/LTMLargeOreDetectorT2</string>
+                <string>OreDetector/LTMLargeOreDetectorT3</string>
+                <string>OreDetector/LTMLargeOreDetectorT4</string>
+                <string>OreDetector/LTMLargeOreDetectorT5</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT2</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT3</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT4</string>

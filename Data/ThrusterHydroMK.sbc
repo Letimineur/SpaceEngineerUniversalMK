@@ -339,7 +339,8 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlateMK" Count="24" />
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="SteelPlateMK" Count="23" />
                 <Component Subtype="ConstructionMK" Count="24" />
                 <Component Subtype="MetalGridMK" Count="40" />
                 <Component Subtype="LargeTube" Count="40" />
@@ -2035,7 +2036,8 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlateMK" Count="24" />
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="SteelPlateMK" Count="23" />
                 <Component Subtype="ConstructionMK" Count="28" />
                 <Component Subtype="MetalGridMK" Count="40" />
                 <Component Subtype="LargeTube" Count="40" />
@@ -3699,7 +3701,8 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlateMK" Count="24" />
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="SteelPlateMK" Count="23" />
                 <Component Subtype="ConstructionMK" Count="24" />
                 <Component Subtype="MetalGridMK" Count="40" />
                 <Component Subtype="LargeTube" Count="40" />
