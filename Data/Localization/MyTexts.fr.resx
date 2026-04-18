@@ -123,6 +123,30 @@
     <data name="DisplayName_Item_Superconductor_MK" xml:space="preserve">
         <value>Supraconducteur plus dense</value>
     </data>
+    <data name="DisplayName_Item_OxygenBottle_T2" xml:space="preserve">
+        <value>Bouteille d'oxygène haute pression T2</value>
+    </data>
+    <data name="DisplayName_Item_OxygenBottle_T3" xml:space="preserve">
+        <value>Bouteille d'oxygène haute pression T3</value>
+    </data>
+    <data name="DisplayName_Item_OxygenBottle_T4" xml:space="preserve">
+        <value>Bouteille d'oxygène haute pression T4</value>
+    </data>
+    <data name="DisplayName_Item_OxygenBottle_T5" xml:space="preserve">
+        <value>Bouteille d'oxygène haute pression T5</value>
+    </data>
+    <data name="DisplayName_Item_HydrogenBottle_T2" xml:space="preserve">
+        <value>Bouteille d'hydrogène haute pression T2</value>
+    </data>
+    <data name="DisplayName_Item_HydrogenBottle_T3" xml:space="preserve">
+        <value>Bouteille d'hydrogène haute pression T3</value>
+    </data>
+    <data name="DisplayName_Item_HydrogenBottle_T4" xml:space="preserve">
+        <value>Bouteille d'hydrogène haute pression T4</value>
+    </data>
+    <data name="DisplayName_Item_HydrogenBottle_T5" xml:space="preserve">
+        <value>Bouteille d'hydrogène haute pression T5</value>
+    </data>
   <!-- *********************Region Container******************************-->
   <data name="DisplayName_Block_SmallCargoContainer_T2" xml:space="preserve">
     <value>Petit conteneur T2</value>

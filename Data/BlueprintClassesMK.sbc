@@ -27,7 +27,25 @@
     <Entry Class="Components" BlueprintSubtypeId="DetectorComponentMK" />
     <Entry Class="Components" BlueprintSubtypeId="SolarCellMK" />
     <Entry Class="Components" BlueprintSubtypeId="PowerCellMK" />
-    <Entry Class="Components" BlueprintSubtypeId="SuperconductorMK" />
+    <Entry Class="Components" BlueprintSubtypeId="SuperconductorMK" />    
+
+    <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMOxygenBottleT2" />    
+    <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMOxygenBottleT3" />
+    <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMOxygenBottleT4" />
+    <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMOxygenBottleT5" />    
+    <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMHydrogenBottleT2" />
+    <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMHydrogenBottleT3" />
+    <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMHydrogenBottleT4" />
+    <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMHydrogenBottleT5" />
+    
+    <Entry Class="OxygenBottles" BlueprintSubtypeId="LTMOxygenBottlesRefillT2" />
+    <Entry Class="OxygenBottles" BlueprintSubtypeId="LTMOxygenBottlesRefillT3" />
+    <Entry Class="OxygenBottles" BlueprintSubtypeId="LTMOxygenBottlesRefillT4" />
+    <Entry Class="OxygenBottles" BlueprintSubtypeId="LTMOxygenBottlesRefillT5" />
+    <Entry Class="HydrogenBottles" BlueprintSubtypeId="LTMHydrogenBottlesRefillT2" />
+    <Entry Class="HydrogenBottles" BlueprintSubtypeId="LTMHydrogenBottlesRefillT3" />
+    <Entry Class="HydrogenBottles" BlueprintSubtypeId="LTMHydrogenBottlesRefillT4" />
+    <Entry Class="HydrogenBottles" BlueprintSubtypeId="LTMHydrogenBottlesRefillT5" />
 
 
     <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LTMLargeEffectivenessModuleT2" />
