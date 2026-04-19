@@ -6,6 +6,8 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMLargeOreDetectorT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetector_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\detectorT2.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
@@ -55,6 +57,8 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMLargeOreDetectorT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetector_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\detectorT3.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
@@ -106,6 +110,8 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMLargeOreDetectorT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetector_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\detectorT4.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
@@ -158,6 +164,8 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMLargeOreDetectorT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetector_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\detectorT5.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
@@ -211,6 +219,8 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMSmallBlockOreDetectorT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetector_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\detectorT2.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
@@ -259,6 +269,8 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMSmallBlockOreDetectorT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetector_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\detectorT3.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
@@ -307,6 +319,8 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMSmallBlockOreDetectorT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetector_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\detectorT4.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
@@ -355,6 +369,8 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMSmallBlockOreDetectorT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetector_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\detectorT5.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
@@ -404,8 +420,10 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMLargeOreDetectorReskinT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetectorReskin_T2}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T2\detectorReskinT2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T2\OreDetectorReskinT2.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -423,11 +441,11 @@
             <CriticalComponent Subtype="Detector" Index="0" />
             <Center x="0" y="0" z="0" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction_1.mwm" />
@@ -454,8 +472,10 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMLargeOreDetectorReskinT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetectorReskin_T3}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T3\detectorReskinT3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T3\OreDetectorReskinT3.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -475,11 +495,11 @@
             <CriticalComponent Subtype="Detector" Index="0" />
             <Center x="0" y="0" z="0" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction_1.mwm" />
@@ -506,8 +526,10 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMLargeOreDetectorReskinT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetectorReskin_T4}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T4\detectorReskinT4.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T4\OreDetectorReskinT4.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -528,11 +550,11 @@
             <CriticalComponent Subtype="Detector" Index="0" />
             <Center x="0" y="0" z="0" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction_1.mwm" />
@@ -559,8 +581,10 @@
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LTMLargeOreDetectorReskinT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetectorReskin_T5}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T5\detectorReskinT5.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T5\OreDetectorReskinT5.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -581,11 +605,11 @@
             <CriticalComponent Subtype="Detector" Index="0" />
             <Center x="0" y="0" z="0" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction_1.mwm" />
@@ -611,10 +635,12 @@
         <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
             <Id>
                 <TypeId>OreDetector</TypeId>
-                <SubtypeId>LTMSmallBlockOreDetectorReskinT2</SubtypeId>
+                <SubtypeId>LTMSmallOreDetectorReskinT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetectorReskin_T2}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T2\detectorReskinSmallT2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T2\OreDetectorReskinSmallT2.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -632,11 +658,11 @@
             <CriticalComponent Subtype="Detector" Index="0" />
             <Center x="0" y="0" z="0" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_1.mwm" />
@@ -660,10 +686,12 @@
         <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
             <Id>
                 <TypeId>OreDetector</TypeId>
-                <SubtypeId>LTMSmallBlockOreDetectorReskinT3</SubtypeId>
+                <SubtypeId>LTMSmallOreDetectorReskinT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetectorReskin_T3}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T3\detectorReskinSmallT3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T3\OreDetectorReskinSmallT3.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -681,11 +709,11 @@
             <CriticalComponent Subtype="Detector" Index="0" />
             <Center x="0" y="0" z="0" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_1.mwm" />
@@ -709,10 +737,12 @@
         <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
             <Id>
                 <TypeId>OreDetector</TypeId>
-                <SubtypeId>LTMSmallBlockOreDetectorReskinT4</SubtypeId>
+                <SubtypeId>LTMSmallOreDetectorReskinT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetectorReskin_T4}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T4\detectorReskinSmallT4.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T4\OreDetectorReskinSmallT4.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -730,11 +760,11 @@
             <CriticalComponent Subtype="Detector" Index="0" />
             <Center x="0" y="0" z="0" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_1.mwm" />
@@ -758,10 +788,12 @@
         <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
             <Id>
                 <TypeId>OreDetector</TypeId>
-                <SubtypeId>LTMSmallBlockOreDetectorReskinT5</SubtypeId>
+                <SubtypeId>LTMSmallOreDetectorReskinT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_OreDetectorReskin_T5}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T5\detectorReskinSmallT5.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T5\OreDetectorReskinSmallT5.dds</Icon>
             <Description>{LOC:Description_OreDetector}</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -779,11 +811,11 @@
             <CriticalComponent Subtype="Detector" Index="0" />
             <Center x="0" y="0" z="0" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_1.mwm" />

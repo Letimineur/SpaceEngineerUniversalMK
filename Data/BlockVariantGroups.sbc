@@ -46,7 +46,7 @@
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorT2" />
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorT2" />
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorReskinT2" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorReskinT2" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallOreDetectorReskinT2" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -58,7 +58,7 @@
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorT3" />
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorT3" />
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorReskinT3" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorReskinT3" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallOreDetectorReskinT3" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -70,7 +70,7 @@
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorT4" />
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorT4" />
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorReskinT4" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorReskinT4" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallOreDetectorReskinT4" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -82,7 +82,87 @@
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorT5" />
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorT5" />
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMLargeOreDetectorReskinT5" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallBlockOreDetectorReskinT5" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LTMSmallOreDetectorReskinT5" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2ShipToolsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T2\GrinderT2.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_ShipGrinder}</DisplayName>
+            <Description>{LOC:Description_ShipGrinder}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMLargeShipGrinderT2" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMLargeShipGrinderReskinT2" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMLargeBlockDrillT2" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMLargeBlockDrillReskinT2" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMLargeShipWelderT2" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMLargeShipWelderReskinT2" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMSmallShipGrinderT2" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMSmallShipGrinderReskinT2" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMSmallBlockDrillT2" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMSmallBlockDrillReskinT2" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderT2" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderReskinT2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3ShipToolsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T3\GrinderT3.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_ShipGrinder}</DisplayName>
+            <Description>{LOC:Description_ShipGrinder}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMLargeShipGrinderT3" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMLargeShipGrinderReskinT3" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMLargeBlockDrillT3" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMLargeBlockDrillReskinT3" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMLargeShipWelderT3" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMLargeShipWelderReskinT3" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMSmallShipGrinderT3" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMSmallShipGrinderReskinT3" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMSmallBlockDrillT3" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMSmallBlockDrillReskinT3" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderT3" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderReskinT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4ShipToolsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T4\GrinderT4.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_ShipGrinder}</DisplayName>
+            <Description>{LOC:Description_ShipGrinder}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMLargeShipGrinderT4" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMLargeShipGrinderReskinT4" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMLargeBlockDrillT4" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMLargeBlockDrillReskinT4" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMLargeShipWelderT4" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMLargeShipWelderReskinT4" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMSmallShipGrinderT4" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMSmallShipGrinderReskinT4" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMSmallBlockDrillT4" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMSmallBlockDrillReskinT4" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderT4" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderReskinT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T5ShipToolsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\T5\GrinderT5.dds</Icon>
+            <DisplayName>{LOC:DisplayName_Block_ShipGrinder}</DisplayName>
+            <Description>{LOC:Description_ShipGrinder}</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMLargeShipGrinderT5" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMLargeShipGrinderReskinT5" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMLargeBlockDrillT5" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMLargeBlockDrillReskinT5" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMLargeShipWelderT5" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMLargeShipWelderReskinT5" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMSmallShipGrinderT5" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LTMSmallShipGrinderReskinT5" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMSmallBlockDrillT5" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LTMSmallBlockDrillReskinT5" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderT5" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderReskinT5" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>

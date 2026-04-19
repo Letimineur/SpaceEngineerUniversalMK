@@ -548,11 +548,12 @@
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LTMFoodProcessorT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_FoodProcessor_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\food_processorT2.dds</Icon>
             <Description>{LOC:Description_FoodProcessor}</Description>
             <CubeSize>Large</CubeSize>
-            <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -627,11 +628,12 @@
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LTMFoodProcessorT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_FoodProcessor_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\food_processorT3.dds</Icon>
             <Description>{LOC:Description_FoodProcessor}</Description>
             <CubeSize>Large</CubeSize>
-            <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -707,11 +709,12 @@
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LTMFoodProcessorT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_FoodProcessor_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\food_processorT4.dds</Icon>
             <Description>{LOC:Description_FoodProcessor}</Description>
             <CubeSize>Large</CubeSize>
-            <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -789,11 +792,12 @@
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LTMFoodProcessorT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_FoodProcessor_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\food_processorT5.dds</Icon>
             <Description>{LOC:Description_FoodProcessor}</Description>
             <CubeSize>Large</CubeSize>
-            <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />

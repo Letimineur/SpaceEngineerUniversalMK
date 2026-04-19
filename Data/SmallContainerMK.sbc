@@ -224,6 +224,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockCargoTerminalT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_CargoTerminal_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\CargoTerminalT2.dds</Icon>
             <Description>{LOC:Description_CargoTerminal}</Description>
@@ -275,6 +277,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockCargoTerminalT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_CargoTerminal_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\CargoTerminalT3.dds</Icon>
             <Description>{LOC:Description_CargoTerminal}</Description>
@@ -328,6 +332,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockCargoTerminalT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_CargoTerminal_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\CargoTerminalT4.dds</Icon>
             <Description>{LOC:Description_CargoTerminal}</Description>
@@ -382,6 +388,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockCargoTerminalT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_CargoTerminal_T5}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\CargoTerminalT5.dds</Icon>
             <Description>{LOC:Description_CargoTerminal}</Description>
@@ -437,6 +445,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockCargoTerminalHalfT2</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_CargoTerminalHalf_T2}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\CargoTerminalHalfT2.dds</Icon>
             <Description>{LOC:Description_CargoTerminal}</Description>
@@ -486,6 +496,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockCargoTerminalHalfT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_CargoTerminalHalf_T3}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\CargoTerminalHalfT3.dds</Icon>
             <Description>{LOC:Description_CargoTerminal}</Description>
@@ -535,6 +547,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockCargoTerminalHalfT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
             <DisplayName>{LOC:DisplayName_Block_CargoTerminalHalf_T4}</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\CargoTerminalHalfT4.dds</Icon>
             <Description>{LOC:Description_CargoTerminal}</Description>
@@ -582,10 +596,12 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LTMLargeBlockCargoTerminalHalfT4</SubtypeId>
+                <SubtypeId>LTMLargeBlockCargoTerminalHalfT5</SubtypeId>
             </Id>
-            <DisplayName>{LOC:DisplayName_Block_CargoTerminalHalf_T4}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T4\CargoTerminalHalfT4.dds</Icon>
+            <GuiVisible>false</GuiVisible>
+            <Public>true</Public>
+            <DisplayName>{LOC:DisplayName_Block_CargoTerminalHalf_T5}</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\CargoTerminalHalfT5.dds</Icon>
             <Description>{LOC:Description_CargoTerminal}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -617,7 +633,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoTerminalHalfConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoTerminalHalfConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>CargoTerminalHalfT4</BlockPairName>
+            <BlockPairName>CargoTerminalHalfT5</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

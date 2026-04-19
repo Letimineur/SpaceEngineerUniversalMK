@@ -263,5 +263,206 @@
             </Id>
             <Size x="1.26" y="1.26" z="1.26" />
         </EntityComponent>
+
+        
+<!-- ****************************************************Tools***************************************************-->
+ <!-- Welders -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterWelderLargeT2</SubtypeId>
+            </Id>
+            <Size x="6.3" y="6.3" z="0.787" />
+            <InputConstraint Whitelist="true" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+				<Entry Type="Component" />
+                <Entry>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </Entry>
+            </InputConstraint>
+			<CanSend>true</CanSend>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterWelderLargeT3</SubtypeId>
+            </Id>
+            <Size x="7.937" y="7.937" z="0.992" />
+            <InputConstraint Whitelist="true" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+				<Entry Type="Component" />
+                <Entry>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </Entry>
+            </InputConstraint>
+			<CanSend>true</CanSend>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterWelderLargeT4</SubtypeId>
+            </Id>
+            <Size x="10" y="10" z="1.25" />
+            <InputConstraint Whitelist="true" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+				<Entry Type="Component" />
+                <Entry>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </Entry>
+            </InputConstraint>
+			<CanSend>true</CanSend>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterWelderLargeT5</SubtypeId>
+            </Id>
+            <Size x="12.6" y="12.6" z="1.575" />
+            <InputConstraint Whitelist="true" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+				<Entry Type="Component" />
+                <Entry>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </Entry>
+            </InputConstraint>
+			<CanSend>true</CanSend>
+        </EntityComponent>
+		
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterWelderSmallT2</SubtypeId>
+            </Id>
+            <Size x="1.89" y="1.89" z="1.89" />
+            <InputConstraint Whitelist="true" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+				<Entry Type="Component" />
+                <Entry>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </Entry>
+            </InputConstraint>
+			<CanSend>true</CanSend>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterWelderSmallT3</SubtypeId>
+            </Id>
+            <Size x="2.381" y="2.381" z="2.381" />
+            <InputConstraint Whitelist="true" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+				<Entry Type="Component" />
+                <Entry>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </Entry>
+            </InputConstraint>
+			<CanSend>true</CanSend>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterWelderSmallT4</SubtypeId>
+            </Id>
+            <Size x="3" y="3" z="3" />
+            <InputConstraint Whitelist="true" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+				<Entry Type="Component" />
+                <Entry>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </Entry>
+            </InputConstraint>
+			<CanSend>true</CanSend>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterWelderSmallT5</SubtypeId>
+            </Id>
+            <Size x="3.78" y="3.78" z="3.78" />
+            <InputConstraint Whitelist="true" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+				<Entry Type="Component" />
+                <Entry>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </Entry>
+            </InputConstraint>
+			<CanSend>true</CanSend>
+        </EntityComponent>
+		
+		<!-- Grinders -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterGrinderLargeT2</SubtypeId>
+            </Id>
+            <Size x="6.3" y="6.3" z="0.787" />
+            <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+            </InputConstraint>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterGrinderLargeT3</SubtypeId>
+            </Id>
+            <Size x="7.937" y="7.937" z="0.992" />
+            <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+            </InputConstraint>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterGrinderLargeT4</SubtypeId>
+            </Id>
+            <Size x="10" y="10" z="1.25" />
+            <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+            </InputConstraint>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterGrinderLargeT5</SubtypeId>
+            </Id>
+            <Size x="12.6" y="12.6" z="1.575" />
+            <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+            </InputConstraint>
+        </EntityComponent>
+		
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterGrinderSmallT2</SubtypeId>
+            </Id>
+            <Size x="1.89" y="1.89" z="1.89" />
+            <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+            </InputConstraint>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterGrinderSmallT3</SubtypeId>
+            </Id>
+            <Size x="2.38" y="2.38" z="2.38" />
+            <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+            </InputConstraint>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterGrinderSmallT4</SubtypeId>
+            </Id>
+            <Size x="3" y="3" z="3" />
+            <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+            </InputConstraint>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMComponentFilterGrinderSmallT5</SubtypeId>
+            </Id>
+            <Size x="3.78" y="3.78" z="3.78" />
+            <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
+            </InputConstraint>
+        </EntityComponent>
+
     </EntityComponents>
 </Definitions>

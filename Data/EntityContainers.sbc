@@ -325,5 +325,914 @@
                 <Component BuilderType="MyObjectBuilder_Inventory"/>
             </DefaultComponents>
         </Container>
+
+
+<!-- ****************************************************Tools***************************************************-->
+ <!-- Grinders -->
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMLargeShipGrinderT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMLargeShipGrinderT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMLargeShipGrinderT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMLargeShipGrinderT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT5" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMSmallShipGrinderT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMSmallShipGrinderT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMSmallShipGrinderT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMSmallShipGrinderT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT5" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMLargeShipGrinderReskinT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMLargeShipGrinderReskinT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMLargeShipGrinderReskinT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMLargeShipGrinderReskinT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT5" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMSmallShipGrinderReskinT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMSmallShipGrinderReskinT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMSmallShipGrinderReskinT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LTMSmallShipGrinderReskinT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT5" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+		<!-- Welders -->
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMLargeShipWelderT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMLargeShipWelderT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMLargeShipWelderT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMLargeShipWelderT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT5" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMSmallShipWelderT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMSmallShipWelderT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMSmallShipWelderT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMSmallShipWelderT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT5" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMLargeShipWelderReskinT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMLargeShipWelderReskinT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMLargeShipWelderReskinT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMLargeShipWelderReskinT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT5" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMSmallShipWelderReskinT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMSmallShipWelderReskinT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMSmallShipWelderReskinT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LTMSmallShipWelderReskinT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT5" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+<!-- ****************************************************Particules***************************************************-->
+        <Container>
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMLargeBlockOxygenGeneratorLabT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles3" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2BubblesTop1" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMLargeBlockOxygenGeneratorLabT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles3" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2BubblesTop1" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMLargeBlockOxygenGeneratorLabT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles3" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2BubblesTop1" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMLargeBlockOxygenGeneratorLabT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2Bubbles3" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="LabO2H2BubblesTop1" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMSmallBlockOxygenGeneratorLabT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2Bubbles1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2Bubbles2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2BubblesTop1" ForceCreate="true"/>
+				<Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2BubblesTop2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMSmallBlockOxygenGeneratorLabT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2Bubbles1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2Bubbles2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2BubblesTop1" ForceCreate="true"/>
+				<Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2BubblesTop2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMSmallBlockOxygenGeneratorLabT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2Bubbles1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2Bubbles2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2BubblesTop1" ForceCreate="true"/>
+				<Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2BubblesTop2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMSmallBlockOxygenGeneratorLabT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2Bubbles1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2Bubbles2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2BubblesTop1" ForceCreate="true"/>
+				<Component BuilderType="MyObjectBuilder_ParticleEntityComponent" SubtypeId="SmallLabO2H2BubblesTop2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockSmallGeneratorT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="SmallRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockSmallGeneratorT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="SmallRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockSmallGeneratorT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="SmallRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockSmallGeneratorT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="SmallRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockLargeGeneratorT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockLargeGeneratorT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockLargeGeneratorT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockLargeGeneratorT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockSmallGeneratorT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockSmallGeneratorT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockSmallGeneratorT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockSmallGeneratorT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockLargeGeneratorT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="LargeRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockLargeGeneratorT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="LargeRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockLargeGeneratorT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="LargeRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockLargeGeneratorT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="LargeRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockSmallGeneratorWarfare2T5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="LargeRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="LargeRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="LargeRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMLargeBlockLargeGeneratorWarfare2T5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="LargeRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="SmallRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="SmallRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="SmallRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockSmallGeneratorWarfare2T5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="SmallRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LTMSmallBlockLargeGeneratorWarfare2T5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RadiationSourceEntityComponent" SubtypeId="MediumRadiationSource" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+<!-- ****************************************************Rotation***************************************************-->
+
+        <!-- Ore Detector Reskin -->
+        <Container>
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LTMLargeOreDetectorReskinT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinLarge" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LTMLargeOreDetectorReskinT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinLarge" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LTMLargeOreDetectorReskinT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinLarge" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LTMLargeOreDetectorReskinT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinLarge" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LTMSmallOreDetectorReskinT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinSmall" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LTMSmallOreDetectorReskinT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinSmall" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LTMSmallOreDetectorReskinT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinSmall" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LTMSmallOreDetectorReskinT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinSmall" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <!-- Jump Drive Reskin -->
+        <Container>
+            <Id>
+                <TypeId>JumpDrive</TypeId>
+                <SubtypeId>LTMLargeJumpDriveReskinT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="JumpDriveSubpartRotator1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="JumpDriveSubpartRotator2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_AnimationSpeedComponent" SubtypeId="LargeJdAnimationBooster" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>JumpDrive</TypeId>
+                <SubtypeId>LTMLargeJumpDriveReskinT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="JumpDriveSubpartRotator1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="JumpDriveSubpartRotator2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_AnimationSpeedComponent" SubtypeId="LargeJdAnimationBooster" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>JumpDrive</TypeId>
+                <SubtypeId>LTMLargeJumpDriveReskinT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="JumpDriveSubpartRotator1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="JumpDriveSubpartRotator2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_AnimationSpeedComponent" SubtypeId="LargeJdAnimationBooster" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>JumpDrive</TypeId>
+                <SubtypeId>LTMLargeJumpDriveReskinT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="JumpDriveSubpartRotator1" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="JumpDriveSubpartRotator2" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_AnimationSpeedComponent" SubtypeId="LargeJdAnimationBooster" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMLargeHydrogenEngineReskinT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_MaintenancePanelComponent" SubtypeId="HydrogenEngineReskin_SlidingDoorRight" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_MaintenancePanelComponent" SubtypeId="HydrogenEngineReskin_SlidingDoorLeft" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_MainGear" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_SecondaryGear" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMLargeHydrogenEngineReskinT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_MaintenancePanelComponent" SubtypeId="HydrogenEngineReskin_SlidingDoorRight" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_MaintenancePanelComponent" SubtypeId="HydrogenEngineReskin_SlidingDoorLeft" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_MainGear" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_SecondaryGear" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMLargeHydrogenEngineReskinT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_MaintenancePanelComponent" SubtypeId="HydrogenEngineReskin_SlidingDoorRight" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_MaintenancePanelComponent" SubtypeId="HydrogenEngineReskin_SlidingDoorLeft" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_MainGear" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_SecondaryGear" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMLargeHydrogenEngineReskinT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_MaintenancePanelComponent" SubtypeId="HydrogenEngineReskin_SlidingDoorRight" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_MaintenancePanelComponent" SubtypeId="HydrogenEngineReskin_SlidingDoorLeft" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_MainGear" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_SecondaryGear" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMSmallHydrogenEngineReskinT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_Small_MainGear" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_Small_SecondaryGear" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMSmallHydrogenEngineReskinT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_Small_MainGear" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_Small_SecondaryGear" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMSmallHydrogenEngineReskinT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_Small_MainGear" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_Small_SecondaryGear" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LTMSmallHydrogenEngineReskinT5</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_Small_MainGear" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="HydrogenEngineReskin_Small_SecondaryGear" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
     </EntityContainers>
 </Definitions>
