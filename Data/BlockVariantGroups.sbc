@@ -125,6 +125,7 @@
                 <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderReskinT3" />
             </Blocks>
         </BlockVariantGroup>
+        <!-- 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4ShipToolsGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T4\GrinderT4.dds</Icon>
@@ -165,6 +166,7 @@
                 <Block Type="MyObjectBuilder_ShipWelder" Subtype="LTMSmallShipWelderReskinT5" />
             </Blocks>
         </BlockVariantGroup>
+        -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2ContainerGroup" />
             <Icon>Textures\GUI\Icons\Cubes\T2\container_largeT2.dds</Icon>

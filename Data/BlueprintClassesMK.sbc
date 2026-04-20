@@ -288,28 +288,30 @@
 
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillT2" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillT3" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillT4" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillT5" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillReskinT2" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillReskinT3" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillReskinT4" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillReskinT5" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderT2" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderT3" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderT4" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderT5" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderReskinT2" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderReskinT3" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderReskinT4" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderReskinT5" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderT2" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderT3" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderT4" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderT5" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderReskinT2" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderReskinT3" />
+    <!-- 
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillT5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillReskinT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LTMLargeBlockDrillReskinT5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderT5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderReskinT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/LTMLargeShipGrinderReskinT5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderT5" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderReskinT4" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/LTMLargeShipWelderReskinT5" />
+    -->
 
 
 
@@ -515,29 +517,30 @@
     <Entry Class="SmallBlocks" BlueprintSubtypeId="OreDetector/LTMSmallOreDetectorReskinT5" />
 
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillT2" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillT3" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillT4" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillT5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillT3" />    
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillReskinT2" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillReskinT3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillReskinT3" />    
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderT3" />    
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderReskinT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderReskinT3" />    
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderT3" />    
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderReskinT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderReskinT3" />    
+    <!--
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillReskinT4" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillReskinT5" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderT2" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderT3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillT4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/LTMSmallBlockDrillT5" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderT4" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderT5" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderReskinT2" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderReskinT3" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderReskinT4" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/LTMSmallShipGrinderReskinT5" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderT2" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderT3" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderT4" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderT5" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderReskinT2" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderReskinT3" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderReskinT4" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/LTMSmallShipWelderReskinT5" />
-
+-->
   </BlueprintClassEntries>
 </Definitions>

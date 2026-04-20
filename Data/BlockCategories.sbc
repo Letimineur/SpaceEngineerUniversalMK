@@ -19,8 +19,10 @@
                 <string>OreDetector/LTMLargeOreDetectorT5</string>
                 <string>ShipGrinder/LTMLargeShipGrinderT2</string>
                 <string>ShipGrinder/LTMLargeShipGrinderT3</string>
+                <!-- 
                 <string>ShipGrinder/LTMLargeShipGrinderT4</string>
                 <string>ShipGrinder/LTMLargeShipGrinderT5</string>
+                -->
                 <string>CargoContainer/LTMLargeBlockLargeContainerT2</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT3</string>
                 <string>CargoContainer/LTMLargeBlockLargeContainerT4</string>

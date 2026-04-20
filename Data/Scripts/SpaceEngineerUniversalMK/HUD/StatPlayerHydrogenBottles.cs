@@ -42,43 +42,72 @@ namespace UniversalMK.GUI
 				return;
 			}
 			
-			this.m_lastCheck = TIMER.ElapsedTimeSpan.TotalMilliseconds;
+			this.m_lastCheck = TIMER.ElapsedTimeSpan.TotalMilliseconds;			
+			IMyInventory inventory = null;
 			
-			var localHumanPlayer = MyAPIGateway.Session.LocalHumanPlayer;
-			if(localHumanPlayer == null)
+			try
 			{
+				var localHumanPlayer = MyAPIGateway.Session.LocalHumanPlayer;
+				if(localHumanPlayer == null)
+				{
+					base.CurrentValue = 0f;
+					return;
+				}
+				
+				IMyCharacter localCharacter = localHumanPlayer.Character;
+				if (localCharacter == null)
+				{
+					base.CurrentValue = 0f;
+					return;
+				}
+				
+				IMyInventory workInventory = localCharacter.GetInventory(0);
+				if (workInventory == null)
+				{
+					base.CurrentValue = 0f;
+					return;
+				}
+
+				inventory = workInventory;
+			}
+			catch(Exception e)
+			{
+				MyLog.Default.WriteLineAndConsole($"[Universal MK]: Exception while accessing player inventory: {e}");
 				base.CurrentValue = 0f;
 				return;
 			}
 			
-			IMyCharacter localCharacter = localHumanPlayer.Character;
-			if (localCharacter == null)
+			if(inventory == null)
 			{
 				base.CurrentValue = 0f;
 				return;
 			}
-			
-			IMyInventory inventory = localCharacter.GetInventory(0);
-			if (inventory == null)
-			{
-				base.CurrentValue = 0f;
-				return;
-			}
-			
 			float statValue = 0f;
-            foreach(MyPhysicalInventoryItem item in inventory.GetItems())
-            {
-                MyObjectBuilder_GasContainerObject gasContainer = item.Content as MyObjectBuilder_GasContainerObject;
-                if(gasContainer != null && gasContainer.GasLevel > 1e-06f)
-                {
-                    MyOxygenContainerDefinition def = MyDefinitionManager.Static.GetPhysicalItemDefinition(item.Content.GetId()) as MyOxygenContainerDefinition;
-                    if(def != null && def.StoredGasId == GasDefinitionID)
-                    {
-                        statValue += (float)item.Amount;
-                    }
-                }
-            }
-			base.CurrentValue = statValue;
+            try
+			{
+				foreach(MyPhysicalInventoryItem item in inventory.GetItems())
+				{
+					MyObjectBuilder_GasContainerObject gasContainer = item.Content as MyObjectBuilder_GasContainerObject;
+					if(gasContainer != null && gasContainer.GasLevel > 1e-06f)
+					{
+						MyOxygenContainerDefinition def = MyDefinitionManager.Static.GetPhysicalItemDefinition(item.Content.GetId()) as MyOxygenContainerDefinition;
+						if(def != null && def.StoredGasId == GasDefinitionID)
+						{
+							statValue += (float)item.Amount;
+						}
+					}
+				}
+				base.CurrentValue = statValue;
+			}
+			catch(Exception e)
+			{
+				MyLog.Default.WriteLineAndConsole($"[Universal MK]: Exception while setting player oxygen bottles stat: {e.ToString()}");
+				base.CurrentValue = 0f;
+				if(MyAPIGateway.Session?.Player != null)
+                    MyAPIGateway.Utilities.ShowNotification($"[ ERROR: Universal MK CheckOxygenBottles: {e.Message} | Send SpaceEngineers.Log to mod author ]", 10000, MyFontEnum.Red);
+				return;
+			}            
+			return;
 		}
 	}
 }

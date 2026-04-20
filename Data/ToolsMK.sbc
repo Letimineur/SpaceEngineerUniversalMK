@@ -43,7 +43,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -123,7 +123,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -161,6 +161,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>190</PCU>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -203,7 +204,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -284,7 +285,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -322,7 +323,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>190</PCU>
         </Definition>
-
+-->
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -360,7 +361,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -436,7 +437,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -474,6 +475,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>190</PCU>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -513,7 +515,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -590,7 +592,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -628,7 +630,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>190</PCU>
         </Definition>
-
+-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -663,7 +665,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -685,7 +686,6 @@
             <BlockPairName>LTMShipGrinderT2</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -693,6 +693,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>2.8</SensorRadius>
+            <SensorOffset>1.4</SensorOffset>
             <PCU>100</PCU>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
@@ -729,7 +730,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -751,7 +752,6 @@
             <BlockPairName>LTMShipGrinderT3</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -759,8 +759,10 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>5.6</SensorRadius>
+            <SensorOffset>2.8</SensorOffset>
             <PCU>100</PCU>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -796,7 +798,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -818,7 +820,6 @@
             <BlockPairName>LTMShipGrinderT4</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -863,7 +864,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -885,7 +886,6 @@
             <BlockPairName>LTMShipGrinderT5</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -895,7 +895,7 @@
             <SensorRadius>22.4</SensorRadius>
             <PCU>100</PCU>
         </Definition>
-
+-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -929,7 +929,7 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -954,7 +954,6 @@
             <BlockPairName>LTMShipGrinderT2</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -962,6 +961,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>2.6</SensorRadius>
+            <SensorOffset>1.6</SensorOffset>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
@@ -998,7 +998,7 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1023,7 +1023,6 @@
             <BlockPairName>LTMShipGrinderT3</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -1031,9 +1030,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>5.2</SensorRadius>
+            <SensorOffset>4.2</SensorOffset>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -1068,7 +1069,7 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1093,7 +1094,6 @@
             <BlockPairName>LTMShipGrinderT4</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -1139,7 +1139,7 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1164,7 +1164,6 @@
             <BlockPairName>LTMShipGrinderT5</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -1175,7 +1174,7 @@
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -1210,7 +1209,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1232,7 +1231,6 @@
             <BlockPairName>LTMShipWelderT2</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -1241,6 +1239,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>4.52</SensorRadius>
+            <SensorOffset>0.6</SensorOffset>
             <PCU>150</PCU>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
@@ -1277,7 +1276,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1299,7 +1298,6 @@
             <BlockPairName>LTMShipWelderT3</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -1308,8 +1306,10 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>9.04</SensorRadius>
+            <SensorOffset>1.3</SensorOffset>
             <PCU>150</PCU>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -1345,7 +1345,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1367,7 +1367,6 @@
             <BlockPairName>LTMShipWelderT4</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -1413,7 +1412,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1435,7 +1434,6 @@
             <BlockPairName>LTMShipWelderT5</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -1446,7 +1444,7 @@
             <SensorRadius>36.18</SensorRadius>
             <PCU>150</PCU>
         </Definition>
-
+-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -1492,7 +1490,6 @@
             <BlockPairName>LTMShipWelderT2</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -1501,6 +1498,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>2.6</SensorRadius>
+            <SensorOffset>1.3</SensorOffset>
             <PCU>150</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
@@ -1549,7 +1547,6 @@
             <BlockPairName>LTMShipWelderT3</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -1558,9 +1555,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>5.2</SensorRadius>
+            <SensorOffset>3.8</SensorOffset>
             <PCU>150</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -1607,7 +1606,6 @@
             <BlockPairName>LTMShipWelderT4</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -1666,7 +1664,6 @@
             <BlockPairName>LTMShipWelderT5</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -1678,7 +1675,7 @@
             <PCU>150</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+-->
         <!-- ************************************************ Apex Reskin ***********************************************************-->
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
@@ -1721,7 +1718,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1802,7 +1799,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1841,6 +1838,7 @@
             <PCU>190</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -1883,7 +1881,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -1965,7 +1963,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2004,7 +2002,7 @@
             <PCU>190</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
-
+-->
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -2042,7 +2040,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2119,7 +2117,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2158,6 +2156,7 @@
             <PCU>190</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -2197,7 +2196,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2275,7 +2274,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2314,7 +2313,7 @@
             <PCU>190</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
-
+-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -2349,7 +2348,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2372,7 +2371,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -2380,6 +2378,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>2.8</SensorRadius>
+            <SensorOffset>1.4</SensorOffset>
             <PCU>100</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
@@ -2417,7 +2416,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2440,7 +2439,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -2448,9 +2446,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>5.6</SensorRadius>
+            <SensorOffset>2.8</SensorOffset>
             <PCU>100</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -2486,7 +2486,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2509,7 +2509,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -2555,7 +2554,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2578,7 +2576,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -2589,7 +2586,7 @@
             <PCU>100</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
-        
+    -->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -2623,7 +2620,7 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2646,7 +2643,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -2654,6 +2650,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>2.6</SensorRadius>
+            <SensorOffset>6.6</SensorOffset>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
@@ -2691,7 +2688,7 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2714,7 +2711,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -2722,10 +2718,12 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>5.2</SensorRadius>
+            <SensorOffset>20.6</SensorOffset>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -2760,7 +2758,7 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2783,7 +2781,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -2830,7 +2827,7 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2853,7 +2850,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -2865,7 +2861,7 @@
             <IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
         </Definition>
-
+-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -2900,7 +2896,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2923,7 +2919,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -2932,6 +2927,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>4.52</SensorRadius>
+            <SensorOffset>2.75</SensorOffset>
             <PCU>150</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
@@ -2969,7 +2965,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -2992,7 +2988,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -3001,9 +2996,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>9.04</SensorRadius>
+            <SensorOffset>4.52</SensorOffset>
             <PCU>150</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -3039,7 +3036,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -3062,7 +3059,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -3109,7 +3105,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderReskin_Construction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -3132,7 +3128,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>24</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -3144,7 +3139,7 @@
             <PCU>150</PCU>
 			<DLC>ApexSurvival</DLC>
         </Definition>
-        
+        -->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -3188,7 +3183,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -3197,6 +3191,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>2.6</SensorRadius>
+            <SensorOffset>1.3</SensorOffset>
             <PCU>150</PCU>
             <IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
@@ -3244,7 +3239,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -3253,10 +3247,12 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>5.2</SensorRadius>
+            <SensorOffset>4.6</SensorOffset>
             <PCU>150</PCU>
             <IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
         </Definition>
+        <!-- 
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -3301,7 +3297,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -3359,7 +3354,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -3372,5 +3366,6 @@
             <IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
         </Definition>
+        -->
     </CubeBlocks>
 </Definitions>

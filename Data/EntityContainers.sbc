@@ -347,6 +347,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT3" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
+        <!-- 
         <Container>
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -365,7 +366,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT5" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
-		
+		-->
         <Container>
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -384,6 +385,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT3" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
+        <!-- 
         <Container>
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -402,7 +404,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT5" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
-		
+		-->
         <Container>
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -421,6 +423,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT3" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
+        <!-- 
         <Container>
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -439,7 +442,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderLargeT5" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
-		
+		-->
         <Container>
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -458,6 +461,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT3" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
+        <!-- 
         <Container>
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -476,7 +480,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterGrinderSmallT5" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
-		
+		-->
 		<!-- Welders -->
         <Container>
             <Id>
@@ -496,6 +500,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT3" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
+        <!-- 
         <Container>
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -514,7 +519,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT5" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
-		
+		-->
         <Container>
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -533,6 +538,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT3" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
+        <!-- 
         <Container>
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -551,7 +557,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT5" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
-		
+		-->
         <Container>
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -570,6 +576,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT3" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
+        <!-- 
         <Container>
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -588,7 +595,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderLargeT5" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
-		
+		-->
         <Container>
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -607,6 +614,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT3" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
+        <!-- 
         <Container>
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -625,7 +633,7 @@
                 <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LTMComponentFilterWelderSmallT5" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
-        
+        -->
 <!-- ****************************************************Particules***************************************************-->
         <Container>
             <Id>

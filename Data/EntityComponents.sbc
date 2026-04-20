@@ -297,6 +297,7 @@
             </InputConstraint>
 			<CanSend>true</CanSend>
         </EntityComponent>
+        <!-- 
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
@@ -327,7 +328,7 @@
             </InputConstraint>
 			<CanSend>true</CanSend>
         </EntityComponent>
-		
+		-->
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
@@ -358,6 +359,7 @@
             </InputConstraint>
 			<CanSend>true</CanSend>
         </EntityComponent>
+        <!-- 
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
@@ -388,7 +390,7 @@
             </InputConstraint>
 			<CanSend>true</CanSend>
         </EntityComponent>
-		
+		-->
 		<!-- Grinders -->
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
@@ -408,6 +410,7 @@
             <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
             </InputConstraint>
         </EntityComponent>
+        <!-- 
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
@@ -426,7 +429,7 @@
             <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
             </InputConstraint>
         </EntityComponent>
-		
+		-->
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
@@ -445,6 +448,7 @@
             <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
             </InputConstraint>
         </EntityComponent>
+        <!-- 
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
@@ -463,6 +467,6 @@
             <InputConstraint Whitelist="false" Description="DisplayName_InventoryConstraint_Components" Icon="Textures\GUI\Icons\FilterComponent.dds">
             </InputConstraint>
         </EntityComponent>
-
+        -->
     </EntityComponents>
 </Definitions>
