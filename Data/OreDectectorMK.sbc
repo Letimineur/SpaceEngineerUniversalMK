@@ -448,9 +448,9 @@
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction3.mwm" />
             </BuildProgressModels>
             <BlockPairName>OreDetectorReskinT2</BlockPairName>
             <MirroringY>Z</MirroringY>
@@ -502,9 +502,9 @@
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction3.mwm" />
             </BuildProgressModels>
             <BlockPairName>OreDetectorReskinT3</BlockPairName>
             <MirroringY>Z</MirroringY>
@@ -557,9 +557,9 @@
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction3.mwm" />
             </BuildProgressModels>
             <BlockPairName>OreDetectorReskinT4</BlockPairName>
             <MirroringY>Z</MirroringY>
@@ -612,9 +612,9 @@
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction3.mwm" />
             </BuildProgressModels>
             <BlockPairName>OreDetectorReskinT5</BlockPairName>
             <MirroringY>Z</MirroringY>
@@ -665,8 +665,8 @@
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <BlockPairName>OreDetectorReskinT2</BlockPairName>
             <MirroringY>Z</MirroringY>
@@ -716,8 +716,8 @@
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <BlockPairName>OreDetectorReskinT3</BlockPairName>
             <MirroringY>Z</MirroringY>
@@ -767,8 +767,8 @@
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <BlockPairName>OreDetectorReskinT4</BlockPairName>
             <MirroringY>Z</MirroringY>
@@ -818,8 +818,8 @@
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_2.mwm" />
             </BuildProgressModels>
             <BlockPairName>OreDetectorReskinT5</BlockPairName>
             <MirroringY>Z</MirroringY>
