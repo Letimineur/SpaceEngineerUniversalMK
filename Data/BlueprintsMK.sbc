@@ -501,112 +501,114 @@
 
 
   <!-- Refill Bottles Blueprints -->
+    <Blueprint>
+        <Id>
+            <TypeId>BlueprintDefinition</TypeId>
+            <SubtypeId>LTMOxygenBottlesRefillT2</SubtypeId>
+        </Id>
+        <DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
+        <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+        <Prerequisites>
+            <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="LTMOxygenBottleT2" />
+        </Prerequisites>
+        <Results />
+        <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+        <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+        <Id>
+            <TypeId>BlueprintDefinition</TypeId>
+            <SubtypeId>LTMOxygenBottlesRefillT3</SubtypeId>
+        </Id>
+        <DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
+        <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+        <Prerequisites>
+            <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="LTMOxygenBottleT3" />
+        </Prerequisites>
+        <Results />
+        <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+        <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+        <Id>
+            <TypeId>BlueprintDefinition</TypeId>
+            <SubtypeId>LTMOxygenBottlesRefillT4</SubtypeId>
+        </Id>
+        <DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
+        <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+        <Prerequisites>
+            <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="LTMOxygenBottleT4" />
+        </Prerequisites>
+        <Results />
+        <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+        <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+        <Id>
+            <TypeId>BlueprintDefinition</TypeId>
+            <SubtypeId>LTMOxygenBottlesRefillT5</SubtypeId>
+        </Id>
+        <DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
+        <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+        <Prerequisites>
+            <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="LTMOxygenBottleT5" />
+        </Prerequisites>
+        <Results />
+        <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+        <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
 
     <Blueprint>
       <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>LTMOxygenBottlesRefillT2</SubtypeId>
+          <TypeId>BlueprintDefinition</TypeId>
+          <SubtypeId>LTMHydrogenBottlesRefillT2</SubtypeId>
       </Id>
-      <DisplayName>{LOC:DisplayName_Item_OxygenBottles}</DisplayName>
+      <DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="LTMOxygenBottleT2" />
+          <Item Amount="1" TypeId="GasContainerObject" SubtypeId="LTMHydrogenBottleT2" />
       </Prerequisites>
       <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>LTMOxygenBottlesRefillT3</SubtypeId>
+          <TypeId>BlueprintDefinition</TypeId>
+          <SubtypeId>LTMHydrogenBottlesRefillT3</SubtypeId>
       </Id>
-      <DisplayName>{LOC:DisplayName_Item_OxygenBottles}</DisplayName>
+      <DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="LTMOxygenBottleT3" />
+          <Item Amount="1" TypeId="GasContainerObject" SubtypeId="LTMHydrogenBottleT3" />
       </Prerequisites>
-      <Result Amount="0.9" TypeId="Ore" SubtypeId="Stone" />
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>LTMOxygenBottlesRefillT4</SubtypeId>
+          <TypeId>BlueprintDefinition</TypeId>
+          <SubtypeId>LTMHydrogenBottlesRefillT4</SubtypeId>
       </Id>
-      <DisplayName>{LOC:DisplayName_Item_OxygenBottles}</DisplayName>
+      <DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="LTMOxygenBottleT4" />
+          <Item Amount="1" TypeId="GasContainerObject" SubtypeId="LTMHydrogenBottleT4" />
       </Prerequisites>
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Iron" />
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>LTMOxygenBottlesRefillT5</SubtypeId>
+          <TypeId>BlueprintDefinition</TypeId>
+          <SubtypeId>LTMHydrogenBottlesRefillT5</SubtypeId>
       </Id>
-      <DisplayName>{LOC:DisplayName_Item_OxygenBottles}</DisplayName>
+      <DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="LTMOxygenBottleT5" />
+          <Item Amount="1" TypeId="GasContainerObject" SubtypeId="LTMHydrogenBottleT5" />
       </Prerequisites>
-      <Result Amount="0.9" TypeId="Ore" SubtypeId="Iron" />
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
-    
-    <Blueprint>
-        <Id>
-            <TypeId>BlueprintDefinition</TypeId>
-            <SubtypeId>LTMHydrogenBottlesRefillT2</SubtypeId>
-        </Id>
-        <DisplayName>{LOC:DisplayName_Item_HydrogenBottles}</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-        <Prerequisites>
-            <Item Amount="1" TypeId="GasContainerObject" SubtypeId="LTMHydrogenBottleT2" />
-        </Prerequisites>
-        <Result Amount="0.9" TypeId="Ore" SubtypeId="Nickel" />
-        <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint>
-        <Id>
-            <TypeId>BlueprintDefinition</TypeId>
-            <SubtypeId>LTMHydrogenBottlesRefillT3</SubtypeId>
-        </Id>
-        <DisplayName>{LOC:DisplayName_Item_HydrogenBottles}</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-        <Prerequisites>
-            <Item Amount="1" TypeId="GasContainerObject" SubtypeId="LTMHydrogenBottleT3" />
-        </Prerequisites>
-        <Result Amount="0.9" TypeId="Ingot" SubtypeId="Nickel" />
-        <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint>
-        <Id>
-            <TypeId>BlueprintDefinition</TypeId>
-            <SubtypeId>LTMHydrogenBottlesRefillT4</SubtypeId>
-        </Id>
-        <DisplayName>{LOC:DisplayName_Item_HydrogenBottles}</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-        <Prerequisites>
-            <Item Amount="1" TypeId="GasContainerObject" SubtypeId="LTMHydrogenBottleT4" />
-        </Prerequisites>
-        <Result Amount="0.9" TypeId="Ore" SubtypeId="Cobalt" />
-        <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint>
-        <Id>
-            <TypeId>BlueprintDefinition</TypeId>
-            <SubtypeId>LTMHydrogenBottlesRefillT5</SubtypeId>
-        </Id>
-        <DisplayName>{LOC:DisplayName_Item_HydrogenBottles}</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-        <Prerequisites>
-            <Item Amount="1" TypeId="GasContainerObject" SubtypeId="LTMHydrogenBottleT5" />
-        </Prerequisites>
-        <Result Amount="0.9" TypeId="Ingot" SubtypeId="Cobalt" />
-        <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
   </Blueprints>
 </Definitions>

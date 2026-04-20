@@ -37,7 +37,7 @@
     <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMHydrogenBottleT3" />
     <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMHydrogenBottleT4" />
     <Entry Class="EliteEquipment" BlueprintSubtypeId="LTMHydrogenBottleT5" />
-    
+
     <Entry Class="OxygenBottles" BlueprintSubtypeId="LTMOxygenBottlesRefillT2" />
     <Entry Class="OxygenBottles" BlueprintSubtypeId="LTMOxygenBottlesRefillT3" />
     <Entry Class="OxygenBottles" BlueprintSubtypeId="LTMOxygenBottlesRefillT4" />
@@ -48,6 +48,7 @@
     <Entry Class="HydrogenBottles" BlueprintSubtypeId="LTMHydrogenBottlesRefillT5" />
 
 
+    
     <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LTMLargeEffectivenessModuleT2" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LTMLargeEffectivenessModuleT3" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LTMLargeEffectivenessModuleT4" />
@@ -483,7 +484,7 @@
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/LTMSmallBlockSmallModularThrusterT5" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/LTMSmallBlockLargeThrustT2" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/LTMSmallBlockLargeThrustT3" />
-    <Entry Class="SmallBlocks " BlueprintSubtypeId="Thrust/LTMSmallBlockLargeThrustT4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/LTMSmallBlockLargeThrustT4" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/LTMSmallBlockLargeThrustT5" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/LTMSmallBlockSmallThrustT2" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/LTMSmallBlockSmallThrustT3" />
