@@ -24,6 +24,7 @@
                 <Component Subtype="PowerCell" Count="40" />
                 <Component Subtype="PowerCellMK" Count="2" />
                 <Component Subtype="SuperconductorMK" Count="20" />
+                <Component Subtype="Computer" Count="1" />
                 <Component Subtype="ComputerMK" Count="6" />
                 <Component Subtype="Construction" Count="80" />
                 <Component Subtype="SteelPlate" Count="40" />
@@ -50,14 +51,14 @@
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
-
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
+
             <RequiredPowerInput>64</RequiredPowerInput>
             <PowerNeededForJump>6</PowerNeededForJump>
-            <PowerEfficiency>1</PowerEfficiency>
-
             <MaxJumpDistance>4000000</MaxJumpDistance>
             <MaxJumpMass>2500000</MaxJumpMass>
+            
+            <PowerEfficiency>1</PowerEfficiency>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -91,6 +92,7 @@
                 <Component Subtype="PowerCell" Count="80" />
                 <Component Subtype="PowerCellMK" Count="4" />
                 <Component Subtype="SuperconductorMK" Count="40" />
+                <Component Subtype="Computer" Count="1" />
                 <Component Subtype="ComputerMK" Count="12" />
                 <Component Subtype="Construction" Count="60" />
                 <Component Subtype="ConstructionMK" Count="1" />
@@ -118,14 +120,14 @@
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
-
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
+
             <RequiredPowerInput>128</RequiredPowerInput>
             <PowerNeededForJump>12</PowerNeededForJump>
-            <PowerEfficiency>1</PowerEfficiency>
-
             <MaxJumpDistance>8000000</MaxJumpDistance>
             <MaxJumpMass>5000000</MaxJumpMass>
+            
+            <PowerEfficiency>1</PowerEfficiency>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -161,6 +163,7 @@
                 <Component Subtype="PowerCell" Count="60" />
                 <Component Subtype="PowerCellMK" Count="9" />
                 <Component Subtype="SuperconductorMK" Count="80" />
+                <Component Subtype="Computer" Count="1" />
                 <Component Subtype="ComputerMK" Count="24" />
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="ConstructionMK" Count="3" />
@@ -188,14 +191,14 @@
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
-
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
+
             <RequiredPowerInput>256</RequiredPowerInput>
             <PowerNeededForJump>24</PowerNeededForJump>
-            <PowerEfficiency>1</PowerEfficiency>
-
             <MaxJumpDistance>16000000</MaxJumpDistance>
             <MaxJumpMass>10000000</MaxJumpMass>
+            
+            <PowerEfficiency>1</PowerEfficiency>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -231,6 +234,7 @@
                 <Component Subtype="PowerCell" Count="10" />
                 <Component Subtype="PowerCellMK" Count="19" />
                 <Component Subtype="SuperconductorMK" Count="160" />
+                <Component Subtype="Computer" Count="1" />
                 <Component Subtype="ComputerMK" Count="48" />
                 <Component Subtype="Construction" Count="40" />
                 <Component Subtype="ConstructionMK" Count="6" />
@@ -258,14 +262,14 @@
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
-
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
+
             <RequiredPowerInput>512</RequiredPowerInput>
             <PowerNeededForJump>48</PowerNeededForJump>
-            <PowerEfficiency>1</PowerEfficiency>
-
             <MaxJumpDistance>32000000</MaxJumpDistance>
             <MaxJumpMass>20000000</MaxJumpMass>
+            
+            <PowerEfficiency>1</PowerEfficiency>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -277,34 +281,35 @@
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
-            <Id>
-                <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LTMLargeJumpDriveReskinT2</SubtypeId>
-            </Id>
-            <GuiVisible>true</GuiVisible>
+			<Id>
+				<TypeId>JumpDrive</TypeId>
+				<SubtypeId>LTMLargeJumpDriveReskinT2</SubtypeId>
+			</Id>
+            <GuiVisible>false</GuiVisible>
             <Public>true</Public>
-            <DisplayName>{LOC:DisplayName_Block_JumpDriveReskin_T2}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T2\JumpDriveReskinT2.dds</Icon>
-            <Description>{LOC:Description_JumpDrive}</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="2" z="3" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
-            <Components>
-                <Component Subtype="SteelPlate" Count="80" />
+			<DisplayName>{LOC:DisplayName_Block_JumpDriveReskin_T2}</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\T2\JumpDriveReskinT2.dds</Icon>
+			<Description>{LOC:Description_JumpDrive}</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="80" />
                 <Component Subtype="MetalGridMK" Count="1" />
                 <Component Subtype="GravityGenerator" Count="40" />
                 <Component Subtype="Detector" Count="40" />
                 <Component Subtype="PowerCell" Count="40" />
                 <Component Subtype="PowerCellMK" Count="2" />
                 <Component Subtype="SuperconductorMK" Count="20" />
+                <Component Subtype="Computer" Count="1" />
                 <Component Subtype="ComputerMK" Count="6" />
                 <Component Subtype="Construction" Count="80" />
                 <Component Subtype="SteelPlate" Count="40" />
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <MountPoints>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
 				<MountPoint Side="Top" StartX="0" StartY="0.3" EndX="3" EndY="2.7" />
 				<MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />
 				<MountPoint Side="Front" StartX="0" StartY="0.3" EndX="0.6" EndY="1.7" />
@@ -320,54 +325,54 @@
 				<MountPoint Side="Right" StartX="0" StartY="0.3" EndX="0.2" EndY="1.7" />
 				<MountPoint Side="Right" StartX="2.8" StartY="0.3" EndX="3" EndY="1.7" />
 				<MountPoint Side="Right" StartX="1.1" StartY="0.6" EndX="1.9" EndY="1.4" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveReskinConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveReskinConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveReskinConstruction_3.mwm" />
-            </BuildProgressModels>
-            <BlockPairName>JumpDriveReskinT2</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>120</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
-
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveReskinConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveReskinConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveReskinConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>LTMJumpDriveReskinT2</BlockPairName>
+			<MirroringY>X</MirroringY>
+			<MirroringX>Y</MirroringX>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>120</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
+
             <RequiredPowerInput>64</RequiredPowerInput>
             <PowerNeededForJump>6</PowerNeededForJump>
-            <PowerEfficiency>1</PowerEfficiency>
-
             <MaxJumpDistance>4000000</MaxJumpDistance>
             <MaxJumpMass>2500000</MaxJumpMass>
-            <EmissiveColorPreset>Extended</EmissiveColorPreset>
-            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-            <DestroySound>WepLrgWarheadExpl</DestroySound>
-            <TargetingGroups>
-                <string>Propulsion</string>
-            </TargetingGroups>
-            <PCU>80</PCU>
-            <IsAirTight>true</IsAirTight>
-        </Definition>
+            
+            <PowerEfficiency>1</PowerEfficiency>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+			<DestroySound>WepLrgWarheadExpl</DestroySound>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<PCU>80</PCU>
+			<DLC>CoreSystems</DLC>
+		</Definition>
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
-            <Id>
-                <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LTMLargeJumpDriveReskinT3</SubtypeId>
-            </Id>
+			<Id>
+				<TypeId>JumpDrive</TypeId>
+				<SubtypeId>LTMLargeJumpDriveReskinT3</SubtypeId>
+			</Id>
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
-            <DisplayName>{LOC:DisplayName_Block_JumpDriveReskin_T3}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T3\JumpDriveReskinT3.dds</Icon>
-            <Description>{LOC:Description_JumpDrive}</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="2" z="3" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
-            <Components>
-                <Component Subtype="SteelPlate" Count="60" />
+			<DisplayName>{LOC:DisplayName_Block_JumpDriveReskin_T3}</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\T3\JumpDriveReskinT3.dds</Icon>
+			<Description>{LOC:Description_JumpDrive}</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="60" />
                 <Component Subtype="SteelPlateMK" Count="1" />
                 <Component Subtype="MetalGridMK" Count="2" />
                 <Component Subtype="GravityGenerator" Count="80" />
@@ -375,13 +380,14 @@
                 <Component Subtype="PowerCell" Count="80" />
                 <Component Subtype="PowerCellMK" Count="4" />
                 <Component Subtype="SuperconductorMK" Count="40" />
+                <Component Subtype="Computer" Count="1" />
                 <Component Subtype="ComputerMK" Count="12" />
                 <Component Subtype="Construction" Count="60" />
                 <Component Subtype="ConstructionMK" Count="1" />
                 <Component Subtype="SteelPlate" Count="80" />
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <MountPoints>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
 				<MountPoint Side="Top" StartX="0" StartY="0.3" EndX="3" EndY="2.7" />
 				<MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />
 				<MountPoint Side="Front" StartX="0" StartY="0.3" EndX="0.6" EndY="1.7" />
@@ -397,53 +403,53 @@
 				<MountPoint Side="Right" StartX="0" StartY="0.3" EndX="0.2" EndY="1.7" />
 				<MountPoint Side="Right" StartX="2.8" StartY="0.3" EndX="3" EndY="1.7" />
 				<MountPoint Side="Right" StartX="1.1" StartY="0.6" EndX="1.9" EndY="1.4" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveReskinConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveReskinConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveReskinConstruction_3.mwm" />
-            </BuildProgressModels>
-            <BlockPairName>JumpDriveReskinT3</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>120</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
-
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveReskinConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveReskinConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveReskinConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>LTMJumpDriveReskinT3</BlockPairName>
+			<MirroringY>X</MirroringY>
+			<MirroringX>Y</MirroringX>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>120</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
+
             <RequiredPowerInput>128</RequiredPowerInput>
             <PowerNeededForJump>12</PowerNeededForJump>
-            <PowerEfficiency>1</PowerEfficiency>
-
             <MaxJumpDistance>8000000</MaxJumpDistance>
             <MaxJumpMass>5000000</MaxJumpMass>
-            <EmissiveColorPreset>Extended</EmissiveColorPreset>
-            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-            <DestroySound>WepLrgWarheadExpl</DestroySound>
-            <TargetingGroups>
-                <string>Propulsion</string>
-            </TargetingGroups>
-            <PCU>80</PCU>
-            <IsAirTight>true</IsAirTight>
-        </Definition>
+            
+            <PowerEfficiency>1</PowerEfficiency>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+			<DestroySound>WepLrgWarheadExpl</DestroySound>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<PCU>80</PCU>
+			<DLC>CoreSystems</DLC>
+		</Definition>
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
-            <Id>
-                <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LTMLargeJumpDriveReskinT4</SubtypeId>
-            </Id>
+			<Id>
+				<TypeId>JumpDrive</TypeId>
+				<SubtypeId>LTMLargeJumpDriveReskinT4</SubtypeId>
+			</Id>
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
-            <DisplayName>{LOC:DisplayName_Block_JumpDriveReskin_T4}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T4\JumpDriveReskinT4.dds</Icon>
-            <Description>{LOC:Description_JumpDrive}</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="2" z="3" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
-            <Components>
+			<DisplayName>{LOC:DisplayName_Block_JumpDriveReskin_T4}</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\T4\JumpDriveReskinT4.dds</Icon>
+			<Description>{LOC:Description_JumpDrive}</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
+			<Components>
                 <Component Subtype="SteelPlate" Count="20" />
                 <Component Subtype="SteelPlateMK" Count="4" />
                 <Component Subtype="MetalGridMK" Count="4" />
@@ -454,13 +460,14 @@
                 <Component Subtype="PowerCell" Count="60" />
                 <Component Subtype="PowerCellMK" Count="9" />
                 <Component Subtype="SuperconductorMK" Count="80" />
+                <Component Subtype="Computer" Count="1" />
                 <Component Subtype="ComputerMK" Count="24" />
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="ConstructionMK" Count="3" />
                 <Component Subtype="SteelPlate" Count="60" />
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <MountPoints>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
 				<MountPoint Side="Top" StartX="0" StartY="0.3" EndX="3" EndY="2.7" />
 				<MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />
 				<MountPoint Side="Front" StartX="0" StartY="0.3" EndX="0.6" EndY="1.7" />
@@ -476,53 +483,53 @@
 				<MountPoint Side="Right" StartX="0" StartY="0.3" EndX="0.2" EndY="1.7" />
 				<MountPoint Side="Right" StartX="2.8" StartY="0.3" EndX="3" EndY="1.7" />
 				<MountPoint Side="Right" StartX="1.1" StartY="0.6" EndX="1.9" EndY="1.4" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveReskinConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveReskinConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveReskinConstruction_3.mwm" />
-            </BuildProgressModels>
-            <BlockPairName>JumpDriveReskinT4</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>120</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
-
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveReskinConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveReskinConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveReskinConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>LTMJumpDriveReskinT4</BlockPairName>
+			<MirroringY>X</MirroringY>
+			<MirroringX>Y</MirroringX>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>120</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
+
             <RequiredPowerInput>256</RequiredPowerInput>
             <PowerNeededForJump>24</PowerNeededForJump>
-            <PowerEfficiency>1</PowerEfficiency>
-
             <MaxJumpDistance>16000000</MaxJumpDistance>
             <MaxJumpMass>10000000</MaxJumpMass>
-            <EmissiveColorPreset>Extended</EmissiveColorPreset>
-            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-            <DestroySound>WepLrgWarheadExpl</DestroySound>
-            <TargetingGroups>
-                <string>Propulsion</string>
-            </TargetingGroups>
-            <PCU>80</PCU>
-            <IsAirTight>true</IsAirTight>
-        </Definition>
+            
+            <PowerEfficiency>1</PowerEfficiency>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+			<DestroySound>WepLrgWarheadExpl</DestroySound>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<PCU>80</PCU>
+			<DLC>CoreSystems</DLC>
+		</Definition>
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
-            <Id>
-                <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LTMLargeJumpDriveReskinT5</SubtypeId>
-            </Id>
+			<Id>
+				<TypeId>JumpDrive</TypeId>
+				<SubtypeId>LTMLargeJumpDriveReskinT5</SubtypeId>
+			</Id>
             <GuiVisible>false</GuiVisible>
             <Public>true</Public>
-            <DisplayName>{LOC:DisplayName_Block_JumpDriveReskin_T5}</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T5\JumpDriveReskinT5.dds</Icon>
-            <Description>{LOC:Description_JumpDrive}</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="2" z="3" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
-            <Components>
+			<DisplayName>{LOC:DisplayName_Block_JumpDriveReskin_T5}</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\T5\JumpDriveReskinT5.dds</Icon>
+			<Description>{LOC:Description_JumpDrive}</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\JumpDriveReskin.mwm</Model>
+			<Components>
                 <Component Subtype="SteelPlate" Count="40" />
                 <Component Subtype="SteelPlateMK" Count="9" />
                 <Component Subtype="MetalGridMK" Count="8" />
@@ -533,13 +540,14 @@
                 <Component Subtype="PowerCell" Count="10" />
                 <Component Subtype="PowerCellMK" Count="19" />
                 <Component Subtype="SuperconductorMK" Count="160" />
+                <Component Subtype="Computer" Count="1" />
                 <Component Subtype="ComputerMK" Count="48" />
                 <Component Subtype="Construction" Count="40" />
                 <Component Subtype="ConstructionMK" Count="6" />
                 <Component Subtype="SteelPlate" Count="20" />
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <MountPoints>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
 				<MountPoint Side="Top" StartX="0" StartY="0.3" EndX="3" EndY="2.7" />
 				<MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />
 				<MountPoint Side="Front" StartX="0" StartY="0.3" EndX="0.6" EndY="1.7" />
@@ -555,36 +563,37 @@
 				<MountPoint Side="Right" StartX="0" StartY="0.3" EndX="0.2" EndY="1.7" />
 				<MountPoint Side="Right" StartX="2.8" StartY="0.3" EndX="3" EndY="1.7" />
 				<MountPoint Side="Right" StartX="1.1" StartY="0.6" EndX="1.9" EndY="1.4" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveReskinConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveReskinConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveReskinConstruction_3.mwm" />
-            </BuildProgressModels>
-            <BlockPairName>JumpDriveReskinT5</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>120</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
-
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveReskinConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveReskinConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveReskinConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>LTMJumpDriveReskinT5</BlockPairName>
+			<MirroringY>X</MirroringY>
+			<MirroringX>Y</MirroringX>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>120</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>JumpDrive</EmissiveColorPreset>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
+
             <RequiredPowerInput>512</RequiredPowerInput>
             <PowerNeededForJump>48</PowerNeededForJump>
-            <PowerEfficiency>1</PowerEfficiency>
-
             <MaxJumpDistance>32000000</MaxJumpDistance>
             <MaxJumpMass>20000000</MaxJumpMass>
-            <EmissiveColorPreset>Extended</EmissiveColorPreset>
-            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-            <DestroySound>WepLrgWarheadExpl</DestroySound>
-            <TargetingGroups>
-                <string>Propulsion</string>
-            </TargetingGroups>
-            <PCU>80</PCU>
-            <IsAirTight>true</IsAirTight>
-        </Definition>
+            
+            <PowerEfficiency>1</PowerEfficiency>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+			<DestroySound>WepLrgWarheadExpl</DestroySound>
+			<TargetingGroups>
+				<string>Propulsion</string>
+			</TargetingGroups>
+			<PCU>80</PCU>
+			<DLC>CoreSystems</DLC>
+		</Definition>
+        
     </CubeBlocks>
 </Definitions>
