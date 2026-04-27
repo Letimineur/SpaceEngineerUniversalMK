@@ -854,6 +854,18 @@
     <data name="DisplayName_Block_FoodProcessor_T5" xml:space="preserve">
         <value>Usine alimentaire T5</value>
     </data>
+    <data name="DisplayName_Block_IrrigationSystem_T2" xml:space="preserve">
+        <value>Système d'irrigation T2</value>
+    </data>
+    <data name="DisplayName_Block_IrrigationSystem_T3" xml:space="preserve">
+        <value>Système d'irrigation T3</value>
+    </data>
+    <data name="DisplayName_Block_IrrigationSystem_T4" xml:space="preserve">
+        <value>Système d'irrigation T4</value>
+    </data>
+    <data name="DisplayName_Block_IrrigationSystem_T5" xml:space="preserve">
+        <value>Système d'irrigation T5</value>
+    </data>
 <!-- *********************Region Tools******************************-->
     <data name="DisplayName_Block_OreDetector_T2" xml:space="preserve">
         <value>Détecteur de minerais T2</value>

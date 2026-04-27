@@ -278,6 +278,11 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/LTMFoodProcessorT4" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/LTMFoodProcessorT5" />
 
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/LTMIrrigationSystemT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/LTMIrrigationSystemT3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/LTMIrrigationSystemT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/LTMIrrigationSystemT5" />
+
     <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorT2" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorT3" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="OreDetector/LTMLargeOreDetectorT4" />

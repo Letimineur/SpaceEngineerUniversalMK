@@ -13,6 +13,7 @@
                 <string>UpgradeModule/LTMLargeEffectivenessModuleT2</string>
                 <string>UpgradeModule/LTMLargeEnergyModuleT2</string>
                 <string>Assembler/LTMFoodProcessorT2</string>
+                <string>OxygenGenerator/LTMIrrigationSystemT2</string>
                 <string>OreDetector/LTMLargeOreDetectorT2</string>
                 <string>OreDetector/LTMLargeOreDetectorT3</string>
                 <string>OreDetector/LTMLargeOreDetectorT4</string>
@@ -72,5 +73,43 @@
                 <string>JumpDrive/LTMLargeJumpDriveT5</string>
             </ItemIds>
         </Category>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition"> <!-- Tools (Ship Conttols) -->
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId>Tools_Ship</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Category_ShipTools</DisplayName>
+			<Name>ShipTools</Name>
+			<SearchBlocks>false</SearchBlocks>
+			<IsShipCategory>true</IsShipCategory>
+			<IsBlockCategory>false</IsBlockCategory>
+			<IsToolCategory>true</IsToolCategory>
+			<ItemIds>
+				<string>ShipGrinder/LTMLargeShipGrinderT2</string>
+				<string>ShipGrinder/LTMLargeShipGrinderT3</string>
+				<string>ShipWelder/LTMLargeShipWelderT2</string>
+				<string>ShipWelder/LTMLargeShipWelderT3</string>
+				<string>Drill/LTMLargeBlockDrillT2</string>
+				<string>Drill/LTMLargeBlockDrillT3</string>
+				<string>Drill/LTMSmallBlockDrillT2</string>
+				<string>Drill/LTMSmallBlockDrillT3</string>
+				<string>ShipGrinder/LTMSmallShipGrinderT2</string>
+				<string>ShipGrinder/LTMSmallShipGrinderT3</string>
+				<string>ShipWelder/LTMSmallShipWelderT2</string>
+				<string>ShipWelder/LTMSmallShipWelderT3</string>
+				<string>Drill/LTMLargeBlockDrillReskinT2</string>
+				<string>Drill/LTMLargeBlockDrillReskinT3</string>
+				<string>Drill/LTMSmallBlockDrillReskinT2</string>
+				<string>Drill/LTMSmallBlockDrillReskinT3</string>
+				<string>ShipGrinder/LTMLargeShipGrinderReskinT2</string>
+				<string>ShipGrinder/LTMLargeShipGrinderReskinT3</string>
+				<string>ShipGrinder/LTMSmallShipGrinderReskinT2</string>
+				<string>ShipGrinder/LTMSmallShipGrinderReskinT3</string>
+				<string>ShipWelder/LTMLargeShipWelderReskinT2</string>
+				<string>ShipWelder/LTMLargeShipWelderReskinT3</string>
+				<string>ShipWelder/LTMSmallShipWelderReskinT2</string>
+				<string>ShipWelder/LTMSmallShipWelderReskinT3</string>
+			</ItemIds>
+		</Category>
     </CategoryClasses>
 </Definitions>

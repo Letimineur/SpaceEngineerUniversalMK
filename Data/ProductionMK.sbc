@@ -871,5 +871,369 @@
             <EnableCooperativeMode>false</EnableCooperativeMode>
             <AllowSelfPulling>true</AllowSelfPulling>
         </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMIrrigationSystemT2</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Block_IrrigationSystem_T2}</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\IrrigationSystemT2.dds</Icon>
+            <Description>{LOC:Description_IrrigationSystem}</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\IrrigationSystem.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="SteelPlateMK" Count="1" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="LargeTube" Count="20" />
+                <Component Subtype="Motor" Count="12" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.3" StartY="0" EndX="0.7" EndY="0.7" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.8" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.2" EndX="0.9" EndY="1.8" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0" StartY="0.9" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\IrrigationSystemConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\IrrigationSystemConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\IrrigationSystemConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LTMIrrigationSystemT2</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <IceConsumptionPerSecond>20</IceConsumptionPerSecond>
+            <InventoryMaxVolume>20</InventoryMaxVolume>
+            <CanRefillBottles>false</CanRefillBottles>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>0.25</OperationalPowerConsumption>
+            <ProducedGases>
+                <GasInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Water</SubtypeId>
+                    </Id>
+                    <IceToGasRatio>1</IceToGasRatio>
+                </GasInfo>
+            </ProducedGases>
+            <BlueprintClasses>
+                <Class>Water</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <GenerateSound>BlockIrrigationProcess</GenerateSound>
+            <IdleSound>BlockIrrigationIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <PCU>50</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMIrrigationSystemT3</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Block_IrrigationSystem_T3}</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\IrrigationSystemT3.dds</Icon>
+            <Description>{LOC:Description_IrrigationSystem}</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\IrrigationSystem.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlateMK" Count="3" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="LargeTube" Count="40" />
+                <Component Subtype="Motor" Count="24" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="SteelPlate" Count="80" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.3" StartY="0" EndX="0.7" EndY="0.7" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.8" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.2" EndX="0.9" EndY="1.8" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0" StartY="0.9" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\IrrigationSystemConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\IrrigationSystemConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\IrrigationSystemConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LTMIrrigationSystemT3</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <IceConsumptionPerSecond>40</IceConsumptionPerSecond>
+            <InventoryMaxVolume>40</InventoryMaxVolume>
+            <CanRefillBottles>false</CanRefillBottles>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>0.25</OperationalPowerConsumption>
+            <ProducedGases>
+                <GasInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Water</SubtypeId>
+                    </Id>
+                    <IceToGasRatio>1</IceToGasRatio>
+                </GasInfo>
+            </ProducedGases>
+            <BlueprintClasses>
+                <Class>Water</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <GenerateSound>BlockIrrigationProcess</GenerateSound>
+            <IdleSound>BlockIrrigationIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <PCU>50</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMIrrigationSystemT4</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Block_IrrigationSystem_T4}</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\IrrigationSystemT4.dds</Icon>
+            <Description>{LOC:Description_IrrigationSystem}</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\IrrigationSystem.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="SteelPlateMK" Count="7" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="ConstructionMK" Count="1" />
+                <Component Subtype="LargeTube" Count="80" />
+                <Component Subtype="Motor" Count="48" />
+                <Component Subtype="Computer" Count="40" />
+                <Component Subtype="SteelPlate" Count="60" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.3" StartY="0" EndX="0.7" EndY="0.7" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.8" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.2" EndX="0.9" EndY="1.8" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0" StartY="0.9" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\IrrigationSystemConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\IrrigationSystemConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\IrrigationSystemConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LTMIrrigationSystemT4</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <IceConsumptionPerSecond>80</IceConsumptionPerSecond>
+            <InventoryMaxVolume>80</InventoryMaxVolume>
+            <CanRefillBottles>false</CanRefillBottles>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>0.25</OperationalPowerConsumption>
+            <ProducedGases>
+                <GasInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Water</SubtypeId>
+                    </Id>
+                    <IceToGasRatio>1</IceToGasRatio>
+                </GasInfo>
+            </ProducedGases>
+            <BlueprintClasses>
+                <Class>Water</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <GenerateSound>BlockIrrigationProcess</GenerateSound>
+            <IdleSound>BlockIrrigationIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <PCU>50</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LTMIrrigationSystemT5</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Block_IrrigationSystem_T5}</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\IrrigationSystemT5.dds</Icon>
+            <Description>{LOC:Description_IrrigationSystem}</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\IrrigationSystem.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="SteelPlateMK" Count="15" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="ConstructionMK" Count="3" />
+                <Component Subtype="LargeTube" Count="60" />
+                <Component Subtype="LargeTubeMK" Count="1" />
+                <Component Subtype="Motor" Count="96" />
+                <Component Subtype="Computer" Count="80" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.3" StartY="0" EndX="0.7" EndY="0.7" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.8" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.2" EndX="0.9" EndY="1.8" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0" StartY="0.9" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\IrrigationSystemConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\IrrigationSystemConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\IrrigationSystemConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LTMIrrigationSystemT5</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <IceConsumptionPerSecond>160</IceConsumptionPerSecond>
+            <InventoryMaxVolume>160</InventoryMaxVolume>
+            <CanRefillBottles>false</CanRefillBottles>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>0.25</OperationalPowerConsumption>
+            <ProducedGases>
+                <GasInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Water</SubtypeId>
+                    </Id>
+                    <IceToGasRatio>1</IceToGasRatio>
+                </GasInfo>
+            </ProducedGases>
+            <BlueprintClasses>
+                <Class>Water</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <GenerateSound>BlockIrrigationProcess</GenerateSound>
+            <IdleSound>BlockIrrigationIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <PCU>50</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
+        </Definition>
     </CubeBlocks>     
 </Definitions>
